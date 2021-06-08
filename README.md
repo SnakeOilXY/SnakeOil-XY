@@ -5,7 +5,7 @@ This project was started as [HevORT lite](https://github.com/ChipCE/HevORT-lite)
 
 The first release ETA is scheduled on the end of August 2021.
 
-Any suggestions, feature requests, questions are welcome, feel free to contact me via [Twitter](https://twitter.com/ChipMaple) or [Join discord group](https://discord.gg/WZVP2HuAag)
+Any suggestions, feature requests, questions are welcomed, feel free to contact me via [Twitter](https://twitter.com/ChipMaple) or [Join discord group](https://discord.gg/WZVP2HuAag)
 
 ![Banner](./Doc/img/banner.png)
 
