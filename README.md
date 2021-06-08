@@ -28,7 +28,7 @@ Any suggestions, feature requests, questions are welcome, feel free to contact m
 - [x] Filament spool inside machine chamber
 - [x] Standard 3030 T-slot frame support
 - [ ] Carbon fiber X gantry
-- [ ] AIO filament sensor + filament width sensor
+- [ ] AIO filament runout + width sensor
 - [x] Move XY motors inside chamber for easier enclosure. (XY motors can still be isolated from chamber with custom cut panel)
 
 ## Feature
@@ -41,6 +41,7 @@ Any suggestions, feature requests, questions are welcome, feel free to contact m
 | Eva compatible toolhead                    | EVA                               |
 | Filament spoll in side chamber             | Annex Engineering                 |
 | Auto build sheet detect and profile loader | Work in progress                  |
+| AIO filament runout + width sensor  | Work in progress                  |
 
 ## Q/A
 
