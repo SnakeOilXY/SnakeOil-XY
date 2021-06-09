@@ -41,7 +41,7 @@ Any suggestions, feature requests, questions are welcomed, feel free to contact 
 | Eva compatible toolhead                    | EVA                               |
 | Filament spoll in side chamber             | Annex Engineering                 |
 | Auto build sheet detect and profile loader | Work in progress                  |
-| AIO filament runout + width sensor  | Work in progress                  |
+| AIO filament runout + width sensor         | Work in progress                  |
 
 ## Q/A
 
