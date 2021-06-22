@@ -48,16 +48,16 @@
 
 | Item | Quantity | Description/link(not affiliated) |
 | --- | --- | --- |
-| 20T 6mm Pulley | 2 |   |
-| 16T 6mm Pulley | 3 |   |
-| 80T 6mm Pulley | 3 | [aliexpress](https://www.aliexpress.com/item/1005001700640216.html) |
-| 20T 9mm Pulley | 3 |   |
-| 20T 6mm Smooth Idler | 10 |   |
-| 20T 6mm Tooth Idler | 2 |   |
-| 20T 9mm Tooth idler | 3 |   |
+| 20T 6mm Pulley (5mm bore) | 2 | [aliexpress](https://www.aliexpress.com/item/33023279793.html) |
+| 16T 6mm Pulley (5mm bore) | 3 | [aliexpress](https://www.aliexpress.com/item/33002989677.html)  |
+| 80T 6mm Pulley (5mm bore) | 3 | [aliexpress](https://www.aliexpress.com/item/1005001700640216.html) |
+| 20T 9mm Pulley (5mm bore) | 3 | [aliexpress](https://www.aliexpress.com/item/33023279793.html)  |
+| 20T 6mm Smooth Idler (5mm bore) | 10 | [aliexpress](https://www.aliexpress.com/item/33023133633.html)  |
+| 20T 6mm Tooth Idler (5mm bore) | 2 |  [aliexpress](https://www.aliexpress.com/item/33023133633.html) |
+| 20T 9mm Tooth idler (5mm bore) | 3 |  [aliexpress](https://www.aliexpress.com/item/33023133633.html) |
 | Close loop  188-2GT-6 RF belt | 3 | [aliexpress](https://www.aliexpress.com/item/4000397043382.html) |
-| 2GT 6mm belt | ~3m |   |
-| 2GT 9mm belt | ~2m |   |
+| 2GT 6mm belt | ~3m |  [aliexpress](https://www.aliexpress.com/item/32952396111.html) |
+| 2GT 9mm belt | ~2m |  [aliexpress](https://www.aliexpress.com/item/32952396111.html) |
 
 
 ## Heat set thread insert
@@ -74,8 +74,8 @@
 
 | Item | Quantity | Description/link(not affiliated) |
 | --- | --- | --- |
-| M3x45mm | 3 |   |
-| M3x70mm | 6 |   |
+| M3x45mm | 3 | [aliexpress](https://www.aliexpress.com/item/33003801934.html)  |
+| M3x70mm | 6 | [aliexpress](https://www.aliexpress.com/item/4001257765047.html) |
 
 ## Brearings
 
