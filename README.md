@@ -48,5 +48,5 @@ Any suggestions, feature requests, questions are welcomed, feel free to contact 
 - n/a
 
 ## BOM
-[>>> Click here <<<](https://github.com/ChipCE/SnakeOil-XY/blob/master/bom.md)
+[>>> Click here <<<](https://github.com/ChipCE/SnakeOil-XY/blob/master/Doc/bom.md)
 
