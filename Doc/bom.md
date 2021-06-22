@@ -36,7 +36,7 @@
 | 24V PSU | 1 | Mean well LRS-150-24  |
 | 5V PSU | 1 | Mean Well RS-25-5  |
 | SSR | 1 | Omron G3A-210B-DC5 * Or any other SSR with the same dimension  |
-| 120x120mm fan | 1 | This fan does not need to be strong. Go with the slowest, quiet fan you can get |
+| 120x120mm fan | 1 | This fan does not need to be strong. Go with the slowest, most quiet fan you can get.  |
 | Sonoff mini | 1 | *optional. This can be use to wirelessly control the printer power |
 | Toolhead | 1 | Check [EVA2 compatible](https://main.eva-3d.page/) |
 
@@ -90,5 +90,5 @@
 | Item | Quantity | Description/link(not affiliated) |
 | --- | --- | --- |
 | Diameter 5mm x 65mm length shaft | 3 |   |
-| Ring-shape magnet | 2 | [aliexpress](https://www.aliexpress.com/item/32839397491.html) |
+| Ring-shape magnet | 3 | [aliexpress](https://www.aliexpress.com/item/32839397491.html) |
 
