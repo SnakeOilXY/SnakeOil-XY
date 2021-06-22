@@ -16,15 +16,15 @@
 | GN12H 250mm 250mm  | 6 | - |
 | Prusa mini spring steel PEI sheet  | 1 | - |
 | 150x150mm silicon heater pad  | 1 | - |
-| *193x190x6mm aluminum plate  | 1 | Misumi part number: A5052HP-6F-BSF-NNS-193-190-8-CCA10-CCB10-CAR |
+| *193x190x8mm aluminum plate  | 1 | Misumi part number: A5052HP-6F-BSF-NNS-193-190-8-CCA10-CCB10-CAR |
 | Corner bracket  | 4 | Misumi part number : CHBLFSN8(sliver) or HBLFSNB8(black) |
-| *Extra corner bracket  | 4 | *Check note bellow |
-| *Blind joint nut  | 4 | misumi part number SHCJ6. *Check note bellow |
+| *Extra corner bracket  | 19 | *Check note bellow |
+| *Blind joint nut  | 22 | misumi part number SHCJ6. *Check note bellow |
 | 8mm x 365mm length tube | 2 | This will be used for sliding door mechanism. In theory, any kind of tube with 8mm outer diameter will work |
 
-<code>*The frame can be built with corner baracket or blind joint or both. For blint joint, the "SHCJ6 Screw Joint" is recommended.</code>
+<code>*The frame is designed to be built with blind joint. Corner bracket canbe used instead of blind joint at many places(Check the CAD file for more detail). For blind joint, the "SHCJ6 Screw Joint" is recommended.</code>
 
-<code>** For the bed aluminum plate, 190x190mm also works. I use 8mm thick on my build, do any thicker than that might result in the bed falling when power off motors.</code>
+<code>** For the bed aluminum plate, 190x190mm also works. I use 8mm thick on my build, go with thicker plate than 8mm might cause the bed falling when power off the motors.</code>
 
 ## Electronic
 
