@@ -48,32 +48,5 @@ Any suggestions, feature requests, questions are welcomed, feel free to contact 
 - n/a
 
 ## BOM
+[>>> Click here <<<](https://github.com/ChipCE/SnakeOil-XY/blob/master/bom.md)
 
-### Frame and rails
-
-<pre>3030 310mm x11
-3030 280mm x3
-3030 450mm x4
-
-2020 290mm x1
-2020 190mm x2
-2020 150mm x2
-
-MGN12H 250mm x6</pre>
-
-### Idler, pulley and belt
-
-<pre>20T 6mm Pulley x2
-16T 6mm Pulley x3
-80T 6mm Pulley x3
-
-20T 9mm Pulley x3
-
-20T 6mm Smooth Idler x10
-20T 6mm Tooth Idler x2
-
-20T 9mm Tooth idler x3
-
-Close loop  188-2GT-6 RF belt x3
-2GT 6mm belt ~3m
-2GT 9mm belt ~2m</pre>
