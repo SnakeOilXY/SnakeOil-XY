@@ -50,3 +50,6 @@ Any suggestions, feature requests, questions are welcomed, feel free to contact 
 ## BOM
 [>>> Click here <<<](https://github.com/ChipCE/SnakeOil-XY/blob/master/Doc/bom.md)
 
+## Build manual/build log
+[>>> Click here <<<](https://github.com/ChipCE/SnakeOil-XY/blob/master/Doc/build-log.md)
+
