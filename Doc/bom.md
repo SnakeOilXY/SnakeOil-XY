@@ -26,7 +26,7 @@
 | DIN rail 309mm                    | 2        |                                                                                                             |
 | 2020 corner bracket               | 4        | Simple bracket like Misumi HBLSP5 is recommended                                                            |
 
-<code>3030 extrusions are 8mm slot type, 2020 extrusions are 6mm slot type</code>
+<code>3030 extrusions are 8mm slot type, 2020 extrusions are 6mm slot type</code>   
 <code>\*The frame is designed to be built with blind joint. Corner bracket canbe used instead of blind joint at many places(Check the CAD file for more detail). For blind joint, the "SHCJ6 Screw Joint" is recommended.</code>
 
 ## Electronic
@@ -84,7 +84,7 @@
 | ------------- | --------- | ----------- |
 | 2020 M3 T-nut | 10        |             |
 | 2020 M5 T-nut | 15        |             |
-| 3030 M3 T-nut | 35        |             |
+| 3030 M3 T-nut | 85        |             |
 | 3030 M5 T-nut | 10        |             |
 | 3030 M6 T-nut | About 200 |             |
 
