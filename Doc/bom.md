@@ -4,7 +4,7 @@
 
 <code>This BOM is still work in progress. Standard size bolts and nuts are not listed here(yet), they will be added later. Fell free to [contact me](https://discord.gg/WZVP2HuAag) if you spot mistake or have question.</code>
 
-## Frame, bed and rails (3030 are slot 8, 2020 are slot 6)
+## Frame, bed and rails
 
 | Item                              | Quantity | Description/link(not affiliated)                                                                            |
 | --------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------- |
@@ -19,13 +19,14 @@
 | 150x150mm silicon heater pad      | 1        | -                                                                                                           |
 | \*\*193x190x8mm aluminum plate    | 1        | 190x190mm also works                                                                                        |
 | 3030 Corner bracket               | 10       | Misumi part number : CHBLFSN8(sliver) or HBLFSNB8(black)                                                    |
-| \*Extra corner bracket            | 9        | \*Check note bellow                                                                                         |
+| \*Extra corner bracket            | 15       | \*Check note bellow                                                                                         |
 | \*Blind joint nut                 | 22       | misumi part number SHCJ6. \*Check note bellow                                                               |
 | 8mm x 365mm length tube           | 2        | This will be used for sliding door mechanism. In theory, any kind of tube with 8mm outer diameter will work |
 | DIN rail 282mm                    | 1        |                                                                                                             |
 | DIN rail 309mm                    | 2        |                                                                                                             |
 | 2020 corner bracket               | 4        | Simple bracket like Misumi HBLSP5 is recommended                                                            |
 
+<code>3030 extrusions are 8mm slot type, 2020 extrusions are 6mm slot type</code>
 <code>\*The frame is designed to be built with blind joint. Corner bracket canbe used instead of blind joint at many places(Check the CAD file for more detail). For blind joint, the "SHCJ6 Screw Joint" is recommended.</code>
 
 ## Electronic
@@ -79,13 +80,64 @@
 
 <code>The below quantity are approx values. The real number will be update later.</code>
 
-| Item          | Quantity | Description/link(not affiliated) |
-| ------------- | -------- | -------------------------------- |
-| 2020 M3 T-nut | 10       |                                  |
-| 2020 M5 T-nut | 15       |                                  |
-| 3030 M3 T-nut | 65       |                                  |
-| 3030 M5 T-nut | 10       |                                  |
-| 3030 M6 T-nut | ???      |                                  |
+| Item          | Quantity  | Description |
+| ------------- | --------- | ----------- |
+| 2020 M3 T-nut | 10        |             |
+| 2020 M5 T-nut | 15        |             |
+| 3030 M3 T-nut | 35        |             |
+| 3030 M5 T-nut | 10        |             |
+| 3030 M6 T-nut | About 200 |             |
+
+| Item                  | Quantity | Description |
+| --------------------- | -------- | ----------- |
+| ISO4032 Nut M3        | 9        | M3 hex nut  |
+| ISO4032 Nut M5        | 8        | M5 hex nut  |
+| ISO4035 Nut M4        | 2        | M4 hex nut  |
+| ISO4762 Screw M2.5x12 | 2        | Socket head |
+| ISO4762 Screw M2x10   | 2        | Socket head |
+| ISO4762 Screw M3x1    | 4        | Socket head |
+| ISO4762 Screw M3x10   | 28       | Socket head |
+| ISO4762 Screw M3x12   | 16       | Socket head |
+| ISO4762 Screw M3x14   | 6        | Socket head |
+| ISO4762 Screw M3x15   | 14       | Socket head |
+| ISO4762 Screw M3x16   | 4        | Socket head |
+| ISO4762 Screw M3x20   | 5        | Socket head |
+| ISO4762 Screw M3x25   | 10       | Socket head |
+| ISO4762 Screw M3x35   | 11       | Socket head |
+| ISO4762 Screw M3x40   | 10       | Socket head |
+| ISO4762 Screw M3x45   | 3        | Socket head |
+| ISO4762 Screw M3x5    | 2        | Socket head |
+| ISO4762 Screw M3x6    | 9        | Socket head |
+| ISO4762 Screw M3x70   | 6        | Socket head |
+| ISO4762 Screw M3x8    | 35       | Socket head |
+| ISO4762 Screw M4x12   | 3        | Socket head |
+| ISO4762 Screw M6x12   | 47       | Socket head |
+| ISO4762 Screw M6x8    | 12       | Socket head |
+| ISO7090 Washer M5     | 14       | washer      |
+| ISO7090 Washer M6     | 178      | washer      |
+| ISO7092 Washer M3     | 98       | washer      |
+| ISO7380-1 Screw M3x10 | 14       | Button head |
+| ISO7380-1 Screw M3x14 | 3        | Button head |
+| ISO7380-1 Screw M3x15 | 1        | Button head |
+| ISO7380-1 Screw M3x6  | 21       | Button head |
+| ISO7380-1 Screw M3x8  | 2        | Button head |
+| ISO7380-1 Screw M4x25 | 2        | Button head |
+| ISO7380-1 Screw M5x10 | 6        | Button head |
+| ISO7380-1 Screw M5x15 | 2        | Button head |
+| ISO7380-1 Screw M5x22 | 3        | Button head |
+| ISO7380-1 Screw M5x25 | 2        | Button head |
+| ISO7380-1 Screw M5x30 | 1        | Button head |
+| ISO7380-1 Screw M5x40 | 5        | Button head |
+| ISO7380-1 Screw M5x50 | 8        | Button head |
+| ISO7380-1 Screw M5x8  | 11       | Button head |
+| ISO7380-1 Screw M6x10 | 53       | Button head |
+| ISO7380-1 Screw M6x12 | 26       | Button head |
+| ISO7380-1 Screw M6x15 | 4        | Button head |
+| ISO7380-1 Screw M6x16 | 8        | Button head |
+| ISO7380-1 Screw M6x30 | 6        | Button head |
+| ISO7380-1 Screw M8x12 | 2        | Button head |
+| ISO7380-1 Screw M8x20 | 22       | Button head |
+| ISO7380-1 Screw M8x25 | 4        | Button head |
 
 ## Brearings
 
