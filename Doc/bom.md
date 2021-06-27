@@ -26,7 +26,7 @@
 | DIN rail 309mm                    | 2        |                                                                                                             |
 | 2020 corner bracket               | 4        | Simple bracket like Misumi HBLSP5 is recommended                                                            |
 
-<code>3030 extrusions are 8mm slot type, 2020 extrusions are 6mm slot type</code>   
+<code>3030 extrusions are 8mm slot type, 2020 extrusions are 6mm slot type</code>  
 <code>\*The frame is designed to be built with blind joint. Corner bracket canbe used instead of blind joint at many places(Check the CAD file for more detail). For blind joint, the "SHCJ6 Screw Joint" is recommended.</code>
 
 ## Electronic
@@ -95,8 +95,7 @@
 | ISO4035 Nut M4        | 2        | M4 hex nut  |
 | ISO4762 Screw M2.5x12 | 2        | Socket head |
 | ISO4762 Screw M2x10   | 2        | Socket head |
-| ISO4762 Screw M3x1    | 4        | Socket head |
-| ISO4762 Screw M3x10   | 28       | Socket head |
+| ISO4762 Screw M3x10   | 32       | Socket head |
 | ISO4762 Screw M3x12   | 16       | Socket head |
 | ISO4762 Screw M3x14   | 6        | Socket head |
 | ISO4762 Screw M3x15   | 14       | Socket head |
@@ -111,8 +110,7 @@
 | ISO4762 Screw M3x70   | 6        | Socket head |
 | ISO4762 Screw M3x8    | 35       | Socket head |
 | ISO4762 Screw M4x12   | 3        | Socket head |
-| ISO4762 Screw M6x12   | 47       | Socket head |
-| ISO4762 Screw M6x8    | 12       | Socket head |
+| ISO4762 Screw M6x12   | 59       | Socket head |
 | ISO7090 Washer M5     | 14       | washer      |
 | ISO7090 Washer M6     | 178      | washer      |
 | ISO7092 Washer M3     | 98       | washer      |
@@ -124,6 +122,7 @@
 | ISO7380-1 Screw M4x25 | 2        | Button head |
 | ISO7380-1 Screw M5x10 | 6        | Button head |
 | ISO7380-1 Screw M5x15 | 2        | Button head |
+| ISO7380-1 Screw M5x20 | 2        | Button head |
 | ISO7380-1 Screw M5x22 | 3        | Button head |
 | ISO7380-1 Screw M5x25 | 2        | Button head |
 | ISO7380-1 Screw M5x30 | 1        | Button head |
