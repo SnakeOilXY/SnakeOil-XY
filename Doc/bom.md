@@ -27,7 +27,7 @@
 | 2020 corner bracket               | 4        | Simple bracket like Misumi HBLSP5 is recommended                                                            |
 
 <code>3030 extrusions are 8mm slot type, 2020 extrusions are 6mm slot type</code>  
-<code>\*The frame is designed to be built with blind joint. Corner bracket canbe used instead of blind joint at many places(Check the CAD file for more detail). For blind joint, the "SHCJ6 Screw Joint" is recommended.</code>
+<code>\*The frame is designed to be built with blind joint. Corner bracket can be used instead of blind joint at many places(Check the CAD file for more detail). For blind joint, the "SHCJ6 Screw Joint" is recommended.</code>
 
 ## Electronic
 
@@ -40,8 +40,12 @@
 | 5V PSU        | 1        | Mean Well RS-25-5                                                                     |
 | SSR           | 1        | Omron G3A-210B-DC5 \* Or any other SSR with the same dimension                        |
 | 120x120mm fan | 1        | This fan does not need to be strong. Go with the slowest, most quiet fan you can get. |
-| Sonoff mini   | 1        | \*optional. This can be use to wirelessly control the printer power                   |
+| Sonoff mini   | 1        | \*Optional. This can be use to wirelessly control the printer power                   |
 | Toolhead      | 1        | Check [EVA2 compatible](https://main.eva-3d.page/)                                    |
+| HTU21D sensor | 1        | \*Optional [Aliexpress](https://www.aliexpress.com/item/32585920923.html)             |
+| Camera        | 1        | \*Optional [Aliexpress](https://www.aliexpress.com/item/4000631570932.html)           |
+
+HTU21D
 
 ## Idler, pulley and belt
 
@@ -152,7 +156,7 @@
 | Diameter 5mm x 65mm length shaft               | 3        |                                                                                                                                   |
 | Ring-shape magnet                              | 3        | [aliexpress](https://www.aliexpress.com/item/32839397491.html)                                                                    |
 | 6x3mm round(disk) magnet                       | 8        |                                                                                                                                   |
-| 6x3mm round(disk) magnet                       | 8        |                                                                                                                                   |
-| 20x10x3m Block magnet                          | 3        |                                                                                                                                   |
+| 20x10x3m Block magnet                          | 3        | Smaller magnet also works                                                                                                         |
 | 6mm x 12mm length shaft/pin                    | 6        | This will be used as the "rail" where the bed will slide on. Cutted linear shaft or some good m3 spacer(outer dia 6mm) also works |
 | Spring for bed plate mount (length about 10mm) | 3        | The yellow spring used to mount the bed plate. The spring will give the bed some room to "slide" when thermal expand occur.       |
+| Foam tape 5mmx1mm                              | 7m       |                                                                                                                                   |
