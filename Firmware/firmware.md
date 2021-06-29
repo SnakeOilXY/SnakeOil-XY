@@ -11,6 +11,16 @@
   * Neopixel Support
   * 3 Thermistor Inputs (Hotend, Heated Bed, Enclosure)
   * min 3 fan outputs
+
+##Some Boards to choose from (not complete list)
+ * Fysetc Spider
+ * BTT Octopus
+ * Mellow Fly Board
+ * BTT E3 RFF + IDEX
+ * SKR 2.0 + BTT Mot Exp
+ * Duet 3 Mini 5+ + 2+ Addon or + Toolboard
+ * Duet 3
+ * Fysetc S6
  
  
  
