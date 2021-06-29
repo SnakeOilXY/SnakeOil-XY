@@ -125,7 +125,7 @@
 
 | Item                            | Quantity | Description/link                                                                                                                  |
 | ------------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| GN12H 250mm 250mm               | 6        | -                                                                                                                                 |
+| MGN12H 250mm 250mm               | 6        | -                                                                                                                                 |
 | 20T 6mm Pulley (5mm bore)       | 2        | [aliexpress](https://www.aliexpress.com/item/33023279793.html)                                                                    |
 | 16T 6mm Pulley (5mm bore)       | 3        | [aliexpress](https://www.aliexpress.com/item/33002989677.html)                                                                    |
 | 80T 6mm Pulley (5mm bore)       | 3        | [aliexpress](https://www.aliexpress.com/item/1005001700640216.html)                                                               |
@@ -165,6 +165,5 @@
 | Ring-shape magnet                | 3        | [aliexpress](https://www.aliexpress.com/item/32839397491.html) |
 | 6x3mm round(disk) magnet         | 8        |                                                                |
 | 20x10x3m Block magnet            | 3        | Smaller magnet also works                                      |
-
 | Spring for bed plate mount (length about 10mm) | 3 | The yellow spring used to mount the bed plate. The spring will give the bed some room to "slide" when thermal expand occur. |
 | Foam tape 5mmx1mm | 7m | |
