@@ -1,18 +1,18 @@
 # firmware
 
-##Which firmware can be used
+## Which firmware can be used
   * Marlin
   * Klipper
   * RRF
 
-##What does the board need that it can be used?
+## What does the board need that it can be used?
   * 32bit
   * 6 Stepper Motors or 5 Stepper + 1 Toolboard
   * Neopixel Support
   * 3 Thermistor Inputs (Hotend, Heated Bed, Enclosure)
   * min 3 fan outputs
 
-##Some Boards to choose from (not complete list)
+## Some Boards to choose from (not complete list)
  * Fysetc Spider
  * BTT Octopus
  * Mellow Fly Board
