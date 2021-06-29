@@ -19,7 +19,7 @@ Any suggestions, feature requests, questions are welcomed, feel free to contact 
 ## Development progress
 
 - [x] New XY axis
-- [ ] Foot and panel mount
+- [x] Foot and panel mount
 - [ ] Flex sheet auto detect
 - [x] Belted Z and 3 points leveling
 - [x] EVA2 toolhead system compatible
@@ -48,8 +48,9 @@ Any suggestions, feature requests, questions are welcomed, feel free to contact 
 - n/a
 
 ## BOM
-[>>> Click here <<<](https://github.com/ChipCE/SnakeOil-XY/blob/master/Doc/bom.md)
+
+[>>> Click here <<<](https://github.com/ChipCE/SnakeOil-XY/blob/master/Doc/BOM/bom.md)
 
 ## Build manual/build log
-[>>> Click here <<<](https://github.com/ChipCE/SnakeOil-XY/blob/master/Doc/build-log.md)
 
+[>>> Click here <<<](https://github.com/ChipCE/SnakeOil-XY/blob/master/Doc/build-log.md)
