@@ -4,7 +4,7 @@
 
 | Item                            | Quantity | Description/link                                                                                                                  |
 | ------------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| GN12H 250mm 250mm               | 6        | -                                                                                                                                 |
+| MGN12H 250mm 250mm              | 6        | -                                                                                                                                 |
 | 20T 6mm Pulley (5mm bore)       | 2        | [aliexpress](https://www.aliexpress.com/item/33023279793.html)                                                                    |
 | 16T 6mm Pulley (5mm bore)       | 3        | [aliexpress](https://www.aliexpress.com/item/33002989677.html)                                                                    |
 | 80T 6mm Pulley (5mm bore)       | 3        | [aliexpress](https://www.aliexpress.com/item/1005001700640216.html)                                                               |

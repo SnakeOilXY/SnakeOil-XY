@@ -1,3 +1,6 @@
+import datetime
+
+
 fileList = ["bom-header.md", "bom-frame.md",
             "bom-fasterner.md", "bom-motion.md", "bom-electronic.md", "bom-other.md"]
 
@@ -9,5 +12,6 @@ for targetFile in fileList:
         lines.extend(tmpData)
 
 with open("../bom.md", 'w') as outputFile:
-    outputFile.write("".join(lines))
+    outputFile.write("".join(lines).replace(
+        "{#@lastUpdated}", datetime.datetime.now().astimezone().replace(microsecond=0).isoformat(), -1))
     print("Done!")
