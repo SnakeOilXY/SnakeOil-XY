@@ -1,6 +1,6 @@
 # BOM
 
-<code>Status : </code>
+<code>Status : work in progress</code>  
 <code>Last updated : {#@lastUpdated} </code>
 
 ## Read this first

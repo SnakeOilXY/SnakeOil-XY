@@ -1,7 +1,7 @@
 # BOM
 
-<code>Status : </code>
-<code>Last updated : {#@lastUpdated} </code>
+<code>Status : work in progress</code>  
+<code>Last updated : 2021-06-29T11:30:15+09:00 </code>
 
 ## Read this first
 
@@ -14,7 +14,6 @@
 - [Motion](#motion)
 - [Electronic](#electronic)
 - [Other](#other)
-
 ## Frame
 
 | Item                              | Quantity | Description/link                                                                                            |
@@ -27,7 +26,7 @@
 | Extrusion 2020 150mm              | 2        | -                                                                                                           |
 | Prusa mini spring steel PEI sheet | 1        | -                                                                                                           |
 | \*\*193x190x8mm aluminum plate    | 1        | 190x190mm also works                                                                                        |
-| 3030 Corner bracket               | 11       | Misumi part number : CHBLFSN8(sliver) or HBLFSNB8(black)                                                    |
+| 3030 Corner bracket               | 10       | Misumi part number : CHBLFSN8(sliver) or HBLFSNB8(black)                                                    |
 | \*Extra corner bracket            | 15       | \*Check note bellow                                                                                         |
 | \*Blind joint nut                 | 22       | misumi part number SHCJ6. \*Check note bellow                                                               |
 | 8mm x 365mm length tube           | 2        | This will be used for sliding door mechanism. In theory, any kind of tube with 8mm outer diameter will work |
@@ -37,7 +36,6 @@
 
 <code>3030 extrusions are 8mm slot type, 2020 extrusions are 6mm slot type</code>  
 <code>\*The frame is designed to be built with blind joint. Corner bracket can be used instead of blind joint at many places(Check the CAD file for more detail). For blind joint, the "SHCJ6 Screw Joint" is recommended.</code>
-
 ## Fasterner
 
 ### Bolt and nuts
@@ -118,14 +116,13 @@
 | m3x3x4.2 | 1 pack   | [aliexpress](https://www.aliexpress.com/item/4000955759713.html?spm=a2g0s.9042311.0.0.27424c4dmPejm9)                                           |
 | m3x4x4.2 | 1 pack   | [aliexpress](https://www.aliexpress.com/item/4000955759713.html?spm=a2g0s.9042311.0.0.27424c4dmPejm9)                                           |
 | m3x5x4.2 | 1 pack   | \*optional, M3x4x4.2 can be used instead. [aliexpress](https://www.aliexpress.com/item/4000955759713.html?spm=a2g0s.9042311.0.0.27424c4dmPejm9) |
-
 ## Motion
 
 <code>The printer was designed based on dimension of Gates pulleys and idlers. Modify of printed parts might required to use other type of pulleys and idlers</code>
 
 | Item                            | Quantity | Description/link                                                                                                                  |
 | ------------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| GN12H 250mm 250mm               | 6        | -                                                                                                                                 |
+| MGN12H 250mm 250mm              | 6        | -                                                                                                                                 |
 | 20T 6mm Pulley (5mm bore)       | 2        | [aliexpress](https://www.aliexpress.com/item/33023279793.html)                                                                    |
 | 16T 6mm Pulley (5mm bore)       | 3        | [aliexpress](https://www.aliexpress.com/item/33002989677.html)                                                                    |
 | 80T 6mm Pulley (5mm bore)       | 3        | [aliexpress](https://www.aliexpress.com/item/1005001700640216.html)                                                               |
@@ -139,7 +136,6 @@
 | MR115ZZ                         | 14       |                                                                                                                                   |
 | 8mm ball bearing                | 3        |                                                                                                                                   |
 | 6mm x 12mm length shaft/pin     | 6        | This will be used as the "rail" where the bed will slide on. Cutted linear shaft or some good m3 spacer(outer dia 6mm) also works |
-
 ## Electronic
 
 | Item                         | Quantity | Description/link                                                                      |
@@ -156,15 +152,15 @@
 | Toolhead                     | 1        | Check [EVA2 compatible](https://main.eva-3d.page/)                                    |
 | HTU21D sensor                | 1        | \*Optional [Aliexpress](https://www.aliexpress.com/item/32585920923.html)             |
 | Camera                       | 1        | \*Optional [Aliexpress](https://www.aliexpress.com/item/4000631570932.html)           |
-
+| Neopixel WS2812B             | 0.5m     | \*Optional [Aliexpress](https://www.aliexpress.com/item/2036819167.html)              |
+| Neopixel tray                | 0.5m     | \*Optional [Aliexpress](https://www.aliexpress.com/item/4000254933824.html)           |
 ### Other
 
-| Item                             | Quantity | Description/link(not affiliated)                               |
-| -------------------------------- | -------- | -------------------------------------------------------------- |
-| Diameter 5mm x 65mm length shaft | 3        |                                                                |
-| Ring-shape magnet                | 3        | [aliexpress](https://www.aliexpress.com/item/32839397491.html) |
-| 6x3mm round(disk) magnet         | 8        |                                                                |
-| 20x10x3m Block magnet            | 3        | Smaller magnet also works                                      |
-
-| Spring for bed plate mount (length about 10mm) | 3 | The yellow spring used to mount the bed plate. The spring will give the bed some room to "slide" when thermal expand occur. |
-| Foam tape 5mmx1mm | 7m | |
+| Item                                           | Quantity | Description/link(not affiliated)                                                                                            |
+| ---------------------------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Diameter 5mm x 65mm length shaft               | 3        |                                                                                                                             |
+| Ring-shape magnet                              | 3        | [aliexpress](https://www.aliexpress.com/item/32839397491.html)                                                              |
+| 6x3mm round(disk) magnet                       | 8        |                                                                                                                             |
+| 20x10x3m Block magnet                          | 3        | Smaller magnet also works                                                                                                   |
+| Spring for bed plate mount (length about 10mm) | 3        | The yellow spring used to mount the bed plate. The spring will give the bed some room to "slide" when thermal expand occur. |
+| Foam tape 5mmx1mm                              | 7m       |                                                                                                                             |
