@@ -1,7 +1,7 @@
 # BOM
 
 <code>Status : work in progress</code>  
-<code>Last updated : 2021-06-29T11:30:15+09:00 </code>
+<code>Last updated : 2021-06-30T14:46:23+09:00 </code>
 
 ## Read this first
 
@@ -84,11 +84,12 @@
 | ISO7380-1 Screw M3x8  | 2        | Button head |
 | ISO7380-1 Screw M4x25 | 2        | Button head |
 | ISO7380-1 Screw M5x10 | 6        | Button head |
+| ISO7380-1 Screw M5x12 | 3        | Button head |
 | ISO7380-1 Screw M5x15 | 2        | Button head |
 | ISO7380-1 Screw M5x20 | 2        | Button head |
 | ISO7380-1 Screw M5x22 | 3        | Button head |
 | ISO7380-1 Screw M5x25 | 2        | Button head |
-| ISO7380-1 Screw M5x30 | 1        | Button head |
+| ISO7380-1 Screw M5x30 | 4        | Button head |
 | ISO7380-1 Screw M5x40 | 5        | Button head |
 | ISO7380-1 Screw M5x50 | 8        | Button head |
 | ISO7380-1 Screw M5x8  | 11       | Button head |
@@ -160,7 +161,7 @@
 | ---------------------------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------- |
 | Diameter 5mm x 65mm length shaft               | 3        |                                                                                                                             |
 | Ring-shape magnet                              | 3        | [aliexpress](https://www.aliexpress.com/item/32839397491.html)                                                              |
-| 6x3mm round(disk) magnet                       | 8        |                                                                                                                             |
-| 20x10x3m Block magnet                          | 3        | Smaller magnet also works                                                                                                   |
+| 6x3mmm round(disk) magnet                      | 8        |                                                                                                                             |
+| 19x5x1.5mm Block magnet                        | 3        | [aliexpress](https://www.aliexpress.com/item/4000955510987.html?) Smaller magnet also works                                 |
 | Spring for bed plate mount (length about 10mm) | 3        | The yellow spring used to mount the bed plate. The spring will give the bed some room to "slide" when thermal expand occur. |
 | Foam tape 5mmx1mm                              | 7m       |                                                                                                                             |
