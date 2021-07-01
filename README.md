@@ -38,7 +38,7 @@ or [![](https://img.shields.io/discord/851371040566673428?label=discord&logo=dis
 | ------------------------------------------------- | --------------------------------- |
 | 3 Point bed leveling                              | HevORT, Wobble ring               |
 | Belted Z                                          | Voron                             |
-| Cross belt corexy belt path                       | HevORT                            |
+| Cross corexy belt path                            | HevORT                            |
 | Eva compatible toolhead                           | EVA                               |
 | Filament spoll in side chamber                    | Annex Engineering                 |
 | Auto build sheet detect and profile loader        | Work in progress                  |
