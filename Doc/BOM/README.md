@@ -1,7 +1,7 @@
 # BOM
 
 <code>Status : work in progress</code>  
-<code>Last updated : 2021-06-30T14:46:23+09:00 </code>
+<code>Last updated : 2021-07-05T18:44:20+09:00 </code>
 
 ## Read this first
 
@@ -25,7 +25,7 @@
 | Extrusion 2020 190mm              | 2        | -                                                                                                           |
 | Extrusion 2020 150mm              | 2        | -                                                                                                           |
 | Prusa mini spring steel PEI sheet | 1        | -                                                                                                           |
-| \*\*193x190x8mm aluminum plate    | 1        | 190x190mm also works                                                                                        |
+| \*\*190x193x8mm aluminum plate    | 1        | 190x190mm also works                                                                                        |
 | 3030 Corner bracket               | 10       | Misumi part number : CHBLFSN8(sliver) or HBLFSNB8(black)                                                    |
 | \*Extra corner bracket            | 15       | \*Check note bellow                                                                                         |
 | \*Blind joint nut                 | 22       | misumi part number SHCJ6. \*Check note bellow                                                               |
@@ -86,6 +86,7 @@
 | ISO7380-1 Screw M5x10 | 6        | Button head |
 | ISO7380-1 Screw M5x12 | 3        | Button head |
 | ISO7380-1 Screw M5x15 | 2        | Button head |
+| ISO7380-1 Screw M5x16 | 2        | Button head |
 | ISO7380-1 Screw M5x20 | 2        | Button head |
 | ISO7380-1 Screw M5x22 | 3        | Button head |
 | ISO7380-1 Screw M5x25 | 2        | Button head |
