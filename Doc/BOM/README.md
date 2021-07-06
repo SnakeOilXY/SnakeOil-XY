@@ -1,7 +1,7 @@
 # BOM
 
 <code>Status : work in progress</code>  
-<code>Last updated : 2021-07-05T18:44:20+09:00 </code>
+<code>Last updated : 2021-07-06T14:43:05+09:00 </code>
 
 ## Read this first
 
@@ -32,10 +32,10 @@
 | 8mm x 365mm length tube           | 2        | This will be used for sliding door mechanism. In theory, any kind of tube with 8mm outer diameter will work |
 | DIN rail 282mm                    | 1        |                                                                                                             |
 | DIN rail 309mm                    | 2        |                                                                                                             |
-| 2020 corner bracket               | 4        | Simple bracket like Misumi HBLSP5 are recommended                                                           |
+| 2020 corner bracket               | 4        | To recude the bed assembly weight, simple bracket like Misumi HBLSP5 are recommended                        |
 
 <code>3030 extrusions are 8mm slot type, 2020 extrusions are 6mm slot type</code>  
-<code>\*The frame is designed to be built with blind joint. Corner bracket can be used instead of blind joint at many places(Check the CAD file for more detail). For blind joint, the "SHCJ6 Screw Joint" is recommended.</code>
+<code>\*The frame is designed to be built with blind joint, but corner bracket can be used instead of blind joint at many places(Check the CAD file for more detail). For blind joint, the "SHCJ6 Screw Joint" is recommended.</code>
 ## Fasterner
 
 ### Bolt and nuts
@@ -94,7 +94,7 @@
 | ISO7380-1 Screw M5x40 | 5        | Button head |
 | ISO7380-1 Screw M5x50 | 8        | Button head |
 | ISO7380-1 Screw M5x8  | 11       | Button head |
-| ISO7380-1 Screw M6x10 | 53       | Button head |
+| ISO7380-1 Screw M6x10 | 55       | Button head |
 | ISO7380-1 Screw M6x12 | 26       | Button head |
 | ISO7380-1 Screw M6x15 | 4        | Button head |
 | ISO7380-1 Screw M6x16 | 8        | Button head |
@@ -135,7 +135,7 @@
 | Close loop 188-2GT-6 RF belt    | 3        | [aliexpress](https://www.aliexpress.com/item/4000397043382.html)                                                                  |
 | 2GT 6mm belt                    | ~3m      | [aliexpress](https://www.aliexpress.com/item/32952396111.html)                                                                    |
 | 2GT 9mm belt                    | ~2m      | [aliexpress](https://www.aliexpress.com/item/32952396111.html)                                                                    |
-| MR115ZZ                         | 14       |                                                                                                                                   |
+| MR115ZZ                         | 18       |                                                                                                                                   |
 | 8mm ball bearing                | 3        |                                                                                                                                   |
 | 6mm x 12mm length shaft/pin     | 6        | This will be used as the "rail" where the bed will slide on. Cutted linear shaft or some good m3 spacer(outer dia 6mm) also works |
 ## Electronic
@@ -149,7 +149,7 @@
 | 5V PSU                       | 1        | Mean Well RS-25-5                                                                     |
 | SSR                          | 1        | Omron G3A-210B-DC5 \* Or any other SSR with the same dimension                        |
 | 150x150mm silicon heater pad | 1        | -                                                                                     |
-| 92x92mm fan                | 1        | This fan does not need to be strong. Go with the slowest, most quiet fan you can get. |
+| mm fan                | 1        | This fan does not need to be strong. Go with the slowest, most quiet fan you can get. |
 | Sonoff mini                  | 1        | \*Optional. This can be use to wirelessly control the printer power                   |
 | Toolhead                     | 1        | Check [EVA2 compatible](https://main.eva-3d.page/)                                    |
 | HTU21D sensor                | 1        | \*Optional [Aliexpress](https://www.aliexpress.com/item/32585920923.html)             |
@@ -158,11 +158,12 @@
 | Neopixel tray                | 0.5m     | \*Optional [Aliexpress](https://www.aliexpress.com/item/4000254933824.html)           |
 ### Other
 
-| Item                                           | Quantity | Description/link(not affiliated)                                                                                            |
-| ---------------------------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Diameter 5mm x 65mm length shaft               | 3        |                                                                                                                             |
-| Ring-shape magnet                              | 3        | [aliexpress](https://www.aliexpress.com/item/32839397491.html)                                                              |
-| 6x3mmm round(disk) magnet                      | 8        |                                                                                                                             |
-| 19x5x1.5mm Block magnet                        | 3        | [aliexpress](https://www.aliexpress.com/item/4000955510987.html?) Smaller magnet also works                                 |
-| Spring for bed plate mount (length about 10mm) | 3        | The yellow spring used to mount the bed plate. The spring will give the bed some room to "slide" when thermal expand occur. |
-| Foam tape 5mmx1mm                              | 7m       |                                                                                                                             |
+| Item                                           | Quantity | Description/link(not affiliated)                                                                                                                                                               |
+| ---------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Diameter 5mm x 65mm length shaft               | 3        |                                                                                                                                                                                                |
+| Ring-shape magnet                              | 3        | [aliexpress](https://www.aliexpress.com/item/32839397491.html)                                                                                                                                 |
+| 6x3mmm round(disk) magnet                      | 8        |                                                                                                                                                                                                |
+| 19x5x1.5mm Block magnet                        | 3        | [aliexpress](https://www.aliexpress.com/item/4000955510987.html) Smaller magnet also works                                                                                                     |
+| Spring for bed plate mount (length about 10mm) | 3        | The yellow spring used to mount the bed plate. The spring will give the bed some room to "slide" when thermal expand occur.                                                                    |
+| Silicon spacer                                 | 3        | Optional, Use this type of spacer instead of the above spring for better thermal isolation between bed plate and bed frame.[aliexpress](https://www.aliexpress.com/item/1005001391148294.html) |
+| Foam tape 5mmx1mm                              | 7m       |                                                                                                                                                                                                |
