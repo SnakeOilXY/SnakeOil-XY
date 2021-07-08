@@ -12,7 +12,7 @@ or [![](https://img.shields.io/discord/851371040566673428?label=discord&logo=dis
 
 ## About this project
 
-- Small printer that stable and can print fast ([Check the previous version speed benchy run](https://www.youtube.com/watch?v=qDmU6JHQ-gc)).
+- Small printer that stable and can print fast ([Check the speed benchy run of the previous version](https://www.youtube.com/watch?v=qDmU6JHQ-gc)).
 - Use off-the-shell parts
 - Does not need special tool to make the parts
 - Affordable price
