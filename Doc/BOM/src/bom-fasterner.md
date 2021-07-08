@@ -53,11 +53,12 @@
 | ISO7380-1 Screw M5x22 | 3        | Button head |
 | ISO7380-1 Screw M5x25 | 2        | Button head |
 | ISO7380-1 Screw M5x30 | 4        | Button head |
-| ISO7380-1 Screw M5x40 | 5        | Button head |
+| ISO7380-1 Screw M5x40 | 6        | Button head |
+| ISO7380-1 Screw M5x45 | 1        | Button head |
 | ISO7380-1 Screw M5x50 | 8        | Button head |
 | ISO7380-1 Screw M5x8  | 11       | Button head |
 | ISO7380-1 Screw M6x10 | 55       | Button head |
-| ISO7380-1 Screw M6x12 | 26       | Button head |
+| ISO7380-1 Screw M6x12 | 28       | Button head |
 | ISO7380-1 Screw M6x15 | 4        | Button head |
 | ISO7380-1 Screw M6x16 | 8        | Button head |
 | ISO7380-1 Screw M6x30 | 6        | Button head |
