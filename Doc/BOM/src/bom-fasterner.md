@@ -40,7 +40,7 @@
 | ISO7090 Washer M6     | 178      | washer      |
 | ISO7092 Washer M3     | 98       | washer      |
 | ISO7380-1 Screw M3x10 | 14       | Button head |
-| ISO7380-1 Screw M3x14 | 3        | Button head |
+| ISO7380-1 Screw M3x14 | 9        | Button head |
 | ISO7380-1 Screw M3x15 | 1        | Button head |
 | ISO7380-1 Screw M3x6  | 21       | Button head |
 | ISO7380-1 Screw M3x8  | 2        | Button head |

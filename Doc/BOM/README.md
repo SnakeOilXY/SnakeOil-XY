@@ -1,7 +1,7 @@
 # BOM
 
 <code>Status : work in progress</code>  
-<code>Last updated : 2021-07-08T11:33:27+09:00 </code>
+<code>Last updated : 2021-07-10T15:34:37+09:00 </code>
 
 ## Read this first
 
@@ -32,7 +32,7 @@
 | 8mm x 365mm length tube           | 2        | This will be used for sliding door mechanism. In theory, any kind of tube with 8mm outer diameter will work |
 | DIN rail 282mm                    | 1        |                                                                                                             |
 | DIN rail 309mm                    | 2        |                                                                                                             |
-| 2020 corner bracket               | 4        | To reduce the bed assembly weight, simple bracket like Misumi HBLSP5 are recommended                        |
+| 2020 corner bracket               | 4        | To recude the bed assembly weight, simple bracket like Misumi HBLSP5 are recommended                        |
 
 <code>3030 extrusions are 8mm slot type, 2020 extrusions are 6mm slot type</code>  
 <code>\*The frame is designed to be built with blind joint, but corner bracket can be used instead of blind joint at many places(Check the CAD file for more detail). For blind joint, the "SHCJ6 Screw Joint" is recommended.</code>
@@ -78,7 +78,7 @@
 | ISO7090 Washer M6     | 178      | washer      |
 | ISO7092 Washer M3     | 98       | washer      |
 | ISO7380-1 Screw M3x10 | 14       | Button head |
-| ISO7380-1 Screw M3x14 | 3        | Button head |
+| ISO7380-1 Screw M3x14 | 9        | Button head |
 | ISO7380-1 Screw M3x15 | 1        | Button head |
 | ISO7380-1 Screw M3x6  | 21       | Button head |
 | ISO7380-1 Screw M3x8  | 2        | Button head |
