@@ -1,7 +1,7 @@
 # BOM
 
 <code>Status : work in progress</code>  
-<code>Last updated : 2021-07-10T15:34:37+09:00 </code>
+<code>Last updated : 2021-07-11T19:25:46+09:00 </code>
 
 ## Read this first
 
@@ -96,8 +96,8 @@
 | ISO7380-1 Screw M5x50 | 8        | Button head |
 | ISO7380-1 Screw M5x8  | 11       | Button head |
 | ISO7380-1 Screw M6x10 | 55       | Button head |
-| ISO7380-1 Screw M6x12 | 28       | Button head |
-| ISO7380-1 Screw M6x15 | 4        | Button head |
+| ISO7380-1 Screw M6x12 | 20       | Button head |
+| ISO7380-1 Screw M6x15 | 20       | Button head |
 | ISO7380-1 Screw M6x16 | 8        | Button head |
 | ISO7380-1 Screw M6x30 | 6        | Button head |
 | ISO7380-1 Screw M8x12 | 2        | Button head |
