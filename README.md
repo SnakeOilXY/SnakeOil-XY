@@ -1,3 +1,5 @@
+![Banner-logo](./Doc/img/banner-logo.png)
+
 # SnakeOil XY
 
 Small size, affordable and fast CoreXY 3D printer. Inspired by [HevORT](https://miragec79.github.io/HevORT/), [Voron](https://vorondesign.com/) and [Annex Engineering](https://github.com/Annex-Engineering) design.  
