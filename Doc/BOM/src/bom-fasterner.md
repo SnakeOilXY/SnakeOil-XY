@@ -28,7 +28,7 @@
 | ISO4762 Screw M3x20   | 5        | Socket head |
 | ISO4762 Screw M3x25   | 10       | Socket head |
 | ISO4762 Screw M3x35   | 11       | Socket head |
-| ISO4762 Screw M3x40   | 10       | Socket head |
+| ISO4762 Screw M3x40   | 13       | Socket head |
 | ISO4762 Screw M3x45   | 3        | Socket head |
 | ISO4762 Screw M3x5    | 2        | Socket head |
 | ISO4762 Screw M3x6    | 9        | Socket head |
