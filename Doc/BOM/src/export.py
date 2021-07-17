@@ -11,7 +11,7 @@ for targetFile in fileList:
         tmpData = tmpFile.readlines()
         lines.extend(tmpData)
 
-with open("../bom.md", 'w') as outputFile:
+with open("../README.md", 'w') as outputFile:
     outputFile.write("".join(lines).replace(
         "{#@lastUpdated}", datetime.datetime.now().astimezone().replace(microsecond=0).isoformat(), -1))
     print("Done!")

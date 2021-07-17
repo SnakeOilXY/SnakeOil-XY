@@ -1,2 +1,0 @@
-# Build log
-Comming soon

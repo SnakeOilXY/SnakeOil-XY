@@ -28,7 +28,7 @@
 | ISO4762 Screw M3x20   | 5        | Socket head |
 | ISO4762 Screw M3x25   | 10       | Socket head |
 | ISO4762 Screw M3x35   | 11       | Socket head |
-| ISO4762 Screw M3x40   | 10       | Socket head |
+| ISO4762 Screw M3x40   | 13       | Socket head |
 | ISO4762 Screw M3x45   | 3        | Socket head |
 | ISO4762 Screw M3x5    | 2        | Socket head |
 | ISO4762 Screw M3x6    | 9        | Socket head |
@@ -40,23 +40,26 @@
 | ISO7090 Washer M6     | 178      | washer      |
 | ISO7092 Washer M3     | 98       | washer      |
 | ISO7380-1 Screw M3x10 | 14       | Button head |
-| ISO7380-1 Screw M3x14 | 3        | Button head |
+| ISO7380-1 Screw M3x14 | 9        | Button head |
 | ISO7380-1 Screw M3x15 | 1        | Button head |
 | ISO7380-1 Screw M3x6  | 21       | Button head |
 | ISO7380-1 Screw M3x8  | 2        | Button head |
 | ISO7380-1 Screw M4x25 | 2        | Button head |
 | ISO7380-1 Screw M5x10 | 6        | Button head |
+| ISO7380-1 Screw M5x12 | 3        | Button head |
 | ISO7380-1 Screw M5x15 | 2        | Button head |
+| ISO7380-1 Screw M5x16 | 2        | Button head |
 | ISO7380-1 Screw M5x20 | 2        | Button head |
 | ISO7380-1 Screw M5x22 | 3        | Button head |
 | ISO7380-1 Screw M5x25 | 2        | Button head |
-| ISO7380-1 Screw M5x30 | 1        | Button head |
-| ISO7380-1 Screw M5x40 | 5        | Button head |
+| ISO7380-1 Screw M5x30 | 4        | Button head |
+| ISO7380-1 Screw M5x40 | 6        | Button head |
+| ISO7380-1 Screw M5x45 | 1        | Button head |
 | ISO7380-1 Screw M5x50 | 8        | Button head |
 | ISO7380-1 Screw M5x8  | 11       | Button head |
-| ISO7380-1 Screw M6x10 | 53       | Button head |
-| ISO7380-1 Screw M6x12 | 26       | Button head |
-| ISO7380-1 Screw M6x15 | 4        | Button head |
+| ISO7380-1 Screw M6x10 | 55       | Button head |
+| ISO7380-1 Screw M6x12 | 20       | Button head |
+| ISO7380-1 Screw M6x15 | 40       | Button head |
 | ISO7380-1 Screw M6x16 | 8        | Button head |
 | ISO7380-1 Screw M6x30 | 6        | Button head |
 | ISO7380-1 Screw M8x12 | 2        | Button head |
