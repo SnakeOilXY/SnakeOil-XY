@@ -2,7 +2,7 @@ import datetime
 
 
 fileList = ["bom-header.md", "bom-frame.md",
-            "bom-fasterner.md", "bom-motion.md", "bom-electronic.md", "bom-other.md"]
+            "bom-fasterner.md", "bom-motion.md", "bom-electronic.md","bom-panel.md", "bom-other.md"]
 
 lines = []
 for targetFile in fileList:

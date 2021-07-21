@@ -1,7 +1,7 @@
 # BOM
 
 <code>Status : work in progress</code>  
-<code>Last updated : 2021-07-13T23:21:24+09:00 </code>
+<code>Last updated : 2021-07-22T00:16:19+09:00 </code>
 
 ## Read this first
 
@@ -13,6 +13,7 @@
 - [Fasterner](#fasterner)
 - [Motion](#motion)
 - [Electronic](#electronic)
+- [Panel](#panel)
 - [Other](#other)
 ## Frame
 
@@ -66,7 +67,7 @@
 | ISO4762 Screw M3x20   | 5        | Socket head |
 | ISO4762 Screw M3x25   | 10       | Socket head |
 | ISO4762 Screw M3x35   | 11       | Socket head |
-| ISO4762 Screw M3x40   | 10       | Socket head |
+| ISO4762 Screw M3x40   | 13       | Socket head |
 | ISO4762 Screw M3x45   | 3        | Socket head |
 | ISO4762 Screw M3x5    | 2        | Socket head |
 | ISO4762 Screw M3x6    | 9        | Socket head |
@@ -99,7 +100,7 @@
 | ISO7380-1 Screw M6x12 | 20       | Button head |
 | ISO7380-1 Screw M6x15 | 40       | Button head |
 | ISO7380-1 Screw M6x16 | 8        | Button head |
-| ISO7380-1 Screw M6x30 | 6        | Button head |
+| ISO7380-1 Screw M6x35 | 6        | Button head |
 | ISO7380-1 Screw M8x12 | 2        | Button head |
 | ISO7380-1 Screw M8x20 | 22       | Button head |
 | ISO7380-1 Screw M8x25 | 4        | Button head |
@@ -157,7 +158,16 @@
 | Camera                       | 1        | \*Optional [Aliexpress](https://www.aliexpress.com/item/4000631570932.html)           |
 | Neopixel WS2812B             | 0.5m     | \*Optional [Aliexpress](https://www.aliexpress.com/item/2036819167.html)              |
 | Neopixel tray                | 0.5m     | \*Optional [Aliexpress](https://www.aliexpress.com/item/4000254933824.html)           |
-### Other
+## Panel
+
+| Item                          | Quantity | Description/link(not affiliated) |
+| ----------------------------- | -------- | -------------------------------- |
+| Front-panel 360x404x3mm       | 1        |                                  |
+| Side-panel 324x404x3mm        | 2        |                                  |
+| Rear-top-panel 324x129x3mm    | 1        |                                  |
+| Rear-bottom-panel 309x244x3mm | 1        |                                  |
+| Top-panel 324x324x3mm         | 1        |                                  |
+## Other
 
 | Item                                           | Quantity | Description/link(not affiliated)                                                                                                                                                               |
 | ---------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

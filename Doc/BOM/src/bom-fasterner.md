@@ -61,7 +61,7 @@
 | ISO7380-1 Screw M6x12 | 20       | Button head |
 | ISO7380-1 Screw M6x15 | 40       | Button head |
 | ISO7380-1 Screw M6x16 | 8        | Button head |
-| ISO7380-1 Screw M6x30 | 6        | Button head |
+| ISO7380-1 Screw M6x35 | 6        | Button head |
 | ISO7380-1 Screw M8x12 | 2        | Button head |
 | ISO7380-1 Screw M8x20 | 22       | Button head |
 | ISO7380-1 Screw M8x25 | 4        | Button head |

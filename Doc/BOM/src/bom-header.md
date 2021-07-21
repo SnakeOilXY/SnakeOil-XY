@@ -13,4 +13,5 @@
 - [Fasterner](#fasterner)
 - [Motion](#motion)
 - [Electronic](#electronic)
+- [Panel](#panel)
 - [Other](#other)
