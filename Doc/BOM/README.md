@@ -1,7 +1,7 @@
 # BOM
 
 <code>Status : work in progress</code>  
-<code>Last updated : 2021-07-22T00:16:19+09:00 </code>
+<code>Last updated : 2021-08-21T00:26:34+09:00 </code>
 
 ## Read this first
 
@@ -43,67 +43,66 @@
 
 <code>The below quantity are approx values. The real number will be update later.</code>
 
-| Item                      | Quantity  | Description    |
-| ------------------------- | --------- | -------------- |
-| 2020 M3 T-nut             | 20        |                |
-| 2020 M5 T-nut             | 15        |                |
-| 3030 M3 T-nut             | 85        |                |
-| 3030 M5 T-nut             | 10        |                |
-| 3030 M6 T-nut             | About 200 |                |
-| Post-Assembly T-Slot Nuts | ???       | Get some extra |
+| Item          | Quantity  | Description |
+| ------------- | --------- | ----------- |
+| 2020 M3 T-nut | 20        |             |
+| 2020 M5 T-nut | 15        |             |
+| 3030 M3 T-nut | 85        |             |
+| 3030 M5 T-nut | 10        |             |
+| 3030 M6 T-nut | About 200 |             |
 
 | Item                  | Quantity | Description |
 | --------------------- | -------- | ----------- |
-| ISO4032 Nut M3        | 9        | M3 hex nut  |
-| ISO4032 Nut M5        | 8        | M5 hex nut  |
-| ISO4035 Nut M4        | 2        | M4 hex nut  |
-| ISO4762 Screw M2.5x12 | 2        | Socket head |
-| ISO4762 Screw M2x10   | 2        | Socket head |
-| ISO4762 Screw M3x10   | 32       | Socket head |
-| ISO4762 Screw M3x12   | 16       | Socket head |
-| ISO4762 Screw M3x14   | 6        | Socket head |
-| ISO4762 Screw M3x15   | 14       | Socket head |
-| ISO4762 Screw M3x16   | 4        | Socket head |
-| ISO4762 Screw M3x20   | 5        | Socket head |
-| ISO4762 Screw M3x25   | 10       | Socket head |
-| ISO4762 Screw M3x35   | 11       | Socket head |
-| ISO4762 Screw M3x40   | 13       | Socket head |
-| ISO4762 Screw M3x45   | 3        | Socket head |
-| ISO4762 Screw M3x5    | 2        | Socket head |
-| ISO4762 Screw M3x6    | 9        | Socket head |
-| ISO4762 Screw M3x70   | 6        | Socket head |
-| ISO4762 Screw M3x8    | 35       | Socket head |
-| ISO4762 Screw M4x12   | 3        | Socket head |
-| ISO4762 Screw M6x12   | 59       | Socket head |
-| ISO7090 Washer M5     | 14       | washer      |
-| ISO7090 Washer M6     | 178      | washer      |
-| ISO7092 Washer M3     | 98       | washer      |
-| ISO7380-1 Screw M3x10 | 14       | Button head |
-| ISO7380-1 Screw M3x14 | 9        | Button head |
-| ISO7380-1 Screw M3x15 | 1        | Button head |
-| ISO7380-1 Screw M3x6  | 21       | Button head |
-| ISO7380-1 Screw M3x8  | 2        | Button head |
-| ISO7380-1 Screw M4x25 | 2        | Button head |
-| ISO7380-1 Screw M5x10 | 6        | Button head |
-| ISO7380-1 Screw M5x12 | 3        | Button head |
-| ISO7380-1 Screw M5x15 | 2        | Button head |
-| ISO7380-1 Screw M5x16 | 2        | Button head |
-| ISO7380-1 Screw M5x20 | 2        | Button head |
-| ISO7380-1 Screw M5x22 | 3        | Button head |
-| ISO7380-1 Screw M5x25 | 2        | Button head |
-| ISO7380-1 Screw M5x30 | 4        | Button head |
-| ISO7380-1 Screw M5x40 | 6        | Button head |
-| ISO7380-1 Screw M5x45 | 1        | Button head |
-| ISO7380-1 Screw M5x50 | 8        | Button head |
-| ISO7380-1 Screw M5x8  | 11       | Button head |
-| ISO7380-1 Screw M6x10 | 55       | Button head |
-| ISO7380-1 Screw M6x12 | 20       | Button head |
-| ISO7380-1 Screw M6x15 | 40       | Button head |
-| ISO7380-1 Screw M6x16 | 8        | Button head |
-| ISO7380-1 Screw M6x35 | 6        | Button head |
-| ISO7380-1 Screw M8x12 | 2        | Button head |
-| ISO7380-1 Screw M8x20 | 22       | Button head |
-| ISO7380-1 Screw M8x25 | 4        | Button head |
+| ISO4762 Screw M2x10   | 2        |             |
+| ISO4762 Screw M3x10   | 32       |             |
+| ISO4762 Screw M3x12   | 27       |             |
+| ISO4762 Screw M3x14   | 6        |             |
+| ISO4762 Screw M3x15   | 13       |             |
+| ISO4762 Screw M3x16   | 10       |             |
+| ISO4762 Screw M3x20   | 5        |             |
+| ISO4762 Screw M3x25   | 11       |             |
+| ISO4762 Screw M3x35   | 11       |             |
+| ISO4762 Screw M3x40   | 13       |             |
+| ISO4762 Screw M3x45   | 3        |             |
+| ISO4762 Screw M3x5    | 2        |             |
+| ISO4762 Screw M3x6    | 5        |             |
+| ISO4762 Screw M3x70   | 6        |             |
+| ISO4762 Screw M3x8    | 30       |             |
+| ISO4762 Screw M4x12   | 3        |             |
+| ISO4762 Screw M6x12   | 55       |             |
+| ISO4762 Screw M6x8    | 4        |             |
+| ISO7090 Washer M5     | 30       |             |
+| ISO7090 Washer M6     | 176      |             |
+| ISO7092 Washer M3     | 116      |             |
+| ISO7092 Washer M5     | 11       |             |
+| ISO7092 Washer M6     | 6        |             |
+| ISO7380-1 Screw M3x10 | 15       |             |
+| ISO7380-1 Screw M3x12 | 6        |             |
+| ISO7380-1 Screw M3x15 | 1        |             |
+| ISO7380-1 Screw M3x20 | 4        |             |
+| ISO7380-1 Screw M3x6  | 27       |             |
+| ISO7380-1 Screw M3x8  | 3        |             |
+| ISO7380-1 Screw M4x25 | 2        |             |
+| ISO7380-1 Screw M4x8  | 2        |             |
+| ISO7380-1 Screw M5x10 | 6        |             |
+| ISO7380-1 Screw M5x12 | 3        |             |
+| ISO7380-1 Screw M5x15 | 2        |             |
+| ISO7380-1 Screw M5x16 | 2        |             |
+| ISO7380-1 Screw M5x20 | 2        |             |
+| ISO7380-1 Screw M5x25 | 5        |             |
+| ISO7380-1 Screw M5x30 | 3        |             |
+| ISO7380-1 Screw M5x40 | 5        |             |
+| ISO7380-1 Screw M5x45 | 1        |             |
+| ISO7380-1 Screw M5x50 | 8        |             |
+| ISO7380-1 Screw M5x8  | 16       |             |
+| ISO7380-1 Screw M6x10 | 55       |             |
+| ISO7380-1 Screw M6x12 | 23       |             |
+| ISO7380-1 Screw M6x15 | 12       |             |
+| ISO7380-1 Screw M6x16 | 8        |             |
+| ISO7380-1 Screw M6x35 | 5        |             |
+| ISO7380-1 Screw M8x12 | 2        |             |
+| ISO7380-1 Screw M8x20 | 22       |             |
+| ISO7380-1 Screw M8x25 | 4        |             |
 
 ### Non-standard bolts and nuts
 
@@ -124,22 +123,22 @@
 
 <code>The printer was designed based on dimension of Gates pulleys and idlers. Modify of printed parts might required to use other type of pulleys and idlers</code>
 
-| Item                            | Quantity | Description/link                                                                                                                  |
-| ------------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| MGN12H 250mm 250mm              | 6        | -                                                                                                                                 |
-| 20T 6mm Pulley (5mm bore)       | 2        | [aliexpress](https://www.aliexpress.com/item/33023279793.html)                                                                    |
-| 16T 6mm Pulley (5mm bore)       | 3        | [aliexpress](https://www.aliexpress.com/item/33002989677.html)                                                                    |
-| 80T 6mm Pulley (5mm bore)       | 3        | [aliexpress](https://www.aliexpress.com/item/1005001700640216.html)                                                               |
-| 20T 9mm Pulley (5mm bore)       | 3        | [aliexpress](https://www.aliexpress.com/item/33023279793.html)                                                                    |
-| 20T 6mm Smooth Idler (5mm bore) | 10       | [aliexpress](https://www.aliexpress.com/item/33023133633.html)                                                                    |
-| 20T 6mm Tooth Idler (5mm bore)  | 2        | [aliexpress](https://www.aliexpress.com/item/33023133633.html)                                                                    |
-| 20T 9mm Tooth idler (5mm bore)  | 3        | [aliexpress](https://www.aliexpress.com/item/33023133633.html)                                                                    |
-| Close loop 188-2GT-6 RF belt    | 3        | [aliexpress](https://www.aliexpress.com/item/4000397043382.html)                                                                  |
-| 2GT 6mm belt                    | ~3m      | [aliexpress](https://www.aliexpress.com/item/32952396111.html)                                                                    |
-| 2GT 9mm belt                    | ~2m      | [aliexpress](https://www.aliexpress.com/item/32952396111.html)                                                                    |
-| MR115ZZ                         | 18       |                                                                                                                                   |
-| 8mm ball bearing                | 3        |                                                                                                                                   |
-| 6mm x 12mm length shaft/pin     | 6        | This will be used as the "rail" where the bed will slide on. Cutted linear shaft or some good m3 spacer(outer dia 6mm) also works |
+| Item                              | Quantity | Description/link                                                                                                                                 |
+| --------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| MGN12H 250mm 250mm                | 6        | -                                                                                                                                                |
+| 20T 6mm Pulley (5mm bore)         | 2        | [aliexpress](https://www.aliexpress.com/item/33023279793.html)                                                                                   |
+| 16T 6mm Pulley (5mm bore)         | 3        | [aliexpress](https://www.aliexpress.com/item/33002989677.html)                                                                                   |
+| 80T 6mm Pulley (5mm bore)         | 3        | [aliexpress](https://www.aliexpress.com/item/1005001700640216.html)                                                                              |
+| 20T 9mm Pulley (5mm bore)         | 3        | [aliexpress](https://www.aliexpress.com/item/33023279793.html)                                                                                   |
+| 20T 6mm Smooth Idler (5mm bore)   | 10       | [aliexpress](https://www.aliexpress.com/item/33023133633.html)                                                                                   |
+| 20T 6mm Tooth Idler (5mm bore)    | 2        | [aliexpress](https://www.aliexpress.com/item/33023133633.html)                                                                                   |
+| 20T 9mm Tooth idler (5mm bore)    | 3        | [aliexpress](https://www.aliexpress.com/item/33023133633.html)                                                                                   |
+| Close loop 188-2GT-6 RF belt      | 3        | [aliexpress](https://www.aliexpress.com/item/4000397043382.html)                                                                                 |
+| 2GT 6mm belt                      | ~3m      | [aliexpress](https://www.aliexpress.com/item/32952396111.html)                                                                                   |
+| 2GT 9mm belt                      | ~2m      | [aliexpress](https://www.aliexpress.com/item/32952396111.html)                                                                                   |
+| MR115ZZ                           | 18       |                                                                                                                                                  |
+| 8mm ball bearing                  | 3        | Don't get stainless type                                                                                                                         |
+| 6mm x 16mm length shaft/dowel pin | 6        | This will be used as the "rail" where the bed will slide on. Cutted linear shafts, dowel pinss or some good m3 spacers(outer dia 6mm) also works |
 ## Electronic
 
 | Item                         | Quantity | Description/link                                                                      |
@@ -172,7 +171,7 @@
 | Item                                           | Quantity | Description/link(not affiliated)                                                                                                                                                               |
 | ---------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Diameter 5mm x 65mm length shaft               | 3        |                                                                                                                                                                                                |
-| Ring-shape magnet                              | 3        | [aliexpress](https://www.aliexpress.com/item/32839397491.html)                                                                                                                                 |
+| Ring-shape magnet                              | 3        | [aliexpress](https://www.aliexpress.com/item/32839397491.html) OR 10x6x5mm(IDxODxH) ring magnet                                                                                                |
 | 6x3mmm round(disk) magnet                      | 8        |                                                                                                                                                                                                |
 | 19x5x1.5mm Block magnet                        | 3        | [aliexpress](https://www.aliexpress.com/item/4000955510987.html) Smaller magnet also works                                                                                                     |
 | Spring for bed plate mount (length about 10mm) | 3        | The yellow spring used to mount the bed plate. The spring will give the bed some room to "slide" when thermal expand occur.                                                                    |
