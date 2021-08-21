@@ -20,12 +20,12 @@ or [![](https://img.shields.io/discord/851371040566673428?label=discord&logo=dis
 - [x] Belted Z and 3 points leveling
 - [x] EVA2 toolhead system compatible
 - [ ] Brush nozzle cleaning
-- [ ] Circular air filter
+- [x] Circular air filter
 - [x] Filament spool inside machine chamber
 - [x] Standard 3030 T-slot frame support
 - [ ] Carbon fiber X gantry
 - [ ] AIO filament runout + jam detector + width sensor
-- [ ] Optional hi-voltage motor driver add-on
+- [x] Optional hi-voltage motor driver add-on
 
 ## Feature
 
