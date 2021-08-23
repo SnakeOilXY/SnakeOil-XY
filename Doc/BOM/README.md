@@ -1,7 +1,7 @@
 # BOM
 
 <code>Status : work in progress</code>  
-<code>Last updated : 2021-08-21T00:26:34+09:00 </code>
+<code>Last updated : 2021-08-24T00:21:27+09:00 </code>
 
 ## Read this first
 
@@ -146,11 +146,11 @@
 | A/B stepper                  | 2        | MT-1704HSM168RE/E3D High Torque Motor                                                 |
 | Z stepper                    | 3        | MT-1703HSM168RE/E3D Compact But Powerful Motor                                        |
 | Limit switch                 | 2        | Omron D2F                                                                             |
-| 24V PSU                      | 1        | Mean well LRS-150-24                                                                  |
+| 24V PSU                      | 1        | Mean well LRS-200-24                                                                  |
 | 5V PSU                       | 1        | Mean Well RS-25-5                                                                     |
 | SSR                          | 1        | Omron G3A-210B-DC5 \* Or any other SSR with the same dimension                        |
 | 150x150mm silicon heater pad | 1        | -                                                                                     |
-| mm fan                | 1        | This fan does not need to be strong. Go with the slowest, most quiet fan you can get. |
+| mm fan                       | 1        | This fan does not need to be strong. Go with the slowest, most quiet fan you can get. |
 | Sonoff mini                  | 1        | \*Optional. This can be use to wirelessly control the printer power                   |
 | Toolhead                     | 1        | Check [EVA2 compatible](https://main.eva-3d.page/)                                    |
 | HTU21D sensor                | 1        | \*Optional [Aliexpress](https://www.aliexpress.com/item/32585920923.html)             |
@@ -177,3 +177,4 @@
 | Spring for bed plate mount (length about 10mm) | 3        | The yellow spring used to mount the bed plate. The spring will give the bed some room to "slide" when thermal expand occur.                                                                    |
 | Silicon spacer                                 | 3        | Optional, Use this type of spacer instead of the above spring for better thermal isolation between bed plate and bed frame.[aliexpress](https://www.aliexpress.com/item/1005001391148294.html) |
 | Foam tape 5mmx1mm                              | 7m       |                                                                                                                                                                                                |
+| F623 bearing                                   | 4        | For spool holder                                                                                                                                                                               |
