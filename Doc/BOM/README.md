@@ -1,7 +1,7 @@
 # BOM
 
 <code>Status : work in progress</code>  
-<code>Last updated : 2021-08-25T23:23:36+09:00 </code>
+<code>Last updated : 2021-08-31T00:00:34+09:00 </code>
 
 ## Read this first
 
@@ -21,7 +21,8 @@
 | --------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------- |
 | Extrusion 3030 280mm              | 3        | -                                                                                                           |
 | Extrusion 3030 450mm              | 4        | -                                                                                                           |
-| Extrusion 3030 310mm              | 11       | -                                                                                                           |
+| Extrusion 3030 370mm              | 1        | -                                                                                                           |
+| Extrusion 3030 310mm              | 14       | -                                                                                                           |
 | Extrusion 2020 290mm              | 1        | -                                                                                                           |
 | Extrusion 2020 190mm              | 2        | -                                                                                                           |
 | Extrusion 2020 150mm              | 2        | -                                                                                                           |
