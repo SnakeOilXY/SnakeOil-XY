@@ -3,7 +3,7 @@
 | Item                              | Quantity | Description/link                                                                                            |
 | --------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------- |
 | Extrusion 3030 280mm              | 3        | -                                                                                                           |
-| Extrusion 3030 450mm              | 4        | -                                                                                                           |
+| Extrusion 3030 450mm              | 4        | If you planned on using big extruder, get this 4 extrusions 50mm longer for more top clearance              |
 | Extrusion 3030 370mm              | 1        | -                                                                                                           |
 | Extrusion 3030 310mm              | 14       | -                                                                                                           |
 | Extrusion 2020 290mm              | 1        | -                                                                                                           |
