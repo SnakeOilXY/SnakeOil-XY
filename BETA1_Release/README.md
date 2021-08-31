@@ -18,12 +18,20 @@
   - Nozzle brush
 - Parts will be replaced
   - Filament sensor
-  - abs
+  - Top panel mount
 
 ## Parts printing
 
-## Assembly
+- Material : PETG, ABS, PC or anything you think will withstand the chamber temp you need.
 
-## Bug report
+- Recommended slicer setting:
+  - Layer height : 0.2mm
+  - Wall lines count : 5
+  - Top/Bottom layers : 5
+  - Infill : Gyroid 30%
+  - Support placement : Touching builplate only
 
-## Build help
+## Assembly, build help and bug report
+
+- I don't have enough time to make the document atm. I will try to add document and build manual after finished design all the incompleted machine parts.
+- For build log, help, and bug report please using [Our discord sever](https://discord.gg/WZVP2HuAag)
