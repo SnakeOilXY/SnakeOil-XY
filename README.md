@@ -2,10 +2,7 @@
 
 # SnakeOil XY
 
-Small size, affordable and fast CoreXY 3D printer. Inspired by [HevORT](https://miragec79.github.io/HevORT/), [Voron](https://vorondesign.com/), [Annex Engineering](https://github.com/Annex-Engineering) and [EVA2](https://main.eva-3d.page/) design.  
-This project was started as [HevORT lite](https://github.com/ChipCE/HevORT-lite), a trimdown design based on [HevORT corexy](https://miragec79.github.io/HevORT/) 3D printer. In the process of trying to make the printer easier to enclosure, parts easier to print without support, I ended up with redesigned all of the parts.
-
-<code>The first release ETA is scheduled on the end of August 2021.</code>
+Fast, small size fully-featured affordable CoreXY 3D printer. Inspired by HevORT, Voron and Annex Engineering design. Inspired by [HevORT](https://miragec79.github.io/HevORT/), [Voron](https://vorondesign.com/), [Annex Engineering](https://github.com/Annex-Engineering) and [EVA2](https://main.eva-3d.page/) design.
 
 Any suggestions, feature requests, questions are welcomed, feel free to contact me via [![](https://img.shields.io/twitter/url?label=twitter&logo=twitter&url=https%3A%2F%2Ftwitter.com%2FChipMaple)](https://twitter.com/ChipMaple)
 or [![](https://img.shields.io/discord/851371040566673428?label=discord&logo=discord&logoColor=fafafa)](https://discord.gg/WZVP2HuAag)
