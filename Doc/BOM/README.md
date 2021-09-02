@@ -1,7 +1,7 @@
 # BOM
 
 <code>Status : work in progress</code>  
-<code>Last updated : 2021-09-01T08:01:41+09:00 </code>
+<code>Last updated : 2021-09-02T10:10:03+09:00 </code>
 
 ## Read this first
 
@@ -28,9 +28,9 @@
 | Extrusion 2020 150mm              | 2        | -                                                                                                           |
 | Prusa mini spring steel PEI sheet | 1        | -                                                                                                           |
 | \*\*190x193x8mm aluminum plate    | 1        | 190x190mm also works                                                                                        |
-| 3030 Corner bracket               | 10       | Misumi part number : CHBLFSN8(sliver) or HBLFSNB8(black)                                                    |
+| 3030 Corner bracket               | 10       | Misumi part number : CHBLFSN8(sliver) or HBLFSNB8(black) or HBLFSN8(no surface finish)                      |
 | \*Extra corner bracket            | 15       | \*Check note bellow                                                                                         |
-| \*Blind joint nut                 | 22       | misumi part number SHCJ6. \*Check note bellow                                                               |
+| \*Blind joint nut                 | 22       | misumi part number SHCJ6 or HCJ6. \*Check note bellow                                                       |
 | 8mm x 365mm length tube           | 2        | This will be used for sliding door mechanism. In theory, any kind of tube with 8mm outer diameter will work |
 | DIN rail 282mm                    | 1        |                                                                                                             |
 | DIN rail 309mm                    | 2        |                                                                                                             |
