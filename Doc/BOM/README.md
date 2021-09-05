@@ -1,7 +1,7 @@
 # BOM
 
 <code>Status : work in progress</code>  
-<code>Last updated : 2021-09-02T10:10:03+09:00 </code>
+<code>Last updated : 2021-09-05T21:57:32+09:00 </code>
 
 ## Read this first
 
@@ -21,14 +21,15 @@
 | --------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------- |
 | Extrusion 3030 280mm              | 3        | -                                                                                                           |
 | Extrusion 3030 450mm              | 4        | If you planned on using big extruder, get this 4 extrusions 50mm longer for more top clearance              |
-| Extrusion 3030 370mm              | 1        | -                                                                                                           |
-| Extrusion 3030 310mm              | 14       | -                                                                                                           |
+| Extrusion 3030 310mm              | 11       | -                                                                                                           |
+| Extrusion 3030 light grade 370mm  | 1        | For top lid                                                                                                 |
+| Extrusion 3030 light grade 310mm  | 3        | For top lid                                                                                                 |
 | Extrusion 2020 290mm              | 1        | -                                                                                                           |
 | Extrusion 2020 190mm              | 2        | -                                                                                                           |
 | Extrusion 2020 150mm              | 2        | -                                                                                                           |
 | Prusa mini spring steel PEI sheet | 1        | -                                                                                                           |
 | \*\*190x193x8mm aluminum plate    | 1        | 190x190mm also works                                                                                        |
-| 3030 Corner bracket               | 10       | Misumi part number : CHBLFSN8(sliver) or HBLFSNB8(black) or HBLFSN8(no surface finish)                      |
+| 3030 Corner bracket               | 14       | Misumi part number : CHBLFSN8(sliver) or HBLFSNB8(black) or HBLFSN8(no surface finish)                      |
 | \*Extra corner bracket            | 15       | \*Check note bellow                                                                                         |
 | \*Blind joint nut                 | 22       | misumi part number SHCJ6 or HCJ6. \*Check note bellow                                                       |
 | 8mm x 365mm length tube           | 2        | This will be used for sliding door mechanism. In theory, any kind of tube with 8mm outer diameter will work |
@@ -54,6 +55,11 @@
 
 | Item                  | Quantity | Description |
 | --------------------- | -------- | ----------- |
+| ISO4032 Nut M3        | 9        |             |
+| ISO4032 Nut M5        | 8        |             |
+| ISO4032 Nut M6        | 2        |             |
+| ISO4035 Nut M4        | 2        |             |
+| ISO4762 Screw M2.5x12 | 2        |             |
 | ISO4762 Screw M2x10   | 2        |             |
 | ISO4762 Screw M3x10   | 32       |             |
 | ISO4762 Screw M3x12   | 27       |             |
@@ -65,23 +71,27 @@
 | ISO4762 Screw M3x35   | 11       |             |
 | ISO4762 Screw M3x40   | 13       |             |
 | ISO4762 Screw M3x45   | 3        |             |
-| ISO4762 Screw M3x5    | 2        |             |
+| ISO4762 Screw M3x5    | 4        |             |
 | ISO4762 Screw M3x6    | 5        |             |
 | ISO4762 Screw M3x70   | 6        |             |
 | ISO4762 Screw M3x8    | 30       |             |
 | ISO4762 Screw M4x12   | 3        |             |
 | ISO4762 Screw M6x12   | 55       |             |
+| ISO4762 Screw M6x14   | 8        |             |
 | ISO4762 Screw M6x8    | 4        |             |
+| ISO4762 Screw M8x30   | 2        |             |
+| ISO7089 Washer M6     | 4        |             |
 | ISO7090 Washer M5     | 30       |             |
-| ISO7090 Washer M6     | 176      |             |
+| ISO7090 Washer M6     | 196      |             |
 | ISO7092 Washer M3     | 116      |             |
 | ISO7092 Washer M5     | 11       |             |
 | ISO7092 Washer M6     | 6        |             |
-| ISO7380-1 Screw M3x10 | 15       |             |
+| ISO7380-1 Screw M3x10 | 19       |             |
 | ISO7380-1 Screw M3x12 | 6        |             |
 | ISO7380-1 Screw M3x15 | 1        |             |
 | ISO7380-1 Screw M3x20 | 4        |             |
-| ISO7380-1 Screw M3x6  | 27       |             |
+| ISO7380-1 Screw M3x30 | 4        |             |
+| ISO7380-1 Screw M3x6  | 35       |             |
 | ISO7380-1 Screw M3x8  | 3        |             |
 | ISO7380-1 Screw M4x25 | 2        |             |
 | ISO7380-1 Screw M4x8  | 2        |             |
@@ -96,10 +106,12 @@
 | ISO7380-1 Screw M5x45 | 1        |             |
 | ISO7380-1 Screw M5x50 | 8        |             |
 | ISO7380-1 Screw M5x8  | 16       |             |
-| ISO7380-1 Screw M6x10 | 55       |             |
-| ISO7380-1 Screw M6x12 | 23       |             |
+| ISO7380-1 Screw M6x10 | 52       |             |
+| ISO7380-1 Screw M6x12 | 27       |             |
+| ISO7380-1 Screw M6x14 | 2        |             |
 | ISO7380-1 Screw M6x15 | 12       |             |
 | ISO7380-1 Screw M6x16 | 8        |             |
+| ISO7380-1 Screw M6x20 | 2        |             |
 | ISO7380-1 Screw M6x35 | 5        |             |
 | ISO7380-1 Screw M8x12 | 2        |             |
 | ISO7380-1 Screw M8x20 | 22       |             |
@@ -153,7 +165,7 @@
 | 5V PSU                       | 1        | Mean Well RS-25-5                                                                     |
 | SSR                          | 1        | Omron G3A-210B-DC5 \* Or any other SSR with the same dimension                        |
 | 150x150mm silicon heater pad | 1        | -                                                                                     |
-| mm fan                       | 1        | This fan does not need to be strong. Go with the slowest, most quiet fan you can get. |
+| 92mm fan                     | 1        | This fan does not need to be strong. Go with the slowest, most quiet fan you can get. |
 | Sonoff mini                  | 1        | \*Optional. This can be use to wirelessly control the printer power                   |
 | Toolhead                     | 1        | Check [EVA2 compatible](https://main.eva-3d.page/)                                    |
 | HTU21D sensor                | 1        | \*Optional [Aliexpress](https://www.aliexpress.com/item/32585920923.html)             |
