@@ -1,7 +1,7 @@
 # BOM
 
 <code>Status : work in progress</code>  
-<code>Last updated : 2021-09-06T12:10:07+09:00 </code>
+<code>Last updated : 2021-09-06T16:11:31+09:00 </code>
 
 ## Read this first
 
