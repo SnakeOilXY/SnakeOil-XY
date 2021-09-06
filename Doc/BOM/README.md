@@ -1,7 +1,7 @@
 # BOM
 
 <code>Status : work in progress</code>  
-<code>Last updated : 2021-09-05T21:57:32+09:00 </code>
+<code>Last updated : 2021-09-06T12:10:07+09:00 </code>
 
 ## Read this first
 
@@ -17,6 +17,8 @@
 - [Other](#other)
 ## Frame
 
+### For 180x180x180mm machine
+
 | Item                              | Quantity | Description/link                                                                                            |
 | --------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------- |
 | Extrusion 3030 280mm              | 3        | -                                                                                                           |
@@ -28,6 +30,7 @@
 | Extrusion 2020 190mm              | 2        | -                                                                                                           |
 | Extrusion 2020 150mm              | 2        | -                                                                                                           |
 | Prusa mini spring steel PEI sheet | 1        | -                                                                                                           |
+| Magnet sheet                      | 1        | -                                                                                                           |
 | \*\*190x193x8mm aluminum plate    | 1        | 190x190mm also works                                                                                        |
 | 3030 Corner bracket               | 14       | Misumi part number : CHBLFSN8(sliver) or HBLFSNB8(black) or HBLFSN8(no surface finish)                      |
 | \*Extra corner bracket            | 15       | \*Check note bellow                                                                                         |
@@ -36,6 +39,35 @@
 | DIN rail 282mm                    | 1        |                                                                                                             |
 | DIN rail 309mm                    | 2        |                                                                                                             |
 | 2020 corner bracket               | 4        | To recude the bed assembly weight, simple bracket like Misumi HBLSP5 are recommended                        |
+
+<code>3030 extrusions are 8mm slot type, 2020 extrusions are 6mm slot type</code>  
+<code>\*The frame is designed to be built with blind joint, but corner bracket can be used instead of blind joint at many places(Check the CAD file for more detail). For blind joint, the "SHCJ6 Screw Joint" is recommended.</code>
+
+
+### For 250x240x230mm machine
+
+| Item                             | Quantity | Description/link                                                                                            |
+| -------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------- |
+| Extrusion 3030 330mm             | 3        | -                                                                                                           |
+| Extrusion 3030 550mm             | 4        | -                                                                                                           |
+| Extrusion 3030 380mm             | 5        | -                                                                                                           |
+| Extrusion 3030 360mm             | 6        | -                                                                                                           |
+| Extrusion 3030 light grade 440mm | 1        | For top lid(optional)                                                                                       |
+| Extrusion 3030 light grade 360mm | 2        | For top lid(optional)                                                                                       |
+| Extrusion 3030 light grade 380mm | 2        | For top lid(optional)                                                                                       |
+| Extrusion 2020 360mm             | 1        | -                                                                                                           |
+| Extrusion 2020 240mm             | 2        | -                                                                                                           |
+| Extrusion 2020 210mm             | 2        | -                                                                                                           |
+| Prusa MK3 spring steel PEI sheet | 1        | -                                                                                                           |
+| Magnet sheet                     | 1        | -                                                                                                           |
+| \*\*254x240x8mm aluminum plate   | 1        | 190x190mm also works                                                                                        |
+| 3030 Corner bracket              | 14       | Misumi part number : CHBLFSN8(sliver) or HBLFSNB8(black) or HBLFSN8(no surface finish)                      |
+| \*Extra corner bracket           | 15       | \*Check note bellow                                                                                         |
+| \*Blind joint nut                | 22       | misumi part number SHCJ6 or HCJ6. \*Check note bellow                                                       |
+| 8mm x 365mm length tube          | 2        | This will be used for sliding door mechanism. In theory, any kind of tube with 8mm outer diameter will work |
+| DIN rail 332mm                   | 1        |                                                                                                             |
+| DIN rail 379mm                   | 2        |                                                                                                             |
+| 2020 corner bracket              | 4        | To recude the bed assembly weight, simple bracket like Misumi HBLSP5 are recommended                        |
 
 <code>3030 extrusions are 8mm slot type, 2020 extrusions are 6mm slot type</code>  
 <code>\*The frame is designed to be built with blind joint, but corner bracket can be used instead of blind joint at many places(Check the CAD file for more detail). For blind joint, the "SHCJ6 Screw Joint" is recommended.</code>
@@ -138,7 +170,7 @@
 
 | Item                              | Quantity | Description/link                                                                                                                                 |
 | --------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| MGN12H 250mm 250mm                | 6        | -                                                                                                                                                |
+| MGN12H 250mm 250mm                | 6        | 5x MGN12H 300mm and 1x MGN12H 320mm for 250mm^3 machine                                                                                          |
 | 20T 6mm Pulley (5mm bore)         | 2        | [aliexpress](https://www.aliexpress.com/item/33023279793.html)                                                                                   |
 | 16T 6mm Pulley (5mm bore)         | 3        | [aliexpress](https://www.aliexpress.com/item/33002989677.html)                                                                                   |
 | 80T 6mm Pulley (5mm bore)         | 3        | [aliexpress](https://www.aliexpress.com/item/1005001700640216.html)                                                                              |
@@ -147,8 +179,8 @@
 | 20T 6mm Tooth Idler (5mm bore)    | 2        | [aliexpress](https://www.aliexpress.com/item/33023133633.html)                                                                                   |
 | 20T 9mm Tooth idler (5mm bore)    | 3        | [aliexpress](https://www.aliexpress.com/item/33023133633.html)                                                                                   |
 | Close loop 188-2GT-6 RF belt      | 3        | [aliexpress](https://www.aliexpress.com/item/4000397043382.html)                                                                                 |
-| 2GT 6mm belt                      | ~3m      | [aliexpress](https://www.aliexpress.com/item/32952396111.html)                                                                                   |
-| 2GT 9mm belt                      | ~2m      | [aliexpress](https://www.aliexpress.com/item/32952396111.html)                                                                                   |
+| 2GT 6mm belt                      | ~3m      | 4m for 250mm^3 build [aliexpress](https://www.aliexpress.com/item/32952396111.html)                                                              |
+| 2GT 9mm belt                      | ~2m      | 3m for 250mm^3 build [aliexpress](https://www.aliexpress.com/item/32952396111.html)                                                              |
 | MR115ZZ                           | 18       |                                                                                                                                                  |
 | 8mm ball bearing                  | 3        | Don't get stainless type                                                                                                                         |
 | 6mm x 16mm length shaft/dowel pin | 6        | This will be used as the "rail" where the bed will slide on. Cutted linear shafts, dowel pinss or some good m3 spacers(outer dia 6mm) also works |
