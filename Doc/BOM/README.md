@@ -1,7 +1,7 @@
 # BOM
 
 <code>Status : work in progress</code>  
-<code>Last updated : 2021-09-06T16:11:31+09:00 </code>
+<code>Last updated : 2021-09-08T22:14:25+09:00 </code>
 
 ## Read this first
 
@@ -35,15 +35,13 @@
 | 3030 Corner bracket               | 14       | Misumi part number : CHBLFSN8(sliver) or HBLFSNB8(black) or HBLFSN8(no surface finish)                      |
 | \*Extra corner bracket            | 15       | \*Check note bellow                                                                                         |
 | \*Blind joint nut                 | 22       | misumi part number SHCJ6 or HCJ6. \*Check note bellow                                                       |
-| 8mm x 365mm length tube           | 2        | This will be used for sliding door mechanism. In theory, any kind of tube with 8mm outer diameter will work |
+| 8mm x 365mm length tube           | 4        | This will be used for sliding door mechanism. In theory, any kind of tube with 8mm outer diameter will work |
 | DIN rail 282mm                    | 1        |                                                                                                             |
 | DIN rail 309mm                    | 2        |                                                                                                             |
 | 2020 corner bracket               | 4        | To recude the bed assembly weight, simple bracket like Misumi HBLSP5 are recommended                        |
 
 <code>3030 extrusions are 8mm slot type, 2020 extrusions are 6mm slot type</code>  
 <code>\*The frame is designed to be built with blind joint, but corner bracket can be used instead of blind joint at many places(Check the CAD file for more detail). For blind joint, the "SHCJ6 Screw Joint" is recommended.</code>
-
-
 ### For 250x240x230mm machine
 
 | Item                             | Quantity | Description/link                                                                                            |
@@ -64,7 +62,7 @@
 | 3030 Corner bracket              | 14       | Misumi part number : CHBLFSN8(sliver) or HBLFSNB8(black) or HBLFSN8(no surface finish)                      |
 | \*Extra corner bracket           | 15       | \*Check note bellow                                                                                         |
 | \*Blind joint nut                | 22       | misumi part number SHCJ6 or HCJ6. \*Check note bellow                                                       |
-| 8mm x 365mm length tube          | 2        | This will be used for sliding door mechanism. In theory, any kind of tube with 8mm outer diameter will work |
+| 8mm x 415mm length tube          | 4        | This will be used for sliding door mechanism. In theory, any kind of tube with 8mm outer diameter will work |
 | DIN rail 332mm                   | 1        |                                                                                                             |
 | DIN rail 379mm                   | 2        |                                                                                                             |
 | 2020 corner bracket              | 4        | To recude the bed assembly weight, simple bracket like Misumi HBLSP5 are recommended                        |
@@ -225,3 +223,4 @@
 | Silicon spacer                                 | 3        | Optional, Use this type of spacer instead of the above spring for better thermal isolation between bed plate and bed frame.[aliexpress](https://www.aliexpress.com/item/1005001391148294.html) |
 | Foam tape 5mmx1mm                              | 7m       |                                                                                                                                                                                                |
 | F623 bearing                                   | 4        | For spool holder                                                                                                                                                                               |
+| Hook spring 0.5x4x20mm                         | 6        | -                                                                                                                                                                                              |

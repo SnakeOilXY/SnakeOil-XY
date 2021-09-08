@@ -1,4 +1,3 @@
-
 ### For 250x240x230mm machine
 
 | Item                             | Quantity | Description/link                                                                                            |
@@ -19,7 +18,7 @@
 | 3030 Corner bracket              | 14       | Misumi part number : CHBLFSN8(sliver) or HBLFSNB8(black) or HBLFSN8(no surface finish)                      |
 | \*Extra corner bracket           | 15       | \*Check note bellow                                                                                         |
 | \*Blind joint nut                | 22       | misumi part number SHCJ6 or HCJ6. \*Check note bellow                                                       |
-| 8mm x 365mm length tube          | 2        | This will be used for sliding door mechanism. In theory, any kind of tube with 8mm outer diameter will work |
+| 8mm x 415mm length tube          | 4        | This will be used for sliding door mechanism. In theory, any kind of tube with 8mm outer diameter will work |
 | DIN rail 332mm                   | 1        |                                                                                                             |
 | DIN rail 379mm                   | 2        |                                                                                                             |
 | 2020 corner bracket              | 4        | To recude the bed assembly weight, simple bracket like Misumi HBLSP5 are recommended                        |
