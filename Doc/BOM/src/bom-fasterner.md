@@ -88,6 +88,6 @@
 | Item     | Quantity | Description/link(not affiliated)                                                                                                                |
 | -------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | m5x7x7   | 1 pack   | [aliexpress](https://www.aliexpress.com/item/4000232990523.html?spm=a2g0s.9042311.0.0.27424c4dWNZpM9)                                           |
-| m3x3x4.2 | 1 pack   | [aliexpress](https://www.aliexpress.com/item/4000955759713.html?spm=a2g0s.9042311.0.0.27424c4dmPejm9)                                           |
-| m3x4x4.2 | 1 pack   | [aliexpress](https://www.aliexpress.com/item/4000955759713.html?spm=a2g0s.9042311.0.0.27424c4dmPejm9)                                           |
-| m3x5x4.2 | 1 pack   | \*optional, M3x4x4.2 can be used instead. [aliexpress](https://www.aliexpress.com/item/4000955759713.html?spm=a2g0s.9042311.0.0.27424c4dmPejm9) |
+| m3x3x4.2 | 1 pack   | [aliexpress](https://www.aliexpress.com/item/4000955759713.html) or [aliexpress](https://www.aliexpress.com/item/1005002526998853.html)                                           |
+| m3x4x4.2 | 1 pack   | [aliexpress](https://www.aliexpress.com/item/4000955759713.html) or [aliexpress](https://www.aliexpress.com/item/1005002526998853.html)                                           |
+| m3x5x4.2 | 1 pack   | \*optional, M3x4x4.2 can be used instead. [aliexpress](https://www.aliexpress.com/item/4000955759713.html) or [aliexpress](https://www.aliexpress.com/item/1005002526998853.html)                                           |
