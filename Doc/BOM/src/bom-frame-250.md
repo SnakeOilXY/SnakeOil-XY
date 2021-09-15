@@ -14,7 +14,7 @@
 | Extrusion 2020 210mm             | 2        | -                                                                                                           |
 | Prusa MK3 spring steel PEI sheet | 1        | -                                                                                                           |
 | Magnet sheet                     | 1        | -                                                                                                           |
-| \*\*254x240x8mm aluminum plate   | 1        | 190x190mm also works                                                                                        |
+| \*\*254x240x8mm aluminum plate   | 1        | 6mm thick also works                                                                                        |
 | 3030 Corner bracket              | 14       | Misumi part number : CHBLFSN8(sliver) or HBLFSNB8(black) or HBLFSN8(no surface finish)                      |
 | \*Extra corner bracket           | 15       | \*Check note bellow                                                                                         |
 | \*Blind joint nut                | 22       | misumi part number SHCJ6 or HCJ6. \*Check note bellow                                                       |
