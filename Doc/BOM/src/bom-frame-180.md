@@ -5,16 +5,16 @@
 | Item                              | Quantity | Description/link                                                                                            |
 | --------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------- |
 | Extrusion 3030 280mm              | 3        | -                                                                                                           |
-| Extrusion 3030 450mm              | 4        | If you planned on using big extruder, get this 4 extrusions 50mm longer for more top clearance              |
+| Extrusion 3030 500mm              | 4        | Or 450mm with top lid                                                                                       |
 | Extrusion 3030 310mm              | 11       | -                                                                                                           |
-| Extrusion 3030 light grade 370mm  | 1        | For top lid                                                                                                 |
-| Extrusion 3030 light grade 310mm  | 3        | For top lid                                                                                                 |
+| Extrusion 3030 light grade 370mm  | 1        | For top lid (Optional)                                                                                      |
+| Extrusion 3030 light grade 310mm  | 3        | For top lid (Optional)                                                                                      |
 | Extrusion 2020 290mm              | 1        | -                                                                                                           |
 | Extrusion 2020 190mm              | 2        | -                                                                                                           |
 | Extrusion 2020 150mm              | 2        | -                                                                                                           |
 | Prusa mini spring steel PEI sheet | 1        | -                                                                                                           |
 | Magnet sheet                      | 1        | -                                                                                                           |
-| \*\*190x193x8mm aluminum plate    | 1        | 190x190mm also works                                                                                        |
+| \*\*190x193x8mm aluminum plate    | 1        | 6mm thick and 190x190mm also works                                                                          |
 | 3030 Corner bracket               | 14       | Misumi part number : CHBLFSN8(sliver) or HBLFSNB8(black) or HBLFSN8(no surface finish)                      |
 | \*Extra corner bracket            | 15       | \*Check note bellow                                                                                         |
 | \*Blind joint nut                 | 22       | misumi part number SHCJ6 or HCJ6. \*Check note bellow                                                       |
