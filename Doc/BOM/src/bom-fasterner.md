@@ -1,4 +1,4 @@
-## Fasterner
+## Fasteners
 
 ### Bolt and nuts
 
@@ -12,69 +12,66 @@
 | 3030 M5 T-nut | 10        |             |
 | 3030 M6 T-nut | About 200 |             |
 
-| Item                  | Quantity | Description |
-| --------------------- | -------- | ----------- |
-| ISO4032 Nut M3        | 9        |             |
-| ISO4032 Nut M5        | 8        |             |
-| ISO4032 Nut M6        | 2        |             |
-| ISO4035 Nut M4        | 2        |             |
-| ISO4762 Screw M2.5x12 | 2        |             |
-| ISO4762 Screw M2x10   | 2        |             |
-| ISO4762 Screw M3x10   | 32       |             |
-| ISO4762 Screw M3x12   | 27       |             |
-| ISO4762 Screw M3x14   | 6        |             |
-| ISO4762 Screw M3x15   | 13       |             |
-| ISO4762 Screw M3x16   | 10       |             |
-| ISO4762 Screw M3x20   | 5        |             |
-| ISO4762 Screw M3x25   | 11       |             |
-| ISO4762 Screw M3x35   | 11       |             |
-| ISO4762 Screw M3x40   | 13       |             |
-| ISO4762 Screw M3x45   | 3        |             |
-| ISO4762 Screw M3x5    | 4        |             |
-| ISO4762 Screw M3x6    | 5        |             |
-| ISO4762 Screw M3x70   | 6        |             |
-| ISO4762 Screw M3x8    | 30       |             |
-| ISO4762 Screw M4x12   | 3        |             |
-| ISO4762 Screw M6x12   | 55       |             |
-| ISO4762 Screw M6x14   | 8        |             |
-| ISO4762 Screw M6x8    | 4        |             |
-| ISO4762 Screw M8x30   | 2        |             |
-| ISO7089 Washer M6     | 4        |             |
-| ISO7090 Washer M5     | 30       |             |
-| ISO7090 Washer M6     | 196      |             |
-| ISO7092 Washer M3     | 116      |             |
-| ISO7092 Washer M5     | 11       |             |
-| ISO7092 Washer M6     | 6        |             |
-| ISO7380-1 Screw M3x10 | 19       |             |
-| ISO7380-1 Screw M3x12 | 6        |             |
-| ISO7380-1 Screw M3x15 | 1        |             |
-| ISO7380-1 Screw M3x20 | 4        |             |
-| ISO7380-1 Screw M3x30 | 4        |             |
-| ISO7380-1 Screw M3x6  | 35       |             |
-| ISO7380-1 Screw M3x8  | 3        |             |
-| ISO7380-1 Screw M4x25 | 2        |             |
-| ISO7380-1 Screw M4x8  | 2        |             |
-| ISO7380-1 Screw M5x10 | 6        |             |
-| ISO7380-1 Screw M5x12 | 3        |             |
-| ISO7380-1 Screw M5x15 | 2        |             |
-| ISO7380-1 Screw M5x16 | 2        |             |
-| ISO7380-1 Screw M5x20 | 2        |             |
-| ISO7380-1 Screw M5x25 | 5        |             |
-| ISO7380-1 Screw M5x30 | 3        |             |
-| ISO7380-1 Screw M5x40 | 5        |             |
-| ISO7380-1 Screw M5x45 | 1        |             |
-| ISO7380-1 Screw M5x50 | 8        |             |
-| ISO7380-1 Screw M5x8  | 16       |             |
-| ISO7380-1 Screw M6x10 | 52       |             |
-| ISO7380-1 Screw M6x12 | 27       |             |
-| ISO7380-1 Screw M6x14 | 2        |             |
-| ISO7380-1 Screw M6x15 | 12       |             |
-| ISO7380-1 Screw M6x16 | 8        |             |
-| ISO7380-1 Screw M6x20 | 2        |             |
-| ISO7380-1 Screw M6x35 | 5        |             |
-| ISO7380-1 Screw M8x12 | 2        |             |
-| ISO7380-1 Screw M8x20 | 22       |             |
-| ISO7380-1 Screw M8x25 | 4        |             |
+| Item                       | Quantity | Description |
+| -------------------------- | -------- | ----------- |
+| Hex Nut M3                 | 9        |             |
+| Hex Nut M5                 | 8        |             |
+| Hex Nut M6                 | 2        |             |
+| Hex Nut M4                 | 2        |             |
+| Socket head M2.5x12        | 2        |             |
+| Socket head M2x10          | 2        |             |
+| Socket head M3x10          | 32       |             |
+| Socket head M3x12          | 27       |             |
+| Socket head M3x14          | 6        |             |
+| Socket head M3x15          | 13       |             |
+| Socket head M3x16          | 10       |             |
+| Socket head M3x20          | 5        |             |
+| Socket head M3x25          | 11       |             |
+| Socket head M3x35          | 11       |             |
+| Socket head M3x40          | 13       |             |
+| Socket head M3x45          | 3        |             |
+| Socket head M3x5           | 4        |             |
+| Socket head M3x6           | 5        |             |
+| Socket head M3x70          | 6        |             |
+| Socket head M3x8           | 30       |             |
+| Socket head M4x12          | 3        |             |
+| Socket head M6x12          | 55       |             |
+| Socket head M6x14          | 8        |             |
+| Socket head M6x8           | 4        |             |
+| Socket head M8x30          | 2        |             |
+| Washer M5 (outer dia 10mm) | 41       |             |
+| Washer M6                  | 206      |             |
+| Washer M3                  | 116      |             |
+| Button head M3x10          | 19       |             |
+| Button head M3x12          | 6        |             |
+| Button head M3x15          | 1        |             |
+| Button head M3x20          | 4        |             |
+| Button head M3x30          | 4        |             |
+| Button head M3x6           | 35       |             |
+| Button head M3x8           | 3        |             |
+| Button head M4x25          | 2        |             |
+| Button head M4x8           | 2        |             |
+| Button head M5x10          | 6        |             |
+| Button head M5x12          | 3        |             |
+| Button head M5x15          | 2        |             |
+| Button head M5x16          | 2        |             |
+| Button head M5x20          | 2        |             |
+| Button head M5x25          | 5        |             |
+| Button head M5x30          | 3        |             |
+| Button head M5x40          | 5        |             |
+| Button head M5x45          | 1        |             |
+| Button head M5x50          | 8        |             |
+| Button head M5x8           | 16       |             |
+| Button head M6x10          | 52       |             |
+| Button head M6x12          | 27       |             |
+| Button head M6x14          | 2        |             |
+| Button head M6x15          | 12       |             |
+| Button head M6x16          | 8        |             |
+| Button head M6x20          | 2        |             |
+| Button head M6x35          | 5        |             |
+| Button head M8x12          | 2        |             |
+| Button head M8x20          | 22       |             |
+| Button head M8x25          | 4        |             |
 
 ### Non-standard bolts and nuts
 
@@ -85,9 +82,9 @@
 
 ### Heat set thread insert
 
-| Item     | Quantity | Description/link(not affiliated)                                                                                                                |
-| -------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| m5x7x7   | 1 pack   | [aliexpress](https://www.aliexpress.com/item/4000232990523.html?spm=a2g0s.9042311.0.0.27424c4dWNZpM9)                                           |
+| Item     | Quantity | Description/link(not affiliated)                                                                                                                                                  |
+| -------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| m5x7x7   | 1 pack   | [aliexpress](https://www.aliexpress.com/item/4000232990523.html?spm=a2g0s.9042311.0.0.27424c4dWNZpM9)                                                                             |
 | m3x3x4.2 | 1 pack   | [aliexpress](https://www.aliexpress.com/item/4000955759713.html) or [aliexpress](https://www.aliexpress.com/item/1005002526998853.html)                                           |
 | m3x4x4.2 | 1 pack   | [aliexpress](https://www.aliexpress.com/item/4000955759713.html) or [aliexpress](https://www.aliexpress.com/item/1005002526998853.html)                                           |
-| m3x5x4.2 | 1 pack   | \*optional, M3x4x4.2 can be used instead. [aliexpress](https://www.aliexpress.com/item/4000955759713.html) or [aliexpress](https://www.aliexpress.com/item/1005002526998853.html)                                           |
+| m3x5x4.2 | 1 pack   | \*optional, M3x4x4.2 can be used instead. [aliexpress](https://www.aliexpress.com/item/4000955759713.html) or [aliexpress](https://www.aliexpress.com/item/1005002526998853.html) |
