@@ -10,7 +10,8 @@
 ## Table of contents
 
 - [Frame](#frame)
-- [Fasterner](#fasterner)
+- [Fasteners](#fasteners)
 - [Motion](#motion)
 - [Electronic](#electronic)
+- [Panel](#panel)
 - [Other](#other)

@@ -13,7 +13,9 @@
 ## Extrusion
 
 - 4 vertical 450mm 3030 extrusions and a 280mm 3030 extrusion need to be drilled for allen key access
-- The hole diameter for 450mm extrusion is about 6.5mm (for m8 allen key access)
-- The hole diameter for 280mm extrusion is about 5.5mm (for m6 allen key access)
+- The hole diameter for 450/500/550mm extrusion is about 6.5~7.5mm (for m8 allen key access)
+- The hole diameter for 280/330mm extrusion is about 5.5~7.5mm (for m6 allen key access)
 
-![](../img/extrusion-drilling.png)
+![](../img/extrusion-vertical-drawing.png)
+
+![](../img/extrusion-horizontal-drawing.png)

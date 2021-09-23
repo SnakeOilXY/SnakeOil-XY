@@ -1,8 +1,8 @@
 import datetime
 
 
-fileList = ["bom-header.md", "bom-frame.md",
-            "bom-fasterner.md", "bom-motion.md", "bom-electronic.md", "bom-other.md"]
+fileList = ["bom-header.md", "bom-frame-180.md", "bom-frame-250.md",
+            "bom-fasterner.md", "bom-motion.md", "bom-electronic.md", "bom-panel.md", "bom-other.md"]
 
 lines = []
 for targetFile in fileList:

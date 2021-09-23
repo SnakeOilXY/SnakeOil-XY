@@ -1,11 +1,13 @@
-### Other
+## Other
 
 | Item                                           | Quantity | Description/link(not affiliated)                                                                                                                                                               |
 | ---------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Diameter 5mm x 65mm length shaft               | 3        |                                                                                                                                                                                                |
-| Ring-shape magnet                              | 3        | [aliexpress](https://www.aliexpress.com/item/32839397491.html)                                                                                                                                 |
+| Ring-shape magnet                              | 3        | [aliexpress](https://www.aliexpress.com/item/32839397491.html) OR 10x6x5mm(IDxODxH) ring magnet                                                                                                |
 | 6x3mmm round(disk) magnet                      | 8        |                                                                                                                                                                                                |
 | 19x5x1.5mm Block magnet                        | 3        | [aliexpress](https://www.aliexpress.com/item/4000955510987.html) Smaller magnet also works                                                                                                     |
 | Spring for bed plate mount (length about 10mm) | 3        | The yellow spring used to mount the bed plate. The spring will give the bed some room to "slide" when thermal expand occur.                                                                    |
 | Silicon spacer                                 | 3        | Optional, Use this type of spacer instead of the above spring for better thermal isolation between bed plate and bed frame.[aliexpress](https://www.aliexpress.com/item/1005001391148294.html) |
 | Foam tape 5mmx1mm                              | 7m       |                                                                                                                                                                                                |
+| F623 bearing                                   | 4        | For spool holder                                                                                                                                                                               |
+| Hook spring 0.5x4x20mm                         | 6        | -                                                                                                                                                                                              |
