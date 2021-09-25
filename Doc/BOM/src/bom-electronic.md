@@ -15,6 +15,6 @@
 | Sonoff mini                  | 1        | \*Optional. This can be use to wirelessly control the printer power                   |
 | Toolhead                     | 1        | Check [EVA2 compatible](https://main.eva-3d.page/)                                    |
 | HTU21D sensor                | 1        | \*Optional [Aliexpress](https://www.aliexpress.com/item/32585920923.html)             |
-| Camera                       | 1        | \*Optional [Aliexpress](https://www.aliexpress.com/item/4000631570932.html)           |
+| Camera                       | 1        | \*Optional [Aliexpress](https://www.aliexpress.com/item/4000929363815.html)           |
 | Neopixel WS2812B             | 0.5m     | \*Optional [Aliexpress](https://www.aliexpress.com/item/2036819167.html)              |
 | Neopixel tray                | 0.5m     | \*Optional [Aliexpress](https://www.aliexpress.com/item/4000254933824.html)           |
