@@ -1,7 +1,7 @@
 # BOM
 
 <code>Status : work in progress</code>  
-<code>Last updated : 2021-09-17T13:57:22+09:00 </code>
+<code>Last updated : 2021-10-02T10:53:20+09:00 </code>
 
 ## Read this first
 
@@ -59,7 +59,7 @@
 | Prusa MK3 spring steel PEI sheet | 1        | -                                                                                                           |
 | Magnet sheet                     | 1        | -                                                                                                           |
 | 254x240 aluminum plate           | 1        | 6mm or 8mm thick                                                                                            |
-| 3030 Corner bracket              | 14       | Misumi part number : CHBLFSN8(sliver) or HBLFSNB8(black) or HBLFSN8(no surface finish)                      |
+| 3030 Corner bracket              | 14       | Misumi part number : CHBLFSN6(sliver) or HBLFSNB6(black) or HBLFSN6(no surface finish)                      |
 | \*Extra corner bracket           | 15       | \*Check note bellow                                                                                         |
 | \*Blind joint nut                | 22       | misumi part number SHCJ6 or HCJ6. \*Check note bellow                                                       |
 | 8mm x 415mm length tube          | 4        | This will be used for sliding door mechanism. In theory, any kind of tube with 8mm outer diameter will work |
@@ -196,7 +196,7 @@
 | Sonoff mini                  | 1        | \*Optional. This can be use to wirelessly control the printer power                   |
 | Toolhead                     | 1        | Check [EVA2 compatible](https://main.eva-3d.page/)                                    |
 | HTU21D sensor                | 1        | \*Optional [Aliexpress](https://www.aliexpress.com/item/32585920923.html)             |
-| Camera                       | 1        | \*Optional [Aliexpress](https://www.aliexpress.com/item/4000631570932.html)           |
+| Camera                       | 1        | \*Optional [Aliexpress](https://www.aliexpress.com/item/4000929363815.html)           |
 | Neopixel WS2812B             | 0.5m     | \*Optional [Aliexpress](https://www.aliexpress.com/item/2036819167.html)              |
 | Neopixel tray                | 0.5m     | \*Optional [Aliexpress](https://www.aliexpress.com/item/4000254933824.html)           |
 ## Panel
