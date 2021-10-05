@@ -15,7 +15,7 @@ or [![](https://img.shields.io/discord/851371040566673428?label=discord&logo=dis
 - [x] Foot and panel mount
 - [ ] Flex sheet auto detect
 - [x] Belted Z and 3 points leveling
-- [x] EVA2 toolhead system compatible
+- [x] EVA2 toolhead system "compatible"
 - [ ] Brush nozzle cleaning
 - [x] Circular air filter
 - [x] Filament spool inside machine chamber

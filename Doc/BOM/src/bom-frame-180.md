@@ -5,7 +5,7 @@
 | Item                              | Quantity | Description/link                                                                                            |
 | --------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------- |
 | Extrusion 3030 280mm              | 3        | -                                                                                                           |
-| Extrusion 3030 500mm              | 4        | Or 450mm with top lid                                                                                       |
+| Extrusion 3030 500mm(reccommend)  | 4        | Or 450mm with top lid                                                                                       |
 | Extrusion 3030 310mm              | 11       | -                                                                                                           |
 | Extrusion 3030 light grade 370mm  | 1        | For top lid (Optional)                                                                                      |
 | Extrusion 3030 light grade 310mm  | 3        | For top lid (Optional)                                                                                      |

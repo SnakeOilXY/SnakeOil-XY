@@ -15,6 +15,7 @@
 - [Electronic](#electronic)
 - [Panel](#panel)
 - [Other](#other)
+
 ## Frame
 
 ### For 180x180x180mm machine
@@ -22,7 +23,7 @@
 | Item                              | Quantity | Description/link                                                                                            |
 | --------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------- |
 | Extrusion 3030 280mm              | 3        | -                                                                                                           |
-| Extrusion 3030 500mm              | 4        | Or 450mm with top lid                                                                                       |
+| Extrusion 3030 500mm(reccommend)  | 4        | Or 450mm with top lid                                                                                       |
 | Extrusion 3030 310mm              | 11       | -                                                                                                           |
 | Extrusion 3030 light grade 370mm  | 1        | For top lid (Optional)                                                                                      |
 | Extrusion 3030 light grade 310mm  | 3        | For top lid (Optional)                                                                                      |
@@ -42,6 +43,7 @@
 
 <code>3030 extrusions are 8mm slot type, 2020 extrusions are 6mm slot type</code>  
 <code>\*The frame is designed to be built with blind joint, but corner bracket can be used instead of blind joint at many places(Check the CAD file for more detail). For blind joint, the "SHCJ6 Screw Joint" is recommended.</code>
+
 ### For 250x240x230mm machine
 
 | Item                             | Quantity | Description/link                                                                                            |
@@ -69,6 +71,7 @@
 
 <code>3030 extrusions are 8mm slot type, 2020 extrusions are 6mm slot type</code>  
 <code>\*The frame is designed to be built with blind joint, but corner bracket can be used instead of blind joint at many places(Check the CAD file for more detail). For blind joint, the "SHCJ6 Screw Joint" is recommended.</code>
+
 ## Fasteners
 
 ### Bolt and nuts
@@ -159,6 +162,7 @@
 | m3x3x4.2 | 1 pack   | [aliexpress](https://www.aliexpress.com/item/4000955759713.html) or [aliexpress](https://www.aliexpress.com/item/1005002526998853.html)                                           |
 | m3x4x4.2 | 1 pack   | [aliexpress](https://www.aliexpress.com/item/4000955759713.html) or [aliexpress](https://www.aliexpress.com/item/1005002526998853.html)                                           |
 | m3x5x4.2 | 1 pack   | \*optional, M3x4x4.2 can be used instead. [aliexpress](https://www.aliexpress.com/item/4000955759713.html) or [aliexpress](https://www.aliexpress.com/item/1005002526998853.html) |
+
 ## Motion
 
 <code>The printer was designed based on dimension of Gates pulleys and idlers. Modify of printed parts might required to use other type of pulleys and idlers</code>
@@ -179,6 +183,7 @@
 | MR115ZZ                           | 18       |                                                                                                                                                  |
 | 8mm ball bearing                  | 3        | Don't get stainless type                                                                                                                         |
 | 6mm x 16mm length shaft/dowel pin | 6        | This will be used as the "rail" where the bed will slide on. Cutted linear shafts, dowel pinss or some good m3 spacers(outer dia 6mm) also works |
+
 ## Electronic
 
 | Item                         | Quantity | Description/link                                                                      |
@@ -199,6 +204,7 @@
 | Camera                       | 1        | \*Optional [Aliexpress](https://www.aliexpress.com/item/4000929363815.html)           |
 | Neopixel WS2812B             | 0.5m     | \*Optional [Aliexpress](https://www.aliexpress.com/item/2036819167.html)              |
 | Neopixel tray                | 0.5m     | \*Optional [Aliexpress](https://www.aliexpress.com/item/4000254933824.html)           |
+
 ## Panel
 
 | Item                          | Quantity | Description/link(not affiliated) |
@@ -208,6 +214,7 @@
 | Rear-top-panel 324x129x3mm    | 1        |                                  |
 | Rear-bottom-panel 309x244x3mm | 1        |                                  |
 | Top-panel 324x324x3mm         | 1        |                                  |
+
 ## Other
 
 | Item                                           | Quantity | Description/link(not affiliated)                                                                                                                                                               |
