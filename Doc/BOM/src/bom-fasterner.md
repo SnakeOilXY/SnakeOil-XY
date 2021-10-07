@@ -73,13 +73,6 @@
 | Button head M8x20          | 22       |             |
 | Button head M8x25          | 4        |             |
 
-### Non-standard bolts and nuts
-
-| Item    | Quantity | Description/link(not affiliated)                                 |
-| ------- | -------- | ---------------------------------------------------------------- |
-| M3x45mm | 3        | [aliexpress](https://www.aliexpress.com/item/33003801934.html)   |
-| M3x70mm | 6        | [aliexpress](https://www.aliexpress.com/item/4001257765047.html) |
-
 ### Heat set thread insert
 
 | Item     | Quantity | Description/link(not affiliated)                                                                                                                                                  |

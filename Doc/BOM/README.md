@@ -1,7 +1,7 @@
 # BOM
 
 <code>Status : work in progress</code>  
-<code>Last updated : 2021-10-02T11:12:37+09:00 </code>
+<code>Last updated : 2021-10-08T00:05:40+09:00 </code>
 
 ## Read this first
 
@@ -15,7 +15,6 @@
 - [Electronic](#electronic)
 - [Panel](#panel)
 - [Other](#other)
-
 ## Frame
 
 ### For 180x180x180mm machine
@@ -43,7 +42,6 @@
 
 <code>3030 extrusions are 8mm slot type, 2020 extrusions are 6mm slot type</code>  
 <code>\*The frame is designed to be built with blind joint, but corner bracket can be used instead of blind joint at many places(Check the CAD file for more detail). For blind joint, the "SHCJ6 Screw Joint" is recommended.</code>
-
 ### For 250x240x230mm machine
 
 | Item                             | Quantity | Description/link                                                                                            |
@@ -71,7 +69,6 @@
 
 <code>3030 extrusions are 8mm slot type, 2020 extrusions are 6mm slot type</code>  
 <code>\*The frame is designed to be built with blind joint, but corner bracket can be used instead of blind joint at many places(Check the CAD file for more detail). For blind joint, the "SHCJ6 Screw Joint" is recommended.</code>
-
 ## Fasteners
 
 ### Bolt and nuts
@@ -147,13 +144,6 @@
 | Button head M8x20          | 22       |             |
 | Button head M8x25          | 4        |             |
 
-### Non-standard bolts and nuts
-
-| Item    | Quantity | Description/link(not affiliated)                                 |
-| ------- | -------- | ---------------------------------------------------------------- |
-| M3x45mm | 3        | [aliexpress](https://www.aliexpress.com/item/33003801934.html)   |
-| M3x70mm | 6        | [aliexpress](https://www.aliexpress.com/item/4001257765047.html) |
-
 ### Heat set thread insert
 
 | Item     | Quantity | Description/link(not affiliated)                                                                                                                                                  |
@@ -162,7 +152,6 @@
 | m3x3x4.2 | 1 pack   | [aliexpress](https://www.aliexpress.com/item/4000955759713.html) or [aliexpress](https://www.aliexpress.com/item/1005002526998853.html)                                           |
 | m3x4x4.2 | 1 pack   | [aliexpress](https://www.aliexpress.com/item/4000955759713.html) or [aliexpress](https://www.aliexpress.com/item/1005002526998853.html)                                           |
 | m3x5x4.2 | 1 pack   | \*optional, M3x4x4.2 can be used instead. [aliexpress](https://www.aliexpress.com/item/4000955759713.html) or [aliexpress](https://www.aliexpress.com/item/1005002526998853.html) |
-
 ## Motion
 
 <code>The printer was designed based on dimension of Gates pulleys and idlers. Modify of printed parts might required to use other type of pulleys and idlers</code>
@@ -183,7 +172,6 @@
 | MR115ZZ                           | 18       |                                                                                                                                                  |
 | 8mm ball bearing                  | 3        | Don't get stainless type                                                                                                                         |
 | 6mm x 16mm length shaft/dowel pin | 6        | This will be used as the "rail" where the bed will slide on. Cutted linear shafts, dowel pinss or some good m3 spacers(outer dia 6mm) also works |
-
 ## Electronic
 
 | Item                         | Quantity | Description/link                                                                      |
@@ -204,7 +192,6 @@
 | Camera                       | 1        | \*Optional [Aliexpress](https://www.aliexpress.com/item/4000929363815.html)           |
 | Neopixel WS2812B             | 0.5m     | \*Optional [Aliexpress](https://www.aliexpress.com/item/2036819167.html)              |
 | Neopixel tray                | 0.5m     | \*Optional [Aliexpress](https://www.aliexpress.com/item/4000254933824.html)           |
-
 ## Panel
 
 | Item                          | Quantity | Description/link(not affiliated) |
@@ -214,7 +201,6 @@
 | Rear-top-panel 324x129x3mm    | 1        |                                  |
 | Rear-bottom-panel 309x244x3mm | 1        |                                  |
 | Top-panel 324x324x3mm         | 1        |                                  |
-
 ## Other
 
 | Item                                           | Quantity | Description/link(not affiliated)                                                                                                                                                               |
