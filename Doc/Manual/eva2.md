@@ -14,6 +14,12 @@
 
 ## Other parts
 
-- The default extruder option is Annex Engineering's Sherpa mini. This extruder will need <code>1x_extruder-motor-support_sherpa-mini.stl</code>, <code>1x_extruder-top-plate_sherpa-mini.stl</code>
-  and extruder parts from [Annex Engineering github](https://github.com/Annex-Engineering/Sherpa_Mini-Extruder)
 - Other extruders, hotends specificed mounter and fan ducts can be found at [EVA 2 page](https://main.eva-3d.page/)
+
+## Sherpa mini mount
+## Sherpa mini compact mount
+
+- The default extruder option is Annex Engineering's Sherpa mini. Extruder parts from [Annex Engineering github](https://github.com/Annex-Engineering/Sherpa_Mini-Extruder)
+- There are 2 version of sherpa mini mount, standard and compact version. 
+- The standard version support 4 hotends Copperhead, Mosquito, Dragon and v6. 
+- The compact version is slightly lighter and have 14mm shorter filament path but only support 3 hotends Copperhead, Mosquito and Dragon.
