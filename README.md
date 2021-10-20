@@ -20,7 +20,7 @@ or [![](https://img.shields.io/discord/851371040566673428?label=discord&logo=dis
 - [x] Circular air filter
 - [x] Filament spool inside machine chamber
 - [x] Standard 3030 T-slot frame support
-- [ ] Carbon fiber X gantry
+- [x] ~~Carbon fiber X gantry~~ Replaced with 1515 gantry
 - [ ] AIO filament runout + jam detector + width sensor
 - [x] Optional hi-voltage motor driver add-on
 

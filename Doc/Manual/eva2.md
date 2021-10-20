@@ -18,9 +18,5 @@
 
 ## Sherpa mini mount
 
-## Sherpa mini compact mount
-
 - The default extruder option is Annex Engineering's Sherpa mini. Extruder parts from [Annex Engineering github](https://github.com/Annex-Engineering/Sherpa_Mini-Extruder)
-- There are 2 version of sherpa mini mount, standard and compact version.
-- The standard version support 4 hotends Copperhead, Mosquito, Dragon and v6.
-- The compact version is slightly lighter and have 16mm shorter filament path but only support 3 hotends Copperhead, Mosquito and Dragon.
+- The Sherpa mini mounter of SnakeOilXY have about 16mm shorter filament path compare to standard EVA2 mount but only support 3 hotends. Copperhead, Mosquito and Dragon. For v6 hotend, use [P-C-R's Sherpa Mini Mount](https://github.com/EVA-3D/contrib-extras/blob/main/docs/extruders/pcr-sherpa-mini.md) instead.
