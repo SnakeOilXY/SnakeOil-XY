@@ -1,30 +1,15 @@
 ![Banner-logo](./Doc/img/banner-logo.png)
 
+<a href="https://discord.gg/WZVP2HuAag" style="height: 40px !important;"><img src="https://discordapp.com/api/guilds/851371040566673428/widget.png?style=banner2" alt="Join us on Discord" style="height: 40px !important;width: 180px !important;border-radius: 5px;" ></a>
+<a href="https://www.buymeacoffee.com/snakeoil" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 145px !important;" ></a>
+
 # SnakeOil XY
 
-Fast, small size fully-featured affordable CoreXY 3D printer. Inspired by HevORT, Voron and Annex Engineering design. Inspired by [HevORT](https://miragec79.github.io/HevORT/), [Voron](https://vorondesign.com/), [Annex Engineering](https://github.com/Annex-Engineering) and [EVA2](https://main.eva-3d.page/) design.
-
-Any suggestions, feature requests, questions are welcomed, feel free to contact me via [![](https://img.shields.io/twitter/url?label=twitter&logo=twitter&url=https%3A%2F%2Ftwitter.com%2FChipMaple)](https://twitter.com/ChipMaple)
-or [![](https://img.shields.io/discord/851371040566673428?label=discord&logo=discord&logoColor=fafafa)](https://discord.gg/WZVP2HuAag)
+Stable hi-speed, small size fully-featured affordable CoreXY 3D printer. Inspired by HevORT, Voron and Annex Engineering design. Inspired by [HevORT](https://miragec79.github.io/HevORT/), [Voron](https://vorondesign.com/), [Annex Engineering](https://github.com/Annex-Engineering) and [EVA2](https://main.eva-3d.page/) design.
 
 ![Banner](./Doc/img/banner.png)
 
-## Development progress
-
-- [x] New XY axis
-- [x] Foot and panel mount
-- [ ] Flex sheet auto detect
-- [x] Belted Z and 3 points leveling
-- [x] EVA2 toolhead system "compatible"
-- [ ] Brush nozzle cleaning
-- [x] Circular air filter
-- [x] Filament spool inside machine chamber
-- [x] Standard 3030 T-slot frame support
-- [x] ~~Carbon fiber X gantry~~ Replaced with 1515 gantry
-- [ ] AIO filament runout + jam detector + width sensor
-- [x] Optional hi-voltage motor driver add-on
-
-## Feature
+## Features
 
 | Feature                                           | Credit/Inspiration by/Description |
 | ------------------------------------------------- | --------------------------------- |
@@ -33,14 +18,11 @@ or [![](https://img.shields.io/discord/851371040566673428?label=discord&logo=dis
 | Cross belt corexy belt path                       | HevORT                            |
 | Eva compatible toolhead                           | EVA                               |
 | Filament spoll in side chamber                    | Annex Engineering                 |
+| Quick release panels                              |                                   |
+| Built-in chamber air filter                       |                                   |
 | Auto build sheet detect and profile loader        | Work in progress                  |
 | AIO filament runout + jam detector + width sensor | Work in progress                  |
 | Modular sensor add-on system                      | Work in progress                  |
-| High voltage motor driver add-on                  | Work in progress                  |
-
-## Q/A
-
-- n/a
 
 ## BOM
 
