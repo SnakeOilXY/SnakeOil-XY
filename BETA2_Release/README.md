@@ -16,7 +16,6 @@
 - Z block mount
   - <code>1x_z-rail-block-mount-right-with-limiter.stl</code>
   - <code>2x_z-rail-block-mount-left-with-limiter.stl</code>
-  - <code></code>
 - Y carrier
   - <code>1x_y-carrier-bottom-left.stl</code>
   - <code>1x_y-carrier-bottom-right.stl</code>

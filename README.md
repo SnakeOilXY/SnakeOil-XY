@@ -5,7 +5,7 @@
 
 # SnakeOil XY
 
-Stable hi-speed, small size fully-featured affordable CoreXY 3D printer. Inspired by HevORT, Voron and Annex Engineering design. Inspired by [HevORT](https://miragec79.github.io/HevORT/), [Voron](https://vorondesign.com/), [Annex Engineering](https://github.com/Annex-Engineering) and [EVA2](https://main.eva-3d.page/) design.
+Stable hi-speed, small size fully-featured affordable CoreXY 3D printer. Inspired by [HevORT](https://miragec79.github.io/HevORT/), [Voron](https://vorondesign.com/), [Annex Engineering](https://github.com/Annex-Engineering) and [EVA2](https://main.eva-3d.page/) design.
 
 ![Banner](./Doc/img/banner.png)
 
