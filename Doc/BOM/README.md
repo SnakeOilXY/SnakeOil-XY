@@ -1,7 +1,7 @@
 # BOM
 
 <code>Status : work in progress</code>  
-<code>Last updated : 2021-10-21T00:07:35+09:00 </code>
+<code>Last updated : 2021-10-27T22:32:13+09:00 </code>
 
 ## Read this first
 
@@ -19,53 +19,72 @@
 
 ### For 180x180x180mm machine
 
-| Item                               | Quantity | Description/link                                                                                            |
-| ---------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------- |
-| Extrusion 3030 280mm               | 3        | -                                                                                                           |
-| Extrusion 3030 500mm(reccommend)   | 4        | Or 450mm with top lid                                                                                       |
-| Extrusion 3030 310mm               | 11       | -                                                                                                           |
-| Extrusion 3030 light grade 370mm   | 1        | For top lid (Optional)                                                                                      |
-| Extrusion 3030 light grade 310mm   | 3        | For top lid (Optional)                                                                                      |
-| Extrusion 2020 290mm OR 1515 290mm | 1        | -                                                                                                           |
-| Extrusion 2020 190mm               | 2        | -                                                                                                           |
-| Extrusion 2020 150mm               | 2        | -                                                                                                           |
-| Prusa mini spring steel PEI sheet  | 1        | -                                                                                                           |
-| Magnet sheet                       | 1        | -                                                                                                           |
-| \*\*190x193 aluminum plate         | 1        | 6mm thick, 190x190mm also works                                                                             |
-| 3030 Corner bracket                | 14       | Misumi part number : CHBLFSN6(sliver) or HBLFSNB6(black) or HBLFSN6(no surface finish)                      |
-| \*Extra corner bracket             | 15       | \*Check note bellow                                                                                         |
-| \*Blind joint nut                  | 22       | misumi part number SHCJ6 or HCJ6. \*Check note bellow                                                       |
-| 8mm x 365mm length tube            | 4        | This will be used for sliding door mechanism. In theory, any kind of tube with 8mm outer diameter will work |
-| DIN rail 282mm                     | 1        |                                                                                                             |
-| DIN rail 309mm                     | 2        |                                                                                                             |
-| 2020 corner bracket                | 4        | To recude the bed assembly weight, simple bracket like Misumi HBLSP5 are recommended                        |
+| Item (main frame)                 | Quantity | Description/link                                                                       |
+| --------------------------------- | -------- | -------------------------------------------------------------------------------------- |
+| Extrusion 3030 280mm              | 3        | -                                                                                      |
+| Extrusion 3030 500mm(reccommend)  | 4        | Or 450mm with top lid                                                                  |
+| Extrusion 3030 310mm              | 11       | -                                                                                      |
+| Extrusion 3030 light grade 370mm  | 1        | For top lid (Optional)                                                                 |
+| Extrusion 3030 light grade 310mm  | 3        | For top lid (Optional)                                                                 |
+| Prusa mini spring steel PEI sheet | 1        | -                                                                                      |
+| Magnet sheet                      | 1        | -                                                                                      |
+| \*\*190x193 aluminum plate        | 1        | 6mm thick, 190x190mm also works                                                        |
+| 3030 Corner bracket               | 14       | Misumi part number : CHBLFSN6(sliver) or HBLFSNB6(black) or HBLFSN6(no surface finish) |
+| \*Extra corner bracket            | 15       | \*Check note bellow                                                                    |
+| \*Blind joint nut                 | 22       | misumi part number SHCJ6 or HCJ6. \*Check note bellow                                  |
+| DIN rail 282mm                    | 1        |                                                                                        |
+| DIN rail 309mm                    | 2        |                                                                                        |
+| 2020 corner bracket               | 4        | To recude the bed assembly weight, simple bracket like Misumi HBLSP5 are recommended   |
+
+| Item (gantry)                    | Quantity | Description/link      |
+| -------------------------------- | -------- | --------------------- |
+| Extrusion 1515 290mm (HFS3-1515) | 1        | Option 1(recommended) |
+| 1515 corner bracket (HBLTBS3)    | 4        | Option 1(recommended) |
+| Extrusion 2020 290mm (HFS5-2020) | 1        | Option 2              |
+| 2020 corner bracket (HBLSP5)     | 4        | Option 2              |
+
+| Item (bed frame)                 | Quantity | Description/link      |
+| -------------------------------- | -------- | --------------------- |
+| Extrusion 1515 190mm (HFS3-1515) | 2        | Option 1(recommended) |
+| Extrusion 1515 185mm (HFS3-1515) | 2        | Option 1(recommended) |
+| Extrusion 2020 190mm             | 2        | Option 2              |
+| Extrusion 2020 150mm             | 2        | Option 2              |
 
 <code>3030 extrusions are 8mm slot type, 2020 extrusions are 6mm slot type</code>  
 <code>\*The frame is designed to be built with blind joint, but corner bracket can be used instead of blind joint at many places(Check the CAD file for more detail). For blind joint, the "SHCJ6 Screw Joint" is recommended.</code>
 ### For 250x240x230mm machine
 
-| Item                               | Quantity | Description/link                                                                                            |
-| ---------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------- |
-| Extrusion 3030 330mm               | 3        | -                                                                                                           |
-| Extrusion 3030 550mm               | 4        | -                                                                                                           |
-| Extrusion 3030 380mm               | 5        | -                                                                                                           |
-| Extrusion 3030 360mm               | 6        | -                                                                                                           |
-| Extrusion 3030 light grade 440mm   | 1        | For top lid(optional)                                                                                       |
-| Extrusion 3030 light grade 360mm   | 2        | For top lid(optional)                                                                                       |
-| Extrusion 3030 light grade 380mm   | 2        | For top lid(optional)                                                                                       |
-| Extrusion 2020 360mm OR 1515 360mm | 1        | -                                                                                                           |
-| Extrusion 2020 240mm               | 2        | -                                                                                                           |
-| Extrusion 2020 220mm               | 2        | -                                                                                                           |
-| Prusa MK3 spring steel PEI sheet   | 1        | -                                                                                                           |
-| Magnet sheet                       | 1        | -                                                                                                           |
-| 254x240 aluminum plate             | 1        | 6mm thick                                                                                                   |
-| 3030 Corner bracket                | 14       | Misumi part number : CHBLFSN6(sliver) or HBLFSNB6(black) or HBLFSN6(no surface finish)                      |
-| \*Extra corner bracket             | 15       | \*Check note bellow                                                                                         |
-| \*Blind joint nut                  | 22       | misumi part number SHCJ6 or HCJ6. \*Check note bellow                                                       |
-| 8mm x 415mm length tube            | 4        | This will be used for sliding door mechanism. In theory, any kind of tube with 8mm outer diameter will work |
-| DIN rail 332mm                     | 1        |                                                                                                             |
-| DIN rail 379mm                     | 2        |                                                                                                             |
-| 2020 corner bracket                | 4        | To recude the bed assembly weight, simple bracket like Misumi HBLSP5 are recommended                        |
+| Item                             | Quantity | Description/link                                                                       |
+| -------------------------------- | -------- | -------------------------------------------------------------------------------------- |
+| Extrusion 3030 330mm             | 3        | -                                                                                      |
+| Extrusion 3030 550mm             | 4        | -                                                                                      |
+| Extrusion 3030 380mm             | 5        | -                                                                                      |
+| Extrusion 3030 360mm             | 6        | -                                                                                      |
+| Extrusion 3030 light grade 440mm | 1        | For top lid(optional)                                                                  |
+| Extrusion 3030 light grade 360mm | 2        | For top lid(optional)                                                                  |
+| Extrusion 3030 light grade 380mm | 2        | For top lid(optional)                                                                  |
+| Prusa MK3 spring steel PEI sheet | 1        | -                                                                                      |
+| Magnet sheet                     | 1        | -                                                                                      |
+| 254x240 aluminum plate           | 1        | 6mm thick                                                                              |
+| 3030 Corner bracket              | 14       | Misumi part number : CHBLFSN6(sliver) or HBLFSNB6(black) or HBLFSN6(no surface finish) |
+| \*Extra corner bracket           | 15       | \*Check note bellow                                                                    |
+| \*Blind joint nut                | 22       | misumi part number SHCJ6 or HCJ6. \*Check note bellow                                  |
+| DIN rail 332mm                   | 1        |                                                                                        |
+| DIN rail 379mm                   | 2        |                                                                                        |
+
+| Item (gantry)                    | Quantity | Description/link      |
+| -------------------------------- | -------- | --------------------- |
+| Extrusion 1515 360mm (HFS3-1515) | 1        | Option 1(recommended) |
+| 1515 corner bracket (HBLTBS3)    | 4        | Option 1(recommended) |
+| Extrusion 2020 360mm (HFS5-2020) | 1        | Option 2              |
+| 2020 corner bracket (HBLSP5)     | 4        | Option 2              |
+
+| Item (bed frame)                 | Quantity | Description/link      |
+| -------------------------------- | -------- | --------------------- |
+| Extrusion 1515 260mm (HFS3-1515) | 2        | Option 1(recommended) |
+| Extrusion 1515 235mm (HFS3-1515) | 2        | Option 1(recommended) |
+| Extrusion 2020 240mm (HFS5-2020) | 2        | Option 2              |
+| Extrusion 2020 220mm (HFS5-2020) | 2        | Option 2              |
 
 <code>3030 extrusions are 8mm slot type, 2020 extrusions are 6mm slot type</code>  
 <code>\*The frame is designed to be built with blind joint, but corner bracket can be used instead of blind joint at many places(Check the CAD file for more detail). For blind joint, the "SHCJ6 Screw Joint" is recommended.</code>
@@ -205,8 +224,8 @@
 
 | Item                                           | Quantity | Description/link(not affiliated)                                                                                                                                                               |
 | ---------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Diameter 5mm x 65mm length shaft               | 3        |                                                                                                                                                                                                |
-| Ring-shape magnet                              | 3        | [aliexpress](https://www.aliexpress.com/item/32839397491.html) OR 10x6x5mm(IDxODxH) ring magnet                                                                                                |
+| Diameter 5mm x 65mm length shaft or dowel pin  | 3        |                                                                                                                                                                                                |
+| Ring-shape magnet                              | 3        | 10x6x5mm(ODxIDxH) ring magnet OR [aliexpress](https://www.aliexpress.com/item/32839397491.html) (\*) 1515 bed frame require 10x6x5mm magnet                                                    |
 | 6x3mmm round(disk) magnet                      | 8        |                                                                                                                                                                                                |
 | 19x5x1.5mm Block magnet                        | 3        | [aliexpress](https://www.aliexpress.com/item/4000955510987.html) Smaller magnet also works                                                                                                     |
 | Spring for bed plate mount (length about 10mm) | 3        | The yellow spring used to mount the bed plate. The spring will give the bed some room to "slide" when thermal expand occur.                                                                    |

@@ -18,11 +18,17 @@ Stable hi-speed, small size fully-featured affordable CoreXY 3D printer. Inspire
 | Cross belt corexy belt path                       | HevORT                            |
 | Eva compatible toolhead                           | EVA                               |
 | Filament spoll in side chamber                    | Annex Engineering                 |
-| Quick release panels                              |                                   |
-| Built-in chamber air filter                       |                                   |
+| Quick release panels                              | Added on beta2 release            |
+| Built-in chamber air filter                       | Added on beta1 release            |
 | Auto build sheet detect and profile loader        | Work in progress                  |
 | AIO filament runout + jam detector + width sensor | Work in progress                  |
 | Modular sensor add-on system                      | Work in progress                  |
+
+## Some test result
+
+![Shaper](./Doc/img/beta2-accel-test.png)
+
+[>>> Demo videos <<<](https://www.youtube.com/c/ChipTechno/videos)
 
 ## BOM
 
