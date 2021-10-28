@@ -1,7 +1,7 @@
 # BOM
 
 <code>Status : work in progress</code>  
-<code>Last updated : 2021-10-27T22:32:13+09:00 </code>
+<code>Last updated : 2021-10-28T19:41:19+09:00 </code>
 
 ## Read this first
 
@@ -191,6 +191,13 @@
 | MR115ZZ                           | 18       |                                                                                                                                                  |
 | 8mm ball bearing                  | 3        | Don't get stainless type                                                                                                                         |
 | 6mm x 16mm length shaft/dowel pin | 6        | This will be used as the "rail" where the bed will slide on. Cutted linear shafts, dowel pinss or some good m3 spacers(outer dia 6mm) also works |
+
+| Item (Bed coupler)                          | Quantity | Description/link                                                                                                                                    |
+| ------------------------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Ring magnet 10x6x5mm                        | 3        | (Option 1 - magnet coupler) For 1515 and 2020 bed frame.                                                                                            |
+| Ring magnet 13x5.5x5mm                      | 3        | (Option 2 - magnet coupler)For 2020 bed frame. [aliexpress](https://www.aliexpress.com/item/32839397491.html)                                       |
+| GE5C bearing                                | 3        | (Option 3 - spherical bearing)For 2020 bed frame. Mod by PCR                                                                                        |
+| Threaded ball 8mm M3 and 12mm M3 grub screw | 3        | (Option 4 - Threaded ball)For 2020 and 1515 bed frame. Recommended for 250mm bed [aliexpress](https://www.aliexpress.com/item/1005003222637924.htm) |
 ## Electronic
 
 | Item                         | Quantity | Description/link                                                                      |
@@ -225,7 +232,6 @@
 | Item                                           | Quantity | Description/link(not affiliated)                                                                                                                                                               |
 | ---------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Diameter 5mm x 65mm length shaft or dowel pin  | 3        |                                                                                                                                                                                                |
-| Ring-shape magnet                              | 3        | 10x6x5mm(ODxIDxH) ring magnet OR [aliexpress](https://www.aliexpress.com/item/32839397491.html) (\*) 1515 bed frame require 10x6x5mm magnet                                                    |
 | 6x3mmm round(disk) magnet                      | 8        |                                                                                                                                                                                                |
 | 19x5x1.5mm Block magnet                        | 3        | [aliexpress](https://www.aliexpress.com/item/4000955510987.html) Smaller magnet also works                                                                                                     |
 | Spring for bed plate mount (length about 10mm) | 3        | The yellow spring used to mount the bed plate. The spring will give the bed some room to "slide" when thermal expand occur.                                                                    |
