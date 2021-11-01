@@ -1,7 +1,7 @@
 # BOM
 
 <code>Status : work in progress</code>  
-<code>Last updated : 2021-11-02T00:37:23+09:00 </code>
+<code>Last updated : 2021-11-02T00:41:56+09:00 </code>
 
 ## Read this first
 
@@ -15,7 +15,6 @@
 - [Electronic](#electronic)
 - [Panel](#panel)
 - [Other](#other)
-
 ## Frame
 
 ### For 180x180x180mm machine
@@ -53,7 +52,6 @@
 
 <code>3030 extrusions are 8mm slot type, 2020 extrusions are 6mm slot type</code>  
 <code>\*The frame is designed to be built with blind joint, but corner bracket can be used instead of blind joint at many places(Check the CAD file for more detail). For blind joint, the "SHCJ6 Screw Joint" is recommended.</code>
-
 ### For 250x240x230mm machine
 
 | Item                             | Quantity | Description/link                                                                       |
@@ -90,7 +88,6 @@
 
 <code>3030 extrusions are 8mm slot type, 2020 extrusions are 6mm slot type</code>  
 <code>\*The frame is designed to be built with blind joint, but corner bracket can be used instead of blind joint at many places(Check the CAD file for more detail). For blind joint, the "SHCJ6 Screw Joint" is recommended.</code>
-
 ## Fasteners
 
 ### Bolt and nuts
@@ -174,7 +171,6 @@
 | m3x3x4.2 | 1 pack   | [aliexpress](https://www.aliexpress.com/item/4000955759713.html) or [aliexpress](https://www.aliexpress.com/item/1005002526998853.html)                                           |
 | m3x4x4.2 | 1 pack   | [aliexpress](https://www.aliexpress.com/item/4000955759713.html) or [aliexpress](https://www.aliexpress.com/item/1005002526998853.html)                                           |
 | m3x5x4.2 | 1 pack   | \*optional, M3x4x4.2 can be used instead. [aliexpress](https://www.aliexpress.com/item/4000955759713.html) or [aliexpress](https://www.aliexpress.com/item/1005002526998853.html) |
-
 ## Motion
 
 <code>The printer was designed based on dimension of Gates pulleys and idlers. Modify of printed parts might required to use other type of pulleys and idlers</code>
@@ -196,13 +192,12 @@
 | 8mm ball bearing                  | 3        | Don't get stainless type                                                                                                                         |
 | 6mm x 16mm length shaft/dowel pin | 6        | This will be used as the "rail" where the bed will slide on. Cutted linear shafts, dowel pinss or some good m3 spacers(outer dia 6mm) also works |
 
-| Item (Bed coupler)     | Quantity | Description/link                                                                                                                                                                                                                                                     |
-| ---------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Ring magnet 10x6x5mm   | 3        | (Option 1 - magnet coupler) For 1515 and 2020 bed frame.                                                                                                                                                                                                             |
-| Ring magnet 13x5.5x5mm | 3        | (Option 2 - magnet coupler)For 2020 bed frame. [aliexpress](https://www.aliexpress.com/item/32839397491.html)                                                                                                                                                        |
-| GE5C bearing           | 3        | (Option 3 - spherical bearing)For 2020 bed frame. Mod by PCR                                                                                                                                                                                                         |
-| Threaded ball 10mm     | 3        | (Option 4 - Threaded ball)For 2020 and 1515 bed frame. Recommended for 250mm bed [aliexpress](https://www.aliexpress.com/item/1005003222637924.html). Also require [M4x6x4 thread insert](https://www.aliexpress.com/item/4000232925592.html) and 12mm M4 grub screw |
-
+| Item (Bed coupler)     | Quantity | Description/link                                                                                                                                                                                                                                                  |
+| ---------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Ring magnet 10x6x5mm   | 3        | (Option 1 - magnet coupler) For 1515 and 2020 bed frame.                                                                                                                                                                                                          |
+| Ring magnet 13x5.5x5mm | 3        | (Option 2 - magnet coupler)For 2020 bed frame. [aliexpress](https://www.aliexpress.com/item/32839397491.html)                                                                                                                                                     |
+| GE5C bearing           | 3        | (Option 3 - spherical bearing)For 2020 bed frame. Mod by PCR                                                                                                                                                                                                      |
+| Threaded ball 10mm     | 3        | (Option 4 - Threaded ball)For 2020 and 1515 bed frame. Recommended for 250mm bed. [aliexpress](https://www.aliexpress.com/item/4001141631405.html) Also require [M4x6x4 thread insert](https://www.aliexpress.com/item/4000232925592.html) and 12mm M4 grub screw |
 ## Electronic
 
 | Item                         | Quantity | Description/link                                                                      |
@@ -223,7 +218,6 @@
 | Camera                       | 1        | \*Optional [Aliexpress](https://www.aliexpress.com/item/4000929363815.html)           |
 | Neopixel WS2812B             | 0.5m     | \*Optional [Aliexpress](https://www.aliexpress.com/item/2036819167.html)              |
 | Neopixel tray                | 0.5m     | \*Optional [Aliexpress](https://www.aliexpress.com/item/4000254933824.html)           |
-
 ## Panel
 
 | Item                          | Quantity | Description/link(not affiliated) |
@@ -233,7 +227,6 @@
 | Rear-top-panel 324x129x3mm    | 1        |                                  |
 | Rear-bottom-panel 309x244x3mm | 1        |                                  |
 | Top-panel 324x324x3mm         | 1        |                                  |
-
 ## Other
 
 | Item                                           | Quantity | Description/link(not affiliated)                                                                                                                                                               |
