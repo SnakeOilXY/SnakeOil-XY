@@ -1,6 +1,6 @@
-## Fasteners
+## 2.Fasteners
 
-### Bolt and nuts
+### 2.1.Bolt and nuts
 
 <code>The below quantity are approx values. The real number will be update later.</code>
 
@@ -73,7 +73,7 @@
 | Button head M8x20          | 22       |             |
 | Button head M8x25          | 4        |             |
 
-### Heat set thread insert
+### 2.2.Heat set thread insert
 
 | Item     | Quantity | Description/link(not affiliated)                                                                                                                                                  |
 | -------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

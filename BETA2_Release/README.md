@@ -38,6 +38,7 @@
 - Parts are not tested, might change on later release
   - None
 - Parts will be added later
+  - Parts for 250mm3 machine size
   - Neopixel mount
   - Mounter to feed filament from outside enclosure
   - AIO filament sensor(jam/runout/fil.width detect)

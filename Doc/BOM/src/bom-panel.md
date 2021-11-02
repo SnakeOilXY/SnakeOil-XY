@@ -1,4 +1,6 @@
-## Panel
+## 5.Panel
+
+### 5.1.For 180 machine
 
 | Item                          | Quantity | Description/link(not affiliated) |
 | ----------------------------- | -------- | -------------------------------- |

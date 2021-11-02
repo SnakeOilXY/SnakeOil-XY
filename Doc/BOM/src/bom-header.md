@@ -9,9 +9,9 @@
 
 ## Table of contents
 
-- [Frame](#frame)
-- [Fasteners](#fasteners)
-- [Motion](#motion)
-- [Electronic](#electronic)
-- [Panel](#panel)
-- [Other](#other)
+- [Frame](#1.frame)
+- [Fasteners](#2.fasteners)
+- [Motion](#3.motion)
+- [Electronic](#4.electronic)
+- [Panel](#5.panel)
+- [Other](#6.other)

@@ -1,7 +1,7 @@
 # BOM
 
 <code>Status : work in progress</code>  
-<code>Last updated : 2021-11-02T00:41:56+09:00 </code>
+<code>Last updated : 2021-11-02T16:52:44+09:00 </code>
 
 ## Read this first
 
@@ -9,20 +9,21 @@
 
 ## Table of contents
 
-- [Frame](#frame)
-- [Fasteners](#fasteners)
-- [Motion](#motion)
-- [Electronic](#electronic)
-- [Panel](#panel)
-- [Other](#other)
-## Frame
+- [Frame](#1.frame)
+- [Fasteners](#2.fasteners)
+- [Motion](#3.motion)
+- [Electronic](#4.electronic)
+- [Panel](#5.panel)
+- [Other](#6.other)
 
-### For 180x180x180mm machine
+## 1.Frame
+
+### 1.1.For 180x180x180mm machine
 
 | Item (main frame)                 | Quantity | Description/link                                                                       |
 | --------------------------------- | -------- | -------------------------------------------------------------------------------------- |
 | Extrusion 3030 280mm              | 3        | -                                                                                      |
-| Extrusion 3030 500mm(reccommend)  | 4        | Or 450mm with top lid                                                                  |
+| Extrusion 3030 500mm(reccommend)  | 4        | -                                                                                      |
 | Extrusion 3030 310mm              | 11       | -                                                                                      |
 | Extrusion 3030 light grade 370mm  | 1        | For top lid (Optional)                                                                 |
 | Extrusion 3030 light grade 310mm  | 3        | For top lid (Optional)                                                                 |
@@ -32,27 +33,29 @@
 | 3030 Corner bracket               | 14       | Misumi part number : CHBLFSN6(sliver) or HBLFSNB6(black) or HBLFSN6(no surface finish) |
 | \*Extra corner bracket            | 15       | \*Check note bellow                                                                    |
 | \*Blind joint nut                 | 22       | misumi part number SHCJ6 or HCJ6. \*Check note bellow                                  |
-| DIN rail 282mm                    | 1        |                                                                                        |
-| DIN rail 309mm                    | 2        |                                                                                        |
+| DIN rail 282mm                    | 1        | -                                                                                      |
+| DIN rail 309mm                    | 2        | -                                                                                      |
 | 2020 corner bracket               | 4        | To recude the bed assembly weight, simple bracket like Misumi HBLSP5 are recommended   |
 
-| Item (gantry)                    | Quantity | Description/link      |
-| -------------------------------- | -------- | --------------------- |
-| Extrusion 1515 290mm (HFS3-1515) | 1        | Option 1(recommended) |
-| 1515 corner bracket (HBLTBS3)    | 4        | Option 1(recommended) |
-| Extrusion 2020 290mm (HFS5-2020) | 1        | Option 2              |
-| 2020 corner bracket (HBLSP5)     | 4        | Option 2              |
+| Item (gantry)                                                    | Quantity | Description/link      |
+| ---------------------------------------------------------------- | -------- | --------------------- |
+| **Extrusion 1515 290mm (HFS3-1515)**                             | 1        | Option 1(recommended) |
+| **1515 corner bracket (HBLTBS3 or any other bracket also work)** | 4        | Option 1(recommended) |
+| Extrusion 2020 290mm (HFS5-2020)                                 | 1        | Option 2              |
+| 2020 corner bracket (HBLSP5)                                     | 4        | Option 2              |
 
-| Item (bed frame)                 | Quantity | Description/link      |
-| -------------------------------- | -------- | --------------------- |
-| Extrusion 1515 190mm (HFS3-1515) | 2        | Option 1(recommended) |
-| Extrusion 1515 185mm (HFS3-1515) | 2        | Option 1(recommended) |
-| Extrusion 2020 190mm             | 2        | Option 2              |
-| Extrusion 2020 150mm             | 2        | Option 2              |
+| Item (bed frame)                     | Quantity | Description/link      |
+| ------------------------------------ | -------- | --------------------- |
+| **Extrusion 1515 190mm (HFS3-1515)** | 2        | Option 1(recommended) |
+| **Extrusion 1515 185mm (HFS3-1515)** | 2        | Option 1(recommended) |
+| Extrusion 2020 190mm                 | 2        | Option 2              |
+| Extrusion 2020 150mm                 | 2        | Option 2              |
 
-<code>3030 extrusions are 8mm slot type, 2020 extrusions are 6mm slot type</code>  
-<code>\*The frame is designed to be built with blind joint, but corner bracket can be used instead of blind joint at many places(Check the CAD file for more detail). For blind joint, the "SHCJ6 Screw Joint" is recommended.</code>
-### For 250x240x230mm machine
+<code>3030 extrusions are 8mm slot type, 2020 extrusions are 6mm slot type, 1515 extrusions are 3.4mm slot type</code>  
+<code>\*The frame is designed to be built with blind joint, but corner bracket can be used instead of blind joint at many places(Check the CAD file for more detail).</code>  
+<code>For blind joint, the "SHCJ6 Screw Joint" is recommended.</code>
+
+### 1.2.For 250x240x230mm machine
 
 | Item                             | Quantity | Description/link                                                                       |
 | -------------------------------- | -------- | -------------------------------------------------------------------------------------- |
@@ -72,25 +75,27 @@
 | DIN rail 332mm                   | 1        |                                                                                        |
 | DIN rail 379mm                   | 2        |                                                                                        |
 
-| Item (gantry)                    | Quantity | Description/link      |
-| -------------------------------- | -------- | --------------------- |
-| Extrusion 1515 360mm (HFS3-1515) | 1        | Option 1(recommended) |
-| 1515 corner bracket (HBLTBS3)    | 4        | Option 1(recommended) |
-| Extrusion 2020 360mm (HFS5-2020) | 1        | Option 2              |
-| 2020 corner bracket (HBLSP5)     | 4        | Option 2              |
+| Item (gantry)                                                    | Quantity | Description/link      |
+| ---------------------------------------------------------------- | -------- | --------------------- |
+| **Extrusion 1515 360mm (HFS3-1515)**                             | 1        | Option 1(recommended) |
+| **1515 corner bracket (HBLTBS3 or any other bracket also work)** | 4        | Option 1(recommended) |
+| Extrusion 2020 360mm (HFS5-2020)                                 | 1        | Option 2              |
+| 2020 corner bracket (HBLSP5)                                     | 4        | Option 2              |
 
-| Item (bed frame)                 | Quantity | Description/link      |
-| -------------------------------- | -------- | --------------------- |
-| Extrusion 1515 260mm (HFS3-1515) | 2        | Option 1(recommended) |
-| Extrusion 1515 235mm (HFS3-1515) | 2        | Option 1(recommended) |
-| Extrusion 2020 240mm (HFS5-2020) | 2        | Option 2              |
-| Extrusion 2020 220mm (HFS5-2020) | 2        | Option 2              |
+| Item (bed frame)                     | Quantity | Description/link      |
+| ------------------------------------ | -------- | --------------------- |
+| **Extrusion 1515 260mm (HFS3-1515)** | 2        | Option 1(recommended) |
+| **Extrusion 1515 235mm (HFS3-1515)** | 2        | Option 1(recommended) |
+| Extrusion 2020 240mm (HFS5-2020)     | 2        | Option 2              |
+| Extrusion 2020 220mm (HFS5-2020)     | 2        | Option 2              |
 
-<code>3030 extrusions are 8mm slot type, 2020 extrusions are 6mm slot type</code>  
-<code>\*The frame is designed to be built with blind joint, but corner bracket can be used instead of blind joint at many places(Check the CAD file for more detail). For blind joint, the "SHCJ6 Screw Joint" is recommended.</code>
-## Fasteners
+<code>3030 extrusions are 8mm slot type, 2020 extrusions are 6mm slot type, 1515 extrusions are 3.4mm slot type</code>  
+<code>\*The frame is designed to be built with blind joint, but corner bracket can be used instead of blind joint at many places(Check the CAD file for more detail).</code>  
+<code>For blind joint, the "SHCJ6 Screw Joint" is recommended.</code>
 
-### Bolt and nuts
+## 2.Fasteners
+
+### 2.1.Bolt and nuts
 
 <code>The below quantity are approx values. The real number will be update later.</code>
 
@@ -163,7 +168,7 @@
 | Button head M8x20          | 22       |             |
 | Button head M8x25          | 4        |             |
 
-### Heat set thread insert
+### 2.2.Heat set thread insert
 
 | Item     | Quantity | Description/link(not affiliated)                                                                                                                                                  |
 | -------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -171,34 +176,56 @@
 | m3x3x4.2 | 1 pack   | [aliexpress](https://www.aliexpress.com/item/4000955759713.html) or [aliexpress](https://www.aliexpress.com/item/1005002526998853.html)                                           |
 | m3x4x4.2 | 1 pack   | [aliexpress](https://www.aliexpress.com/item/4000955759713.html) or [aliexpress](https://www.aliexpress.com/item/1005002526998853.html)                                           |
 | m3x5x4.2 | 1 pack   | \*optional, M3x4x4.2 can be used instead. [aliexpress](https://www.aliexpress.com/item/4000955759713.html) or [aliexpress](https://www.aliexpress.com/item/1005002526998853.html) |
-## Motion
+
+## 3.Motion
 
 <code>The printer was designed based on dimension of Gates pulleys and idlers. Modify of printed parts might required to use other type of pulleys and idlers</code>
 
-| Item                              | Quantity | Description/link                                                                                                                                 |
-| --------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| MGN12H 250mm 250mm                | 6        | 5x MGN12H 300mm and 1x MGN12H 320mm for 250mm^3 machine                                                                                          |
-| 20T 6mm Pulley (5mm bore)         | 2        | [aliexpress](https://www.aliexpress.com/item/33023279793.html)                                                                                   |
-| 16T 6mm Pulley (5mm bore)         | 3        | [aliexpress](https://www.aliexpress.com/item/33002989677.html)                                                                                   |
-| 80T 6mm Pulley (5mm bore)         | 3        | [aliexpress](https://www.aliexpress.com/item/1005001700640216.html)                                                                              |
-| 20T 9mm Pulley (5mm bore)         | 3        | [aliexpress](https://www.aliexpress.com/item/33023279793.html)                                                                                   |
-| 20T 6mm Smooth Idler (5mm bore)   | 10       | [aliexpress](https://www.aliexpress.com/item/33023133633.html)                                                                                   |
-| 20T 6mm Tooth Idler (5mm bore)    | 2        | [aliexpress](https://www.aliexpress.com/item/33023133633.html)                                                                                   |
-| 20T 9mm Tooth idler (5mm bore)    | 3        | [aliexpress](https://www.aliexpress.com/item/33023133633.html)                                                                                   |
-| Close loop 188-2GT-6 RF belt      | 3        | [aliexpress](https://www.aliexpress.com/item/4000397043382.html)                                                                                 |
-| 2GT 6mm belt                      | ~3m      | 4m for 250mm^3 build [aliexpress](https://www.aliexpress.com/item/32952396111.html)                                                              |
-| 2GT 9mm belt                      | ~2m      | 3m for 250mm^3 build [aliexpress](https://www.aliexpress.com/item/32952396111.html)                                                              |
-| MR115ZZ                           | 18       |                                                                                                                                                  |
-| 8mm ball bearing                  | 3        | Don't get stainless type                                                                                                                         |
-| 6mm x 16mm length shaft/dowel pin | 6        | This will be used as the "rail" where the bed will slide on. Cutted linear shafts, dowel pinss or some good m3 spacers(outer dia 6mm) also works |
+| Item                                          | Quantity | Description/link                                                                                                                                 |
+| --------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| MGN12H 250mm 250mm                            | 6        | 5x MGN12H 300mm and 1x MGN12H 320mm for 250mm^3 machine                                                                                          |
+| 20T 6mm Pulley (5mm bore)                     | 2        | [aliexpress](https://www.aliexpress.com/item/33023279793.html)                                                                                   |
+| 16T 6mm Pulley (5mm bore)                     | 3        | [aliexpress](https://www.aliexpress.com/item/33002989677.html)                                                                                   |
+| 80T 6mm Pulley (5mm bore)                     | 3        | [aliexpress](https://www.aliexpress.com/item/1005001700640216.html)                                                                              |
+| 20T 9mm Pulley (5mm bore)                     | 3        | [aliexpress](https://www.aliexpress.com/item/33023279793.html)                                                                                   |
+| 20T 6mm Smooth Idler (5mm bore)               | 10       | [aliexpress](https://www.aliexpress.com/item/33023133633.html)                                                                                   |
+| 20T 6mm Tooth Idler (5mm bore)                | 2        | [aliexpress](https://www.aliexpress.com/item/33023133633.html)                                                                                   |
+| 20T 9mm Tooth idler (5mm bore)                | 3        | [aliexpress](https://www.aliexpress.com/item/33023133633.html)                                                                                   |
+| Close loop 188-2GT-6 RF belt                  | 3        | [aliexpress](https://www.aliexpress.com/item/4000397043382.html)                                                                                 |
+| 2GT 6mm belt                                  | ~3m      | 4m for 250mm^3 build [aliexpress](https://www.aliexpress.com/item/32952396111.html)                                                              |
+| 2GT 9mm belt                                  | ~2m      | 3m for 250mm^3 build [aliexpress](https://www.aliexpress.com/item/32952396111.html)                                                              |
+| MR115ZZ                                       | 18       |                                                                                                                                                  |
+| 8mm ball bearing                              | 3        | Don't get stainless type                                                                                                                         |
+| 6mm x 16mm length shaft/dowel pin             | 6        | This will be used as the "rail" where the bed will slide on. Cutted linear shafts, dowel pinss or some good m3 spacers(outer dia 6mm) also works |
+| Hook spring 0.5x4x20mm                        | 6        | -                                                                                                                                                |
+| Diameter 5mm x 65mm length shaft or dowel pin | 3        |                                                                                                                                                  |
 
-| Item (Bed coupler)     | Quantity | Description/link                                                                                                                                                                                                                                                  |
-| ---------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Ring magnet 10x6x5mm   | 3        | (Option 1 - magnet coupler) For 1515 and 2020 bed frame.                                                                                                                                                                                                          |
-| Ring magnet 13x5.5x5mm | 3        | (Option 2 - magnet coupler)For 2020 bed frame. [aliexpress](https://www.aliexpress.com/item/32839397491.html)                                                                                                                                                     |
-| GE5C bearing           | 3        | (Option 3 - spherical bearing)For 2020 bed frame. Mod by PCR                                                                                                                                                                                                      |
-| Threaded ball 10mm     | 3        | (Option 4 - Threaded ball)For 2020 and 1515 bed frame. Recommended for 250mm bed. [aliexpress](https://www.aliexpress.com/item/4001141631405.html) Also require [M4x6x4 thread insert](https://www.aliexpress.com/item/4000232925592.html) and 12mm M4 grub screw |
-## Electronic
+### 3.1.Bed coupling
+
+There are many options for bed coupling. Some of them are from old beta design, some are mods from community. You can choose the option you like, but please note that the one in assembly CAD is the default option.
+
+#### **3.1.1.Threaded ball coupling** : (default) Improved version of the bellow magnet and ballbearing. Compatible with both 2020 and 1515 bed frame.
+
+| Item                  | Quantity | Description/link                                                 |
+| --------------------- | -------- | ---------------------------------------------------------------- |
+| 10mm M4 threaded ball | 3        | [aliexpress](https://www.aliexpress.com/item/4001141631405.html) |
+| M4 Thread insert      | 3        | [aliexpress](https://www.aliexpress.com/item/4000232925592.html) |
+| 12mm M4 grub screw    | 3        | -                                                                |
+
+#### **3.1.2.Magnet and balbearing coupling** : Bed coupling method used on beta1 release. Compatible with both 2020 and 1515 bed frame, but might not suitable for heavy bed.
+
+| Item             | Quantity | Description/link                                                                                                                                             |
+| ---------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ring magnet      | 3        | 10x6x5mm ring magne(for 1515 and 2020 bed frame) or 13x5.5x6mm ring magnet(for 2020 bed frame)[aliexpress](https://www.aliexpress.com/item/32839397491.html) |
+| 8mm ball bearing | 3        | -                                                                                                                                                            |
+
+#### **3.1.3.spherical bearing coupling** : Mod made by PCR, only availabe for 2020 bed frame.
+
+| Item                      | Quantity | Description/link |
+| ------------------------- | -------- | ---------------- |
+| spherical bearing coupler | 3        | GE5C bearing     |
+
+## 4.Electronic
 
 | Item                         | Quantity | Description/link                                                                      |
 | ---------------------------- | -------- | ------------------------------------------------------------------------------------- |
@@ -218,7 +245,10 @@
 | Camera                       | 1        | \*Optional [Aliexpress](https://www.aliexpress.com/item/4000929363815.html)           |
 | Neopixel WS2812B             | 0.5m     | \*Optional [Aliexpress](https://www.aliexpress.com/item/2036819167.html)              |
 | Neopixel tray                | 0.5m     | \*Optional [Aliexpress](https://www.aliexpress.com/item/4000254933824.html)           |
-## Panel
+
+## 5.Panel
+
+### 5.1.For 180 machine
 
 | Item                          | Quantity | Description/link(not affiliated) |
 | ----------------------------- | -------- | -------------------------------- |
@@ -227,15 +257,14 @@
 | Rear-top-panel 324x129x3mm    | 1        |                                  |
 | Rear-bottom-panel 309x244x3mm | 1        |                                  |
 | Top-panel 324x324x3mm         | 1        |                                  |
-## Other
+
+## 6.Other
 
 | Item                                           | Quantity | Description/link(not affiliated)                                                                                                                                                               |
 | ---------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Diameter 5mm x 65mm length shaft or dowel pin  | 3        |                                                                                                                                                                                                |
 | 6x3mmm round(disk) magnet                      | 8        |                                                                                                                                                                                                |
 | 19x5x1.5mm Block magnet                        | 3        | [aliexpress](https://www.aliexpress.com/item/4000955510987.html) Smaller magnet also works                                                                                                     |
 | Spring for bed plate mount (length about 10mm) | 3        | The yellow spring used to mount the bed plate. The spring will give the bed some room to "slide" when thermal expand occur.                                                                    |
 | Silicon spacer                                 | 3        | Optional, Use this type of spacer instead of the above spring for better thermal isolation between bed plate and bed frame.[aliexpress](https://www.aliexpress.com/item/1005001391148294.html) |
 | Foam tape 5mmx1mm                              | 7m       |                                                                                                                                                                                                |
 | F623 bearing                                   | 4        | For spool holder                                                                                                                                                                               |
-| Hook spring 0.5x4x20mm                         | 6        | -                                                                                                                                                                                              |
