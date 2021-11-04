@@ -15,8 +15,7 @@
 | Close loop 188-2GT-6 RF belt                  | 3        | [aliexpress](https://www.aliexpress.com/item/4000397043382.html)                                                                                 |
 | 2GT 6mm belt                                  | ~3m      | 4m for 250mm^3 build [aliexpress](https://www.aliexpress.com/item/32952396111.html)                                                              |
 | 2GT 9mm belt                                  | ~2m      | 3m for 250mm^3 build [aliexpress](https://www.aliexpress.com/item/32952396111.html)                                                              |
-| MR115ZZ                                       | 18       |                                                                                                                                                  |
-| 8mm ball bearing                              | 3        | Don't get stainless type                                                                                                                         |
+| MR115ZZ                                       | 14       |                                                                                                                                                  |
 | 6mm x 16mm length shaft/dowel pin             | 6        | This will be used as the "rail" where the bed will slide on. Cutted linear shafts, dowel pinss or some good m3 spacers(outer dia 6mm) also works |
 | Hook spring 0.5x4x20mm                        | 6        | -                                                                                                                                                |
 | Diameter 5mm x 65mm length shaft or dowel pin | 3        |                                                                                                                                                  |

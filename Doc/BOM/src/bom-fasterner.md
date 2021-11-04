@@ -20,7 +20,8 @@
 | Hex Nut M4                 | 2        |             |
 | Socket head M2.5x12        | 2        |             |
 | Socket head M2x10          | 2        |             |
-| Socket head M3x10          | 32       |             |
+| Socket head M3x8           | 10       |             |
+| Socket head M3x10          | 82       |             |
 | Socket head M3x12          | 27       |             |
 | Socket head M3x14          | 6        |             |
 | Socket head M3x15          | 13       |             |
