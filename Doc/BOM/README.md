@@ -1,7 +1,7 @@
 # BOM
 
 <code>Status : work in progress</code>  
-<code>Last updated : 2021-11-04T20:21:03+09:00 </code>
+<code>Last updated : 2021-11-05T21:41:59+09:00 </code>
 
 ## Read this first
 
@@ -63,7 +63,7 @@
 | Extrusion 3030 360mm             | 6        | -                                                                                      |
 | Extrusion 3030 light grade 440mm | 1        | For top lid(optional)                                                                  |
 | Extrusion 3030 light grade 360mm | 2        | For top lid(optional)                                                                  |
-| Extrusion 3030 light grade 380mm | 2        | For top lid(optional)                                                                  |
+| Extrusion 3030 light grade 380mm | 1        | For top lid(optional)                                                                  |
 | Prusa MK3 spring steel PEI sheet | 1        | -                                                                                      |
 | Magnet sheet                     | 1        | -                                                                                      |
 | 254x240 aluminum plate           | 1        | 6mm thick                                                                              |
