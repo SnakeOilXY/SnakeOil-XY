@@ -1,7 +1,7 @@
 # BOM
 
 <code>Status : work in progress</code>  
-<code>Last updated : 2021-11-05T21:41:59+09:00 </code>
+<code>Last updated : 2021-11-07T00:30:52+09:00 </code>
 
 ## Read this first
 
@@ -104,67 +104,65 @@
 | 3030 M5 T-nut | 10        |             |
 | 3030 M6 T-nut | About 200 |             |
 
-| Item                       | Quantity | Description |
-| -------------------------- | -------- | ----------- |
-| Hex Nut M3                 | 9        |             |
-| Hex Nut M5                 | 8        |             |
-| Hex Nut M6                 | 2        |             |
-| Hex Nut M4                 | 2        |             |
-| Socket head M2.5x12        | 2        |             |
-| Socket head M2x10          | 2        |             |
-| Socket head M3x8           | 10       |             |
-| Socket head M3x10          | 82       |             |
-| Socket head M3x12          | 27       |             |
-| Socket head M3x14          | 6        |             |
-| Socket head M3x15          | 13       |             |
-| Socket head M3x16          | 10       |             |
-| Socket head M3x20          | 5        |             |
-| Socket head M3x25          | 11       |             |
-| Socket head M3x35          | 11       |             |
-| Socket head M3x40          | 13       |             |
-| Socket head M3x45          | 3        |             |
-| Socket head M3x5           | 4        |             |
-| Socket head M3x6           | 5        |             |
-| Socket head M3x70          | 6        |             |
-| Socket head M3x8           | 30       |             |
-| Socket head M4x12          | 3        |             |
-| Socket head M6x12          | 55       |             |
-| Socket head M6x14          | 8        |             |
-| Socket head M6x8           | 4        |             |
-| Socket head M8x30          | 2        |             |
-| Washer M5 (outer dia 10mm) | 41       |             |
-| Washer M6                  | 206      |             |
-| Washer M3                  | 116      |             |
-| Button head M3x10          | 19       |             |
-| Button head M3x12          | 6        |             |
-| Button head M3x15          | 1        |             |
-| Button head M3x20          | 4        |             |
-| Button head M3x30          | 4        |             |
-| Button head M3x6           | 35       |             |
-| Button head M3x8           | 3        |             |
-| Button head M4x25          | 2        |             |
-| Button head M4x8           | 2        |             |
-| Button head M5x10          | 6        |             |
-| Button head M5x12          | 3        |             |
-| Button head M5x15          | 2        |             |
-| Button head M5x16          | 2        |             |
-| Button head M5x20          | 2        |             |
-| Button head M5x25          | 5        |             |
-| Button head M5x30          | 3        |             |
-| Button head M5x40          | 5        |             |
-| Button head M5x45          | 1        |             |
-| Button head M5x50          | 8        |             |
-| Button head M5x8           | 16       |             |
-| Button head M6x10          | 52       |             |
-| Button head M6x12          | 27       |             |
-| Button head M6x14          | 2        |             |
-| Button head M6x15          | 12       |             |
-| Button head M6x16          | 8        |             |
-| Button head M6x20          | 2        |             |
-| Button head M6x35          | 5        |             |
-| Button head M8x12          | 2        |             |
-| Button head M8x20          | 22       |             |
-| Button head M8x25          | 4        |             |
+| Item                       | Quantity | Description    |
+| -------------------------- | -------- | -------------- |
+| Hex Nut M3                 | 9        |                |
+| Hex Nut M5                 | 8        |                |
+| Hex Nut M6                 | 2        |                |
+| Hex Nut M4                 | 2        |                |
+| Socket head M2.5x12        | 2        |                |
+| Socket head M2x10          | 2        |                |
+| Socket head M3x8           | 10       |                |
+| Socket head M3x10          | 82       |                |
+| Socket head M3x12          | 27       |                |
+| Socket head M3x14          | 6        |                |
+| Socket head M3x15          | 13       |                |
+| Socket head M3x16          | 10       |                |
+| Socket head M3x20          | 5        |                |
+| Socket head M3x25          | 11       |                |
+| Socket head M3x35          | 11       |                |
+| Socket head M3x40          | 13       |                |
+| Socket head M3x45          | 3        |                |
+| Socket head M3x5           | 4        |                |
+| Socket head M3x6           | 5        |                |
+| Socket head M3x70          | 6        |                |
+| Socket head M3x8           | 30       |                |
+| Socket head M4x12          | 3        |                |
+| Socket head M6x14          | 64       |                |
+| Socket head M8x30          | 2        |                |
+| Washer M5 (outer dia 10mm) | 41       |                |
+| Washer M6                  | 206      |                |
+| Washer M3                  | 116      |                |
+| Button head M3x10          | 19       |                |
+| Button head M3x12          | 6        |                |
+| Button head M3x15          | 1        |                |
+| Button head M3x20          | 4        |                |
+| Button head M3x30          | 4        |                |
+| Button head M3x6           | 35       |                |
+| Button head M3x8           | 3        |                |
+| Button head M4x25          | 2        |                |
+| Button head M4x8           | 2        |                |
+| Button head M5x10          | 6        |                |
+| Button head M5x12          | 3        |                |
+| Button head M5x15          | 2        |                |
+| Button head M5x16          | 2        |                |
+| Button head M5x20          | 2        |                |
+| Button head M5x25          | 5        |                |
+| Button head M5x30          | 3        |                |
+| Button head M5x40          | 5        |                |
+| Button head M5x45          | 1        |                |
+| Button head M5x50          | 8        |                |
+| Button head M5x8           | 16       |                |
+| Button head M6x10          | 19       |                |
+| Button head M6x12          | 11       |                |
+| Button head M6x14          | 16       |                |
+| Button head M6x16          | 52       |                |
+| Button head M6x20          | 2        |                |
+| Button head M6x35          | 6        |                |
+| Button head M8x12          | 2        |                |
+| Button head M8x20          | 22       | \* blind joint |
+| Button head M8x25          | 4        |                |
+| Button head M8x30          | 2        |                |
 
 ### 2.2.Heat set thread insert
 
