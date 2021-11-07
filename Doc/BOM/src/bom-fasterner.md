@@ -71,6 +71,7 @@
 | Button head M8x20          | 22       | \* blind joint |
 | Button head M8x25          | 4        |                |
 | Button head M8x30          | 2        |                |
+| M3 spring washer           | 60       |                |
 
 ### 2.2.Heat set thread insert
 

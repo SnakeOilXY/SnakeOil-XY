@@ -1,7 +1,7 @@
 # BOM
 
 <code>Status : work in progress</code>  
-<code>Last updated : 2021-11-07T16:58:43+09:00 </code>
+<code>Last updated : 2021-11-07T22:58:50+09:00 </code>
 
 ## Read this first
 
@@ -163,6 +163,7 @@
 | Button head M8x20          | 22       | \* blind joint |
 | Button head M8x25          | 4        |                |
 | Button head M8x30          | 2        |                |
+| M3 spring washer           | 60       |                |
 
 ### 2.2.Heat set thread insert
 
