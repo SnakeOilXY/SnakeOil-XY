@@ -12,7 +12,7 @@
 
 ### 250mm machine
 
-![](../img/254x244-bed.png)
+![](../img/254x242-bed.png)
 
 ## Extrusion
 
