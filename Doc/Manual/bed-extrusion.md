@@ -4,11 +4,15 @@
 
 - The printer bed plate can be 190x190mm or 190x193mm to match the size of Prusa mini bed. The reason I choose the Prusa bed size is because PEI sheet for Prusa mini are easy to source and available in many type of surface.
 - Compare to 190x190, 190x193mm bed have some extra space for bolts that we can use to align the PEI sheet on the bed.
-- The hole diameter for m3 bolt need to be 3.2mm-3.6mm(bolt body) and 6.0mm-6.5mm(bolt cap). The small play between the bolt and it's hole will prevent the bed from bowing due thermal expansion.
+- The hole diameter for m3 bolt hand bolt head need to be bigger than the bolt size. The small play between the bolt and it's hole will prevent the bed from bowing due thermal expansion. Use at least the same or bigger drill hole that show on the drawing (except the R1.3 holes that need to be tapped).
 
 ![](../img/190x190-bed.png)
 
 ![](../img/190x193-bed.png)
+
+### 250mm machine
+
+![](../img/254x244-bed.png)
 
 ## Extrusion
 

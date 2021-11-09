@@ -11,7 +11,7 @@
 | Extrusion 3030 light grade 380mm | 1        | For top lid(optional)                                                                  |
 | Prusa MK3 spring steel PEI sheet | 1        | -                                                                                      |
 | Magnet sheet                     | 1        | -                                                                                      |
-| 254x240 aluminum plate           | 1        | 6mm thick                                                                              |
+| 254x244 aluminum plate           | 1        | 6mm thick                                                                              |
 | 3030 Corner bracket              | 14       | Misumi part number : CHBLFSN6(sliver) or HBLFSNB6(black) or HBLFSN6(no surface finish) |
 | \*Extra corner bracket           | 15       | \*Check note bellow                                                                    |
 | \*Blind joint nut                | 22       | misumi part number SHCJ6 or HCJ6. \*Check note bellow                                  |
