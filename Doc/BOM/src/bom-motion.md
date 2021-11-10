@@ -3,7 +3,7 @@
 <code>The printer was designed based on dimension of Gates pulleys and idlers. Modify of printed parts might required to use other type of pulleys and idlers</code>
 
 | Item                                          | Quantity | Description/link                                                                                                                                 |
-| --------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------- |
+| --------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | MGN12H 250mm 250mm                            | 6        | 5x MGN12H 300mm and 1x MGN12H 320mm for 250mm^3 machine                                                                                          |
 | 20T 6mm Pulley (5mm bore)                     | 2        | [aliexpress](https://www.aliexpress.com/item/33023279793.html)                                                                                   |
 | 16T 6mm Pulley (5mm bore)                     | 3        | [aliexpress](https://www.aliexpress.com/item/33002989677.html)                                                                                   |
@@ -18,7 +18,7 @@
 | MR115ZZ                                       | 14       |                                                                                                                                                  |
 | 6mm x 16mm length shaft/dowel pin             | 6        | This will be used as the "rail" where the bed will slide on. Cutted linear shafts, dowel pinss or some good m3 spacers(outer dia 6mm) also works |
 | Hook spring 0.5x4x20mm                        | 6        | https://www.aliexpress.com/item/1005001491389608.html                                                                                            |
-| Diameter 5mm x 65mm length shaft or dowel pin | 3        |                                                                                                                                                  | https://www.aliexpress.com/item/1005003150582428.html |
+| Diameter 5mm x 65mm length shaft or dowel pin | 3        | https://www.aliexpress.com/item/1005003150582428.html                                                                                            |
 
 ### 3.1.Bed coupling
 
