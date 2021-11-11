@@ -1,7 +1,7 @@
 # BOM
 
 <code>Status : work in progress</code>  
-<code>Last updated : 2021-11-10T22:42:43+09:00 </code>
+<code>Last updated : 2021-11-11T22:42:43+09:00 </code>
 
 ## Read this first
 
@@ -9,100 +9,108 @@
 
 ## Table of contents
 
-- [Frame](#1.frame)
-- [Fasteners](#2.fasteners)
-- [Motion](#3.motion)
-- [Electronic](#4.electronic)
-- [Panel](#5.panel)
-- [Other](#6.other)
-## 1.Frame
+[Frame](#1Frame)
 
-### 1.1.For 180x180x180mm machine
+[Fasteners](#2fasteners)
+
+[Motion](#3motion)
+
+[Electronics](#4electronics)
+
+[Panels](#5panels)
+
+[Other](#6other)
+
+
+# 1.Frame
+
+### 1.1 For 180x180x180mm machine
 
 | Item (main frame)                 | Quantity | Description/link                                                                       |
 | --------------------------------- | -------- | -------------------------------------------------------------------------------------- |
-| Extrusion 3030 280mm              | 3        | -                                                                                      |
-| Extrusion 3030 500mm(reccommend)  | 4        | -                                                                                      |
+| Extrusion 3030 280mm              | 3        | HFS6 [Misumi](https://us.misumi-ec.com/vona2/detail/110302686450/)                     |
+| Extrusion 3030 500mm(recommended) | 4        | -                                                                                      |
 | Extrusion 3030 310mm              | 11       | -                                                                                      |
-| Extrusion 3030 light grade 370mm  | 1        | For top lid (Optional)                                                                 |
+| Extrusion 3030 light grade 370mm  | 1        | For top lid (Optional) HFSL6 [Misumi](https://us.misumi-ec.com/vona2/detail/110302686450/)|
 | Extrusion 3030 light grade 310mm  | 3        | For top lid (Optional)                                                                 |
 | Prusa mini spring steel PEI sheet | 1        | -                                                                                      |
 | Magnet sheet                      | 1        | -                                                                                      |
-| \*\*190x193 aluminum plate        | 1        | 6mm thick                                                                              |
-| 3030 Corner bracket               | 14       | Misumi part number : CHBLFSN6(sliver) or HBLFSNB6(black) or HBLFSN6(no surface finish) |
+| \*\*190x193 aluminum plate        | 1        | 6mm thick (Tooling plate is recommended for its flatness)                              |
+| 3030 Corner bracket               | 14       | Misumi: [CHBLFSN6](https://us.misumi-ec.com/vona2/detail/110300442340/?curSearch=%7b%22field%22%3a%22%40search%22%2c%22seriesCode%22%3a%22110300442340%22%2c%22innerCode%22%3a%22%22%2c%22sort%22%3a1%2c%22specSortFlag%22%3a0%2c%22allSpecFlag%22%3a0%2c%22page%22%3a1%2c%22pageSize%22%3a%2260%22%2c%22stockItemFlag%22%3a%221%22%2c%22jp000191044%22%3a%22mig00000000342162%22%2c%22jp000191049%22%3a%22mig00000000025905%22%2c%22jp000191050%22%3a%22mig00000000025899%22%2c%22jp000191051%22%3a%22mig00000000025900%22%2c%22typeCode%22%3a%22CHBLFSN6%22%2c%22fixedInfo%22%3a%22innerCode%3aMDM00001306818%7c14%22%7d&Tab=wysiwyg_area_0)(sliver) or [HBLFSNB6](https://us.misumi-ec.com/vona2/detail/110300442340/?curSearch=%7b%22field%22%3a%22%40search%22%2c%22seriesCode%22%3a%22110300442340%22%2c%22innerCode%22%3a%22%22%2c%22sort%22%3a1%2c%22specSortFlag%22%3a0%2c%22allSpecFlag%22%3a0%2c%22page%22%3a1%2c%22pageSize%22%3a%2260%22%2c%22stockItemFlag%22%3a%221%22%2c%22jp000191044%22%3a%22mig00000000342147%22%2c%22jp000191049%22%3a%22mig00000000025905%22%2c%22jp000191050%22%3a%22mig00000000025899%22%2c%22jp000191051%22%3a%22mig00000000025900%22%2c%22typeCode%22%3a%22HBLFSNB6%22%2c%22fixedInfo%22%3a%22innerCode%3aMDM00001301776%7c14%22%7d&Tab=wysiwyg_area_0)(black) or [HBLFSN6](https://us.misumi-ec.com/vona2/detail/110300442340/?curSearch=%7b%22field%22%3a%22%40search%22%2c%22seriesCode%22%3a%22110300442340%22%2c%22innerCode%22%3a%22%22%2c%22sort%22%3a1%2c%22specSortFlag%22%3a0%2c%22allSpecFlag%22%3a0%2c%22page%22%3a1%2c%22pageSize%22%3a%2260%22%2c%22stockItemFlag%22%3a%221%22%2c%22jp000191049%22%3a%22mig00000000025905%22%2c%22jp000191050%22%3a%22mig00000000025899%22%2c%22jp000191051%22%3a%22mig00000000025900%22%2c%22typeCode%22%3a%22HBLFSN6%22%2c%22fixedInfo%22%3a%22innerCode%3aMDM00001301822%7c14%22%7d&Tab=wysiwyg_area_0)(no surface finish) |
 | \*Extra corner bracket            | 15       | \*Check note bellow                                                                    |
-| \*Blind joint nut                 | 22       | misumi part number SHCJ6 or HCJ6. \*Check note bellow                                  |
-| DIN rail 282mm                    | 1        | -                                                                                      |
+| \*Blind joint nut                 | 22       | Misumi: [SHCJ6](https://us.misumi-ec.com/vona2/detail/110300464650/) or [HCJ6](https://us.misumi-ec.com/vona2/detail/110300464650/). \*Check note bellow|
+| DIN rail 282mm                    | 1        | [Aliexpress](https://www.aliexpress.com/item/1005001553239891.html)                    |
 | DIN rail 309mm                    | 2        | -                                                                                      |
-| 2020 corner bracket               | 4        | To recude the bed assembly weight, simple bracket like Misumi HBLSP5 are recommended   |
 
 | Item (gantry)                                                    | Quantity | Description/link      |
 | ---------------------------------------------------------------- | -------- | --------------------- |
-| **Extrusion 1515 290mm (HFS3-1515)**                             | 1        | Option 1(recommended) |
-| **1515 corner bracket (HBLTBS3 or any other bracket also work)** | 4        | Option 1(recommended) |
-| Extrusion 2020 290mm (HFS5-2020)                                 | 1        | Option 2              |
-| 2020 corner bracket (HBLSP5)                                     | 4        | Option 2              |
+| **Extrusion 1515 290mm**                             			   | 1        | Option 1(recommended) HFS3-1515 [Misumi](https://us.misumi-ec.com/vona2/detail/110300465870/)||
+| **1515 corner bracket** 							   			   | 4        | Option 1(recommended) [Misumi](https://us.misumi-ec.com/vona2/detail/110302755570/?PNSearch=HBLTBS3&HissuCode=HBLTBS3&searchFlow=suggest2products&Keyword=HBLTBS3)|
+| Extrusion 2020 290mm                               			   | 1        | Option 2 HFS5-2020 [Misumi](https://us.misumi-ec.com/vona2/detail/110302683830/)|
+| 2020 corner bracket                                      		   | 4        | Option 2 HBLSP5 [Misumi](https://us.misumi-ec.com/vona2/detail/110300439810/)|
 
 | Item (bed frame)                     | Quantity | Description/link      |
 | ------------------------------------ | -------- | --------------------- |
-| **Extrusion 1515 190mm (HFS3-1515)** | 2        | Option 1(recommended) |
-| **Extrusion 1515 185mm (HFS3-1515)** | 2        | Option 1(recommended) |
-| Extrusion 2020 190mm                 | 2        | Option 2              |
+| **Extrusion 1515 190mm**			   | 2        | Option 1(recommended)  HFS3-1515 [Misumi](https://us.misumi-ec.com/vona2/detail/110300465870/)|
+| **Extrusion 1515 185mm** 			   | 2        | Option 1(recommended) |
+| Extrusion 2020 190mm                 | 2        | Option 2 HFS5-2020 [Misumi](https://us.misumi-ec.com/vona2/detail/110302683830/)|
 | Extrusion 2020 150mm                 | 2        | Option 2              |
 
 <code>3030 extrusions are 8mm slot type, 2020 extrusions are 6mm slot type, 1515 extrusions are 3.4mm slot type</code>  
 <code>\*The frame is designed to be built with blind joint, but corner bracket can be used instead of blind joint at many places(Check the CAD file for more detail).</code>  
 <code>For blind joint, the "SHCJ6 Screw Joint" is recommended.</code>
-### 1.2.For 250x240x230mm machine
+### 1.2 For 250x240x230mm machine
 
 | Item                             | Quantity | Description/link                                                                       |
 | -------------------------------- | -------- | -------------------------------------------------------------------------------------- |
-| Extrusion 3030 330mm             | 3        | -                                                                                      |
+| Extrusion 3030 330mm             | 3        | HFS6 [Misumi](https://us.misumi-ec.com/vona2/detail/110302686450/)                     |
 | Extrusion 3030 550mm             | 4        | -                                                                                      |
 | Extrusion 3030 380mm             | 5        | -                                                                                      |
 | Extrusion 3030 360mm             | 6        | -                                                                                      |
-| Extrusion 3030 light grade 440mm | 1        | For top lid(optional)                                                                  |
+| Extrusion 3030 light grade 440mm | 1        | For top lid(optional) HFSL6 [Misumi](https://us.misumi-ec.com/vona2/detail/110302686450/)|
 | Extrusion 3030 light grade 360mm | 2        | For top lid(optional)                                                                  |
 | Extrusion 3030 light grade 380mm | 1        | For top lid(optional)                                                                  |
 | Prusa MK3 spring steel PEI sheet | 1        | -                                                                                      |
 | Magnet sheet                     | 1        | -                                                                                      |
-| 254x242 aluminum plate           | 1        | 6mm thick                                                                              |
-| 3030 Corner bracket              | 14       | Misumi part number : CHBLFSN6(sliver) or HBLFSNB6(black) or HBLFSN6(no surface finish) |
+| 254x242 aluminum plate           | 1        | 6mm thick (Tooling plate is recommended for its flatness)                              |
+| 3030 Corner bracket              | 14       | Misumi: [CHBLFSN6](https://us.misumi-ec.com/vona2/detail/110300442340/?curSearch=%7b%22field%22%3a%22%40search%22%2c%22seriesCode%22%3a%22110300442340%22%2c%22innerCode%22%3a%22%22%2c%22sort%22%3a1%2c%22specSortFlag%22%3a0%2c%22allSpecFlag%22%3a0%2c%22page%22%3a1%2c%22pageSize%22%3a%2260%22%2c%22stockItemFlag%22%3a%221%22%2c%22jp000191044%22%3a%22mig00000000342162%22%2c%22jp000191049%22%3a%22mig00000000025905%22%2c%22jp000191050%22%3a%22mig00000000025899%22%2c%22jp000191051%22%3a%22mig00000000025900%22%2c%22typeCode%22%3a%22CHBLFSN6%22%2c%22fixedInfo%22%3a%22innerCode%3aMDM00001306818%7c14%22%7d&Tab=wysiwyg_area_0)(sliver) or [HBLFSNB6](https://us.misumi-ec.com/vona2/detail/110300442340/?curSearch=%7b%22field%22%3a%22%40search%22%2c%22seriesCode%22%3a%22110300442340%22%2c%22innerCode%22%3a%22%22%2c%22sort%22%3a1%2c%22specSortFlag%22%3a0%2c%22allSpecFlag%22%3a0%2c%22page%22%3a1%2c%22pageSize%22%3a%2260%22%2c%22stockItemFlag%22%3a%221%22%2c%22jp000191044%22%3a%22mig00000000342147%22%2c%22jp000191049%22%3a%22mig00000000025905%22%2c%22jp000191050%22%3a%22mig00000000025899%22%2c%22jp000191051%22%3a%22mig00000000025900%22%2c%22typeCode%22%3a%22HBLFSNB6%22%2c%22fixedInfo%22%3a%22innerCode%3aMDM00001301776%7c14%22%7d&Tab=wysiwyg_area_0)(black) or [HBLFSN6](https://us.misumi-ec.com/vona2/detail/110300442340/?curSearch=%7b%22field%22%3a%22%40search%22%2c%22seriesCode%22%3a%22110300442340%22%2c%22innerCode%22%3a%22%22%2c%22sort%22%3a1%2c%22specSortFlag%22%3a0%2c%22allSpecFlag%22%3a0%2c%22page%22%3a1%2c%22pageSize%22%3a%2260%22%2c%22stockItemFlag%22%3a%221%22%2c%22jp000191049%22%3a%22mig00000000025905%22%2c%22jp000191050%22%3a%22mig00000000025899%22%2c%22jp000191051%22%3a%22mig00000000025900%22%2c%22typeCode%22%3a%22HBLFSN6%22%2c%22fixedInfo%22%3a%22innerCode%3aMDM00001301822%7c14%22%7d&Tab=wysiwyg_area_0)(no surface finish) |
 | \*Extra corner bracket           | 15       | \*Check note bellow                                                                    |
-| \*Blind joint nut                | 22       | misumi part number SHCJ6 or HCJ6. \*Check note bellow                                  |
-| DIN rail 332mm                   | 1        |                                                                                        |
-| DIN rail 379mm                   | 2        |                                                                                        |
+| \*Blind joint nut                | 22       | Misumi: [SHCJ6](https://us.misumi-ec.com/vona2/detail/110300464650/) or [HCJ6](https://us.misumi-ec.com/vona2/detail/110300464650/). \*Check note bellow |
+| DIN rail 332mm                   | 1        | [Aliexpress](https://www.aliexpress.com/item/1005001553239891.html)					   |
+| DIN rail 379mm                   | 2        | -                                                                  					   |
 
 | Item (gantry)                                                    | Quantity | Description/link      |
 | ---------------------------------------------------------------- | -------- | --------------------- |
-| **Extrusion 1515 360mm (HFS3-1515)**                             | 1        | Option 1(recommended) |
-| **1515 corner bracket (HBLTBS3 or any other bracket also work)** | 4        | Option 1(recommended) |
-| Extrusion 2020 360mm (HFS5-2020)                                 | 1        | Option 2              |
-| 2020 corner bracket (HBLSP5)                                     | 4        | Option 2              |
+| **Extrusion 1515 360mm**                            			   | 1        | Option 1(recommended) HFS3-1515 [Misumi](https://us.misumi-ec.com/vona2/detail/110300465870/)|
+| **1515 corner bracket** 							   			   | 4        | Option 1(recommended) [Misumi](https://us.misumi-ec.com/vona2/detail/110302755570/?PNSearch=HBLTBS3&HissuCode=HBLTBS3&searchFlow=suggest2products&Keyword=HBLTBS3)|
+| Extrusion 2020 360mm                                  		   | 1        | Option 2 HFS5-2020 [Misumi](https://us.misumi-ec.com/vona2/detail/110302683830/)|
+| 2020 corner bracket                                      		   | 4        | Option 2 HBLSP5 [Misumi](https://us.misumi-ec.com/vona2/detail/110300439810/)|
 
 | Item (bed frame)                     | Quantity | Description/link      |
 | ------------------------------------ | -------- | --------------------- |
-| **Extrusion 1515 260mm (HFS3-1515)** | 2        | Option 1(recommended) |
-| **Extrusion 1515 235mm (HFS3-1515)** | 2        | Option 1(recommended) |
-| Extrusion 2020 240mm (HFS5-2020)     | 2        | Option 2              |
-| Extrusion 2020 220mm (HFS5-2020)     | 2        | Option 2              |
+| **Extrusion 1515 260mm** 		  	   | 2        | Option 1(recommended) HFS3-1515 [Misumi](https://us.misumi-ec.com/vona2/detail/110300465870/)|
+| **Extrusion 1515 235mm** 		   	   | 2        | Option 1(recommended) |
+| Extrusion 2020 240mm     			   | 2        | Option 2 HFS5-2020 [Misumi](https://us.misumi-ec.com/vona2/detail/110302683830/)|
+| Extrusion 2020 220mm  			   | 2        | Option 2              |
 
 <code>3030 extrusions are 8mm slot type, 2020 extrusions are 6mm slot type, 1515 extrusions are 3.4mm slot type</code>  
 <code>\*The frame is designed to be built with blind joint, but corner bracket can be used instead of blind joint at many places(Check the CAD file for more detail).</code>  
 <code>For blind joint, the "SHCJ6 Screw Joint" is recommended.</code>
-## 2.Fasteners
 
-### 2.1.Bolt and nuts
+
+# 2.Fasteners
+
+### 2.1 Bolt and nuts
 
 <code>The below quantity are approx values. The real number will be update later.</code>
 
 | Item          | Quantity  | Description |
 | ------------- | --------- | ----------- |
-| 2020 M3 T-nut | 20        |             |
-| 2020 M5 T-nut | 15        |             |
-| 3030 M3 T-nut | 85        |             |
-| 3030 M5 T-nut | 10        |             |
-| 3030 M6 T-nut | About 200 |             |
+| 2020 M3 T-nut | 20        | [Aliexpress](https://www.aliexpress.com/item/4000293743251.html)             |
+| 2020 M5 T-nut | 15        | [Aliexpress](https://www.aliexpress.com/item/4000293743251.html)             |
+| 3030 M3 T-nut | 85        | [Aliexpress](https://www.aliexpress.com/item/4000293743251.html)             |
+| 3030 M5 T-nut | 10        | [Aliexpress](https://www.aliexpress.com/item/4000293743251.html)             |
+| 3030 M6 T-nut | About 200 | [Aliexpress](https://www.aliexpress.com/item/4000293743251.html)             |
 
 | Item                       | Quantity | Description    |
 | -------------------------- | -------- | -------------- |
@@ -165,83 +173,97 @@
 | Button head M8x30          | 2        |                |
 | M3 spring washer           | 60       |                |
 
-### 2.2.Heat set thread insert
+### 2.2 Heat set thread insert
 
 | Item     | Quantity | Description/link(not affiliated)                                                                                                                                                  |
 | -------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| m5x7x7   | 1 pack   | [aliexpress](https://www.aliexpress.com/item/4000232990523.html?spm=a2g0s.9042311.0.0.27424c4dWNZpM9)                                                                             |
-| m3x3x4.2 | 1 pack   | [aliexpress](https://www.aliexpress.com/item/4000955759713.html) or [aliexpress](https://www.aliexpress.com/item/1005002526998853.html)                                           |
-| m3x4x4.2 | 1 pack   | [aliexpress](https://www.aliexpress.com/item/4000955759713.html) or [aliexpress](https://www.aliexpress.com/item/1005002526998853.html)                                           |
-| m3x5x4.2 | 1 pack   | \*optional, M3x4x4.2 can be used instead. [aliexpress](https://www.aliexpress.com/item/4000955759713.html) or [aliexpress](https://www.aliexpress.com/item/1005002526998853.html) |
-## 3.Motion
+| m5x7x7   | 1 pack   | [Aliexpress](https://www.Aliexpress.com/item/4000232990523.html?spm=a2g0s.9042311.0.0.27424c4dWNZpM9)                                                                             |
+| m3x3x4.2 | 1 pack   | [Aliexpress](https://www.Aliexpress.com/item/4000955759713.html) or [Aliexpress](https://www.Aliexpress.com/item/1005002526998853.html)                                           |
+| m3x4x4.2 | 1 pack   | [Aliexpress](https://www.Aliexpress.com/item/4000955759713.html) or [Aliexpress](https://www.Aliexpress.com/item/1005002526998853.html)                                           |
+| m3x5x4.2 | 1 pack   | \*optional, M3x4x4.2 can be used instead. [Aliexpress](https://www.Aliexpress.com/item/4000955759713.html) or [Aliexpress](https://www.Aliexpress.com/item/1005002526998853.html) |
+
+
+# 3.Motion
 
 <code>The printer was designed based on dimension of Gates pulleys and idlers. Modify of printed parts might required to use other type of pulleys and idlers</code>
 
 | Item                                          | Quantity | Description/link                                                                                                                                 |
 | --------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| MGN12H 250mm 250mm                            | 6        | 5x MGN12H 300mm and 1x MGN12H 320mm for 250mm^3 machine                                                                                          |
-| 20T 6mm Pulley (5mm bore)                     | 2        | [aliexpress](https://www.aliexpress.com/item/33023279793.html)                                                                                   |
-| 16T 6mm Pulley (5mm bore)                     | 3        | [aliexpress](https://www.aliexpress.com/item/33002989677.html)                                                                                   |
-| 80T 6mm Pulley (5mm bore)                     | 3        | [aliexpress](https://www.aliexpress.com/item/1005001700640216.html)                                                                              |
-| 20T 9mm Pulley (5mm bore)                     | 3        | [aliexpress](https://www.aliexpress.com/item/33023279793.html)                                                                                   |
-| 20T 6mm Smooth Idler (5mm bore)               | 10       | [aliexpress](https://www.aliexpress.com/item/33023133633.html)                                                                                   |
-| 20T 6mm Tooth Idler (5mm bore)                | 2        | [aliexpress](https://www.aliexpress.com/item/33023133633.html)                                                                                   |
-| 20T 9mm Tooth idler (5mm bore)                | 3        | [aliexpress](https://www.aliexpress.com/item/33023133633.html)                                                                                   |
-| Close loop 188-2GT-6 RF belt                  | 3        | [aliexpress](https://www.aliexpress.com/item/4000397043382.html)                                                                                 |
-| 2GT 6mm belt                                  | ~3m      | 4m for 250mm^3 build [aliexpress](https://www.aliexpress.com/item/32952396111.html)                                                              |
-| 2GT 9mm belt                                  | ~2m      | 3m for 250mm^3 build [aliexpress](https://www.aliexpress.com/item/32952396111.html)                                                              |
-| MR115ZZ                                       | 14       |                                                                                                                                                  |
-| 6mm x 16mm length shaft/dowel pin             | 6        | This will be used as the "rail" where the bed will slide on. Cutted linear shafts, dowel pinss or some good m3 spacers(outer dia 6mm) also works |
-| Hook spring 0.5x4x20mm                        | 6        | https://www.aliexpress.com/item/1005001491389608.html                                                                                            |
-| Diameter 5mm x 65mm length shaft or dowel pin | 3        | https://www.aliexpress.com/item/1005003150582428.html                                                                                            |
+| MGN12H 250mm 250mm                            | 6        | 6x [MGN12H](https://www.aliexpress.com/item/1005003075216025.html) 300mm (for 250mm machine, replace one of the six 300mm rails with a 320mm rail).                                                                                          |
+| 20T 6mm Pulley (5mm bore)                     | 2        | [Aliexpress](https://www.Aliexpress.com/item/33023279793.html) (Add 3 if you are using the printed 80T pulleys)                                                                                   |
+| 16T 6mm Pulley (5mm bore)                     | 3        | [Aliexpress](https://www.Aliexpress.com/item/33002989677.html)                                                                                   |
+| 80T 6mm Pulley (5mm bore)                     | 3        | [Aliexpress](https://www.Aliexpress.com/item/1005001700640216.html) (Option available to print them)                                                                              |
+| 20T 9mm Pulley (5mm bore)                     | 3        | [Aliexpress](https://www.Aliexpress.com/item/33023279793.html)                                                                                   |
+| 20T 6mm Smooth Idler (5mm bore)               | 10       | [Aliexpress](https://www.Aliexpress.com/item/33023133633.html)                                                                                   |
+| 20T 6mm Tooth Idler (5mm bore)                | 2        | [Aliexpress](https://www.Aliexpress.com/item/33023133633.html)                                                                                   |
+| 20T 9mm Tooth idler (5mm bore)                | 3        | [Aliexpress](https://www.Aliexpress.com/item/33023133633.html)                                                                                   |
+| Close loop 188-2GT-6 RF belt                  | 3        | [Aliexpress](https://www.Aliexpress.com/item/4000397043382.html)                                                                                 |
+| 2GT 6mm belt                                  | ~3m      | 4m for 250mm^3 build [Aliexpress](https://www.Aliexpress.com/item/32952396111.html)                                                              |
+| 2GT 9mm belt                                  | ~2m      | 3m for 250mm^3 build [Aliexpress](https://www.Aliexpress.com/item/32952396111.html)                                                              |
+| MR115ZZ                                       | 14       | [Aliexpress](https://www.Aliexpress.com/item/32499551293.html)                                                                                   |
+| 6mm x 16mm length shaft/dowel pin             | 6        | [Aliexpress](https://www.aliexpress.com/item/1005003326358562.html) This will be used as the "rail" where the bed will slide on. Cut down linear shafts, dowel pins or some good m3 spacers(outer dia 6mm) will work.|
+| Hook spring 0.5x4x20mm                        | 6        | [Aliexpress](https://www.Aliexpress.com/item/1005001491389608.html)                                                                              |
+| Diameter 5mm x 65mm length shaft or dowel pin | 3        | [Aliexpress](https://www.Aliexpress.com/item/1005003150582428.html)                                                                              |
 
-### 3.1.Bed coupling
+### 3.1 Bed coupling
 
 There are many options for bed coupling. Some of them are from old beta design, some are mods from community. You can choose the option you like, but please note that the one in assembly CAD is the default option.
 
-#### **3.1.1.Threaded ball coupling** : (default) Improved version of the bellow magnet and ballbearing. Compatible with both 2020 and 1515 bed frame.
+#### **3.1.1 Threaded ball coupling** : (default) Improved version of the bellow magnet and ballbearing. Compatible with both 2020 and 1515 bed frame.
 
 | Item                  | Quantity | Description/link                                                 |
 | --------------------- | -------- | ---------------------------------------------------------------- |
-| 10mm M4 threaded ball | 3        | [aliexpress](https://www.aliexpress.com/item/4001141631405.html) |
-| M4x6x4 Thread insert  | 3        | [aliexpress](https://www.aliexpress.com/item/4000232925592.html) |
-| 12mm M4 grub screw    | 3        | -                                                                |
+| 10mm M4 threaded ball | 3        | [Aliexpress](https://www.Aliexpress.com/item/4001141631405.html) |
+| M4x6x4 Thread insert  | 3        | [Aliexpress](https://www.Aliexpress.com/item/4000232925592.html) |
+| 12mm M4 grub screw    | 3        | [Aliexpress](https://www.Aliexpress.com/item/1005003126018205.html)|
 
-#### **3.1.2.Magnet and balbearing coupling** : Bed coupling method used on beta1 release. Compatible with both 2020 and 1515 bed frame, but might not suitable for heavy bed.
+#### **3.1.2 Magnet and balbearing coupling** : Bed coupling method used on beta1 release. Compatible with both 2020 and 1515 bed frame, but might not suitable for heavy bed.
 
 | Item             | Quantity | Description/link                                                                                                                                             |
 | ---------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ring magnet      | 3        | 10x6x5mm ring magne(for 1515 and 2020 bed frame) or 13x5.5x6mm ring magnet(for 2020 bed frame)[aliexpress](https://www.aliexpress.com/item/32839397491.html) |
-| 8mm ball bearing | 3        | -                                                                                                                                                            |
+| Ring magnet      | 3        | 10x6x5mm ring magnet(for 1515 and 2020 bed frame) or 13x5.5x6mm ring magnet(for 2020 bed frame)[Aliexpress](https://www.Aliexpress.com/item/32839397491.html)|
+| 8mm ball bearing | 3        | [Aliexpress](https://www.aliexpress.com/item/4001175695365.html)                                                                                             |
 
-#### **3.1.3.spherical bearing coupling** : Mod made by PCR, only availabe for 2020 bed frame.
+#### **3.1.3 Spherical bearing coupling** : Mod made by PCR, only availabe for 2020 bed frame.
 
 | Item                      | Quantity | Description/link |
 | ------------------------- | -------- | ---------------- |
-| spherical bearing coupler | 3        | GE5C bearing     |
-## 4.Electronic
+| Spherical bearing coupler | 3        | GE5C bearing [Aliexpress](https://www.aliexpress.com/item/4000335932856.html)|
+
+
+# 4. Electronics
 
 | Item                         | Quantity | Description/link                                                                      |
 | ---------------------------- | -------- | ------------------------------------------------------------------------------------- |
-| A/B stepper                  | 2        | MT-1704HSM168RE/E3D High Torque Motor                                                 |
-| Z stepper                    | 3        | MT-1703HSM168RE/E3D Compact But Powerful Motor                                        |
-| Limit switch                 | 2        | Omron D2F                                                                             |
-| 24V PSU(default option)      | 1        | Mean well LRS-200-24                                                                  |
-| 24V PSU(HV option)           | 1        | Mean well LRS-150-24                                                                  |
-| 48V PSU(HV option)           | 1        | Mean well IRM-90-48ST                                                                 |
-| 5V PSU                       | 1        | Mean Well RS-25-5                                                                     |
-| SSR                          | 1        | Omron G3A-210B-DC5 \* Or any other SSR with the same dimension                        |
-| 150x150mm silicon heater pad | 1        | -                                                                                     |
-| 92mm fan                     | 1        | This fan does not need to be strong. Go with the slowest, most quiet fan you can get. |
-| Sonoff mini                  | 1        | \*Optional. This can be use to wirelessly control the printer power                   |
+| A/B stepper                  | 2        | MT-1704HSM168RE/E3D High Torque Motor [E3D](https://e3d-online.com/products/motors)   |
+| Z stepper                    | 3        | MT-1703HSM168RE/E3D Compact But Powerful Motor [E3D](https://e3d-online.com/products/motors)|
+| Limit switch                 | 2        | Omron D2F  [Digikey](https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/D2F-5L/8593137)|
+| 24V PSU(default option)      | 1        | Mean well LRS-200-24 [Digikey](https://www.digikey.com/en/products/detail/mean-well-usa-inc/LRS-200-24/7705026?s=N4IgTCBcDaIDICUDKBaMAGdaAsIC6AvkA)|
+| 24V PSU(HV option)           | 1        | Mean well LRS-150-24 [Digikey](https://www.digikey.com/en/products/detail/mean-well-usa-inc/LRS-150-24/7705015?s=N4IgTCBcDaIDICUDKBaAjAVgAwrAFhAF0BfIA)|
+| 48V PSU(HV option)           | 1        | Mean well IRM-90-48ST [Digikey](https://www.digikey.com/en/products/detail/mean-well-usa-inc/IRM-90-48ST/11562738?s=N4IgTCBcDaIJICUCyBaAnABhQFgBwGUAVAAmJAF0BfIA)|
+| 5V PSU                       | 1        | Mean Well RS-25-5 [Digikey](https://www.digikey.com/en/products/detail/mean-well-usa-inc/RS-25-5/7706180)|
+| SSR                          | 1        | Omron G3A-210B-DC5 [Grainger](https://www.grainger.com/product/OMRON-Solid-State-Relay-56LU49) or [Digikey](https://www.digikey.com/en/products/detail/omron-automation-and-safety/G3NA-210B-UTU-DC5-24/634443?)  \* Or any other SSR with the same dimension|
+| Controller                   | 1        | [Fysetc Spider V1.1](https://www.aliexpress.com/item/1005002324070189.html) OR [BTT Octopus V1.1](https://www.aliexpress.com/item/1005002738104608.html) OR [Mellow Super 8](https://www.aliexpress.com/item/1005003235684044.html)|
+| Stepper Motor Drivers        | 6        | You can usually get them bundled with your board. If not, we recommend TMC2209s [Aliexpress](https://www.aliexpress.com/item/33029587820.html)|
+| Raspberry Pi                 | 1        | If you are planning on running Klipper you will need one of these. [Digikey](https://www.digikey.com/en/products/detail/raspberry-pi/Raspberry-Pi-4B-4GB/10258781)|
+| 150x150mm silicon heater pad | 1        | For 180x180x180mm machine [Keenovo](https://keenovo.store/collections/standard-keenovo-silicone-heaters/products/keenovo-square-silicone-heater-3d-printer-build-plate-heatbed-heating-pad?variant=8324020469815)|
+| 220x220mm silicon heater pad | 1        | For 250x240x230mm machine [Keenovo](https://keenovo.store/collections/standard-keenovo-silicone-heaters/products/keenovo-square-silicone-heater-3d-printer-build-plate-heatbed-heating-pad?variant=8324020797495)|
+| Thermal Fuse	               | 1        | Get 125-130 deg C Fuse [Aliexpress](https://www.aliexpress.com/item/32885492280.html) |
+| 92mmx25mm fan                | 1        | This fan does not need to be strong. Go with the slowest, most quiet fan you can get. [Digikey](https://www.digikey.com/en/products/detail/sunon-fans/PF92251V3-1000U-F99/7927804) |
 | Toolhead                     | 1        | Check [EVA2 compatible](https://main.eva-3d.page/)                                    |
-| HTU21D sensor                | 1        | \*Optional [Aliexpress](https://www.aliexpress.com/item/32585920923.html)             |
-| Camera                       | 1        | \*Optional [Aliexpress](https://www.aliexpress.com/item/4000929363815.html)           |
-| Neopixel WS2812B             | 0.5m     | \*Optional [Aliexpress](https://www.aliexpress.com/item/2036819167.html)              |
-| Neopixel tray                | 0.5m     | \*Optional [Aliexpress](https://www.aliexpress.com/item/4000254933824.html)           |
-## 5.Panel
+| Hot End (Supported)          | 1        | [Dragon](https://www.aliexpress.com/item/1005002629698126.html) OR [Mosquitto](https://www.sliceengineering.com/products/the-mosquito-hotend) OR [Copperhead](https://www.sliceengineering.com/products/copperhead-hotends)|
+| Heater Cartridge             | 1        | 50W 24V [Aliexpress](https://www.aliexpress.com/item/32960167491.html) or 60W 24V [Aliexpress](https://www.aliexpress.com/item/4000974620358.html)|
+| Thermistor                   | 1        | PT100 for under 280C [Aliexpress](https://www.aliexpress.com/item/33029709571.html) T-D500 for high temp [Aliexpress](https://www.aliexpress.com/item/4000907614466.html)|
+| HTU21D sensor                | 1        | \*Optional [Aliexpress](https://www.Aliexpress.com/item/32585920923.html)             |
+| Camera                       | 1        | \*Optional [Aliexpress](https://www.Aliexpress.com/item/4000929363815.html)           |
+| Neopixel WS2812B             | 0.5m     | \*Optional [Aliexpress](https://www.Aliexpress.com/item/2036819167.html)              |
+| Neopixel tray                | 0.5m     | \*Optional [Aliexpress](https://www.Aliexpress.com/item/4000254933824.html)           |
+| *Sonoff mini                 | 1        | \*Optional. This can be use to wirelessly control the printer power                   |
 
-### 5.1.For 180 machine
+
+# 5.Panels
+
+### 5.1 For 180 machine
 
 | Item                          | Quantity | Description/link(not affiliated)        |
 | ----------------------------- | -------- | --------------------------------------- |
@@ -250,13 +272,15 @@ There are many options for bed coupling. Some of them are from old beta design, 
 | Rear-top-panel 324x179x3mm    | 1        | or 324x129x3mm for 450mm vertical frame |
 | Rear-bottom-panel 309x244x3mm | 1        |                                         |
 | Top-panel 324x324x3mm         | 1        |                                         |
-## 6.Other
+
+
+# 6.Other
 
 | Item                                           | Quantity | Description/link(not affiliated)                                                                                                                                                               |
 | ---------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 6x3mmm round(disk) magnet                      | 8        |                                                                                                                                                                                                |
-| 19x5x1.5mm Block magnet                        | 3        | [aliexpress](https://www.aliexpress.com/item/4000955510987.html) Smaller magnet also works                                                                                                     |
+| 6x3mmm round(disk) magnet                      | 8        | [Aliexpress](https://www.aliexpress.com/item/1005001614044682.html)                                                                                                                            |
+| 19x5x1.5mm Block magnet                        | 3        | Smaller magnet also works [Aliexpress](https://www.Aliexpress.com/item/4000955510987.html)                                                                                                     |
 | Spring for bed plate mount (length about 10mm) | 3        | The yellow spring used to mount the bed plate. The spring will give the bed some room to "slide" when thermal expand occur.                                                                    |
-| Silicon spacer                                 | 3        | Optional, Use this type of spacer instead of the above spring for better thermal isolation between bed plate and bed frame.[aliexpress](https://www.aliexpress.com/item/1005001391148294.html) |
+| Silicon spacer                                 | 3        | Optional, Use this type of spacer instead of the above spring for better thermal isolation between bed plate and bed frame.[Aliexpress](https://www.Aliexpress.com/item/1005001391148294.html) |
 | Foam tape 5mmx1mm                              | 7m       |                                                                                                                                                                                                |
-| F623 bearing                                   | 4        | For spool holder                                                                                                                                                                               |
+| F623 bearing                                   | 4        | For spool holder [Aliexpress](https://www.aliexpress.com/item/4000350602901.html)                                                                                                              |
