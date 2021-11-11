@@ -9,17 +9,17 @@
 
 ## Table of contents
 
-[Frame](#1.Frame)
+[Frame](#1Frame)
 
-[Fasteners](#2.Fasteners)
+[Fasteners](#2fasteners)
 
-[Motion](#3.Motion)
+[Motion](#3motion)
 
-[Electronics](#4.Electronics)
+[Electronics](#4electronics)
 
-[Panels](#5.Panels)
+[Panels](#5panels)
 
-[Other](#6.Other)
+[Other](#6other)
 
 
 # 1.Frame
@@ -274,7 +274,7 @@ There are many options for bed coupling. Some of them are from old beta design, 
 | Top-panel 324x324x3mm         | 1        |                                         |
 
 
-# 6. Other
+# 6.Other
 
 | Item                                           | Quantity | Description/link(not affiliated)                                                                                                                                                               |
 | ---------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
