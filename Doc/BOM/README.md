@@ -9,13 +9,20 @@
 
 ## Table of contents
 
-- [Frame](#1.frame)
-- [Fasteners](#2.fasteners)
-- [Motion](#3.motion)
-- [Electronic](#4.electronic)
-- [Panel](#5.panel)
-- [Other](#6.other)
-## 1.Frame
+[Frame](#1.Frame)
+
+[Fasteners](#2.Fasteners)
+
+[Motion](#3.Motion)
+
+[Electronics](#4.Electronics)
+
+[Panels](#5.Panels)
+
+[Other](#6.Other)
+
+
+# 1.Frame
 
 ### 1.1 For 180x180x180mm machine
 
@@ -89,7 +96,9 @@
 <code>3030 extrusions are 8mm slot type, 2020 extrusions are 6mm slot type, 1515 extrusions are 3.4mm slot type</code>  
 <code>\*The frame is designed to be built with blind joint, but corner bracket can be used instead of blind joint at many places(Check the CAD file for more detail).</code>  
 <code>For blind joint, the "SHCJ6 Screw Joint" is recommended.</code>
-## 2.Fasteners
+
+
+# 2.Fasteners
 
 ### 2.1 Bolt and nuts
 
@@ -172,7 +181,9 @@
 | m3x3x4.2 | 1 pack   | [Aliexpress](https://www.Aliexpress.com/item/4000955759713.html) or [Aliexpress](https://www.Aliexpress.com/item/1005002526998853.html)                                           |
 | m3x4x4.2 | 1 pack   | [Aliexpress](https://www.Aliexpress.com/item/4000955759713.html) or [Aliexpress](https://www.Aliexpress.com/item/1005002526998853.html)                                           |
 | m3x5x4.2 | 1 pack   | \*optional, M3x4x4.2 can be used instead. [Aliexpress](https://www.Aliexpress.com/item/4000955759713.html) or [Aliexpress](https://www.Aliexpress.com/item/1005002526998853.html) |
-## 3.Motion
+
+
+# 3.Motion
 
 <code>The printer was designed based on dimension of Gates pulleys and idlers. Modify of printed parts might required to use other type of pulleys and idlers</code>
 
@@ -218,7 +229,9 @@ There are many options for bed coupling. Some of them are from old beta design, 
 | Item                      | Quantity | Description/link |
 | ------------------------- | -------- | ---------------- |
 | Spherical bearing coupler | 3        | GE5C bearing [Aliexpress](https://www.aliexpress.com/item/4000335932856.html)|
-## 4. Electronics
+
+
+# 4. Electronics
 
 | Item                         | Quantity | Description/link                                                                      |
 | ---------------------------- | -------- | ------------------------------------------------------------------------------------- |
@@ -247,7 +260,8 @@ There are many options for bed coupling. Some of them are from old beta design, 
 | Neopixel tray                | 0.5m     | \*Optional [Aliexpress](https://www.Aliexpress.com/item/4000254933824.html)           |
 | *Sonoff mini                 | 1        | \*Optional. This can be use to wirelessly control the printer power                   |
 
-## 5.Panel
+
+# 5.Panels
 
 ### 5.1 For 180 machine
 
@@ -258,7 +272,9 @@ There are many options for bed coupling. Some of them are from old beta design, 
 | Rear-top-panel 324x179x3mm    | 1        | or 324x129x3mm for 450mm vertical frame |
 | Rear-bottom-panel 309x244x3mm | 1        |                                         |
 | Top-panel 324x324x3mm         | 1        |                                         |
-## 6. Other
+
+
+# 6. Other
 
 | Item                                           | Quantity | Description/link(not affiliated)                                                                                                                                                               |
 | ---------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
