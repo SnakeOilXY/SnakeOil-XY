@@ -103,83 +103,81 @@
 
 <code>The below quantity are approx values. The real number will be update later.</code>
 
-| Item          | Quantity  | Description                                                      |
-| ------------- | --------- | ---------------------------------------------------------------- |
-| 2020 M3 T-nut | 20        | [Aliexpress](https://www.aliexpress.com/item/4000293743251.html) |
-| 2020 M5 T-nut | 15        | [Aliexpress](https://www.aliexpress.com/item/4000293743251.html) |
-| 3030 M3 T-nut | 85        | [Aliexpress](https://www.aliexpress.com/item/4000293743251.html) |
-| 3030 M5 T-nut | 10        | [Aliexpress](https://www.aliexpress.com/item/4000293743251.html) |
-| 3030 M6 T-nut | About 200 | [Aliexpress](https://www.aliexpress.com/item/4000293743251.html) |
+| Item                                                             | Quantity | Description                                                      |
+| ---------------------------------------------------------------- | -------- | ---------------------------------------------------------------- |
+| 2020 M3 T-nut for 2020 bed frame and gantry                      | 20       | [Aliexpress](https://www.aliexpress.com/item/4000293743251.html) |
+| 2020 M5 T-nut for 2020 bed frame and gantry                      | 15       | [Aliexpress](https://www.aliexpress.com/item/4000293743251.html) |
+| Square nut M3 for 1515 bed frame and gantry (hex nut also works) | 30.0     |                                                                  |
+| 3030 M3 T-nut                                                    | 60       | [Aliexpress](https://www.aliexpress.com/item/4000293743251.html) |
+| 3030 M5 T-nut                                                    | 10       | [Aliexpress](https://www.aliexpress.com/item/4000293743251.html) |
+| 3030 M6 T-nut                                                    | 162      | [Aliexpress](https://www.aliexpress.com/item/4000293743251.html) |
 
-| Item                       | Quantity | Description    |
-| -------------------------- | -------- | -------------- |
-| Hex Nut M3                 | 9        |                |
-| Hex Nut M5                 | 8        |                |
-| Hex Nut M6                 | 2        |                |
-| Hex Nut M4                 | 2        |                |
-| Socket head M2.5x12        | 2        |                |
-| Socket head M2x10          | 2        |                |
-| Socket head M3x8           | 10       |                |
-| Socket head M3x10          | 82       |                |
-| Socket head M3x12          | 27       |                |
-| Socket head M3x14          | 6        |                |
-| Socket head M3x15          | 13       |                |
-| Socket head M3x16          | 10       |                |
-| Socket head M3x20          | 5        |                |
-| Socket head M3x25          | 11       |                |
-| Socket head M3x35          | 11       |                |
-| Socket head M3x40          | 13       |                |
-| Socket head M3x45          | 3        |                |
-| Socket head M3x5           | 4        |                |
-| Socket head M3x6           | 5        |                |
-| Socket head M3x70          | 6        |                |
-| Socket head M3x8           | 30       |                |
-| Socket head M4x12          | 3        |                |
-| Socket head M6x14          | 64       |                |
-| Socket head M8x30          | 2        |                |
-| Washer M5 (outer dia 10mm) | 41       |                |
-| Washer M6                  | 206      |                |
-| Washer M3                  | 116      |                |
-| Button head M3x10          | 19       |                |
-| Button head M3x12          | 6        |                |
-| Button head M3x15          | 1        |                |
-| Button head M3x20          | 4        |                |
-| Button head M3x30          | 4        |                |
-| Button head M3x6           | 35       |                |
-| Button head M3x8           | 3        |                |
-| Button head M4x25          | 2        |                |
-| Button head M4x8           | 2        |                |
-| Button head M5x10          | 6        |                |
-| Button head M5x12          | 3        |                |
-| Button head M5x15          | 2        |                |
-| Button head M5x16          | 2        |                |
-| Button head M5x20          | 2        |                |
-| Button head M5x25          | 5        |                |
-| Button head M5x30          | 3        |                |
-| Button head M5x40          | 5        |                |
-| Button head M5x45          | 1        |                |
-| Button head M5x50          | 8        |                |
-| Button head M5x8           | 16       |                |
-| Button head M6x10          | 19       |                |
-| Button head M6x12          | 11       |                |
-| Button head M6x14          | 16       |                |
-| Button head M6x16          | 52       |                |
-| Button head M6x20          | 2        |                |
-| Button head M6x35          | 6        |                |
-| Button head M8x12          | 2        |                |
-| Button head M8x20          | 22       | \* blind joint |
-| Button head M8x25          | 4        |                |
-| Button head M8x30          | 2        |                |
-| M3 spring washer           | 60       |                |
+| Item                      | Quantity | Description                                                                                                                             |
+| ------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| Socket head Screw M3x35   | 9.0      |                                                                                                                                         |
+| Socket head Screw M3x40   | 15.0     |                                                                                                                                         |
+| Socket head Screw M3x70   | 6.0      |                                                                                                                                         |
+| Socket head Screw M3x8    | 53.0     |                                                                                                                                         |
+| Standard size Washer M6   | 182.0    |                                                                                                                                         |
+| Button head Screw M3x12   | 8.0      |                                                                                                                                         |
+| Button head Screw M5x10   | 6.0      |                                                                                                                                         |
+| Button head Screw M6x14   | 17.0     |                                                                                                                                         |
+| Button head Screw M6x16   | 48.0     |                                                                                                                                         |
+| Socket head Screw M3x12   | 15.0     |                                                                                                                                         |
+| Socket head Screw M3x45   | 3.0      |                                                                                                                                         |
+| Small size Washer M3      | 127.0    | ISO 7092                                                                                                                                |
+| Button head Screw M5x25   | 3.0      |                                                                                                                                         |
+| Button head Screw M6x35   | 6.0      |                                                                                                                                         |
+| Socket head Screw M3x10   | 97.0     |                                                                                                                                         |
+| Socket head Screw M3x14   | 18.0     |                                                                                                                                         |
+| Socket head Screw M3x16   | 25.0     |                                                                                                                                         |
+| Socket head Screw M3x25   | 9.0      |                                                                                                                                         |
+| Socket head Screw M3x5    | 6.0      |                                                                                                                                         |
+| Heat Set Insert M5        | 8.0      |                                                                                                                                         |
+| Button head Screw M5x50   | 8.0      |                                                                                                                                         |
+| Hex Nut M3                | 8.0      |                                                                                                                                         |
+| Socket head Screw M2.5x12 | 2.0      |                                                                                                                                         |
+| Socket head Screw M2x10   | 2.0      |                                                                                                                                         |
+| Socket head Screw M3x20   | 2.0      |                                                                                                                                         |
+| Socket head Screw M3x6    | 6.0      |                                                                                                                                         |
+| Socket head Screw M4x12   | 3.0      |                                                                                                                                         |
+| Button head Screw M3x16   | 8.0      |                                                                                                                                         |
+| Button head Screw M3x35   | 2.0      |                                                                                                                                         |
+| Button head Screw M3x8    | 3.0      |                                                                                                                                         |
+| Button head Screw M6x10   | 17.0     |                                                                                                                                         |
+| Button head Screw M3x10   | 17.0     |                                                                                                                                         |
+| Button head Screw M3x30   | 4.0      |                                                                                                                                         |
+| Button head Screw M3x6    | 69.0     |                                                                                                                                         |
+| Grub Screw M3x8           | 5.0      |                                                                                                                                         |
+| Button head Screw M6x12   | 12.0     |                                                                                                                                         |
+| Button head Screw M8x12   | 4.0      |                                                                                                                                         |
+| Small size Washer M5      | 4.0      | ISO 7092                                                                                                                                |
+| Button head Screw M5x40   | 5.0      |                                                                                                                                         |
+| Button head Screw M5x45   | 1.0      |                                                                                                                                         |
+| Button head Screw M6x20   | 4.0      |                                                                                                                                         |
+| Socket head Screw M6x14   | 56.0     |                                                                                                                                         |
+| Button head Screw M8x20   | 26.0     | Only nedded 4 if you buy HCJ_Joint. The rest of 22 M8x20 bolts will be included in HCJ joint set                                        |
+| Button head Screw M10x25  | 4.0      |                                                                                                                                         |
+| Hex Nut M4                | 2.0      |                                                                                                                                         |
+| Button head Screw M4x25   | 2.0      |                                                                                                                                         |
+| Button head Screw M4x6    | 4.0      |                                                                                                                                         |
+| Button head Screw M6x25   | 2.0      |                                                                                                                                         |
+| Heat Set Insert M4        | 6.0      |                                                                                                                                         |
+| Grub Screw M4x12          | 3.0      |                                                                                                                                         |
+| Big size Washer M3        | 35.0     | [aliexpress](https://www.aliexpress.com/item/1005001481545326.html) or [aliexpress](https://www.aliexpress.com/item/4001069620504.html) |
+| Socket head Screw M2x6    | 8.0      |                                                                                                                                         |
+| Hex Nut M5                | 4.0      |                                                                                                                                         |
+| Standard size Washer M5   | 8.0      |                                                                                                                                         |
+| Spring washer M3          | 130.0    |                                                                                                                                         |
 
 ### 2.2 Heat set thread insert
 
-| Item     | Quantity | Description/link(not affiliated)                                                                                                                                                  |
-| -------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| m5x7x7   | 1 pack   | [Aliexpress](https://www.Aliexpress.com/item/4000232990523.html?spm=a2g0s.9042311.0.0.27424c4dWNZpM9)                                                                             |
-| m3x3x4.2 | 1 pack   | [Aliexpress](https://www.Aliexpress.com/item/4000955759713.html) or [Aliexpress](https://www.Aliexpress.com/item/1005002526998853.html)                                           |
-| m3x4x4.2 | 1 pack   | [Aliexpress](https://www.Aliexpress.com/item/4000955759713.html) or [Aliexpress](https://www.Aliexpress.com/item/1005002526998853.html)                                           |
-| m3x5x4.2 | 1 pack   | \*optional, M3x4x4.2 can be used instead. [Aliexpress](https://www.Aliexpress.com/item/4000955759713.html) or [Aliexpress](https://www.Aliexpress.com/item/1005002526998853.html) |
+| Item                       | Quantity | Description/link(not affiliated)                                                                                                        |
+| -------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| m5x7x7 (thread x l x od)   | 10       | [Aliexpress](https://www.Aliexpress.com/item/4000232990523.html?spm=a2g0s.9042311.0.0.27424c4dWNZpM9)                                   |
+| m3x3x4.2 (thread x l x od) | 50       | [Aliexpress](https://www.Aliexpress.com/item/4000955759713.html) or [Aliexpress](https://www.Aliexpress.com/item/1005002526998853.html) |
+| m3x4x4.2 (thread x l x od) | 150      | [Aliexpress](https://www.Aliexpress.com/item/4000955759713.html) or [Aliexpress](https://www.Aliexpress.com/item/1005002526998853.html) |
+| M4x6x4 (thread x l x od)   | 3        | [Aliexpress](https://www.Aliexpress.com/item/4000232925592.html)                                                                        |
 
 # 3.Motion
 
