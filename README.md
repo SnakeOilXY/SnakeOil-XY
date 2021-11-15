@@ -7,7 +7,7 @@
 
 Stable hi-speed, small size fully-featured affordable CoreXY 3D printer. Inspired by [HevORT](https://miragec79.github.io/HevORT/), [Voron](https://vorondesign.com/), [Annex Engineering](https://github.com/Annex-Engineering) and [EVA2](https://main.eva-3d.page/) design.
 
-![Banner](./Doc/img/banner.png)
+![Render-angle](./Doc/img/angle-render.png)
 
 ## Features
 

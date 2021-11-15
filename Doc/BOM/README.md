@@ -181,11 +181,11 @@
 
 # 3.Motion
 
-<code>The printer was designed based on dimension of Gates pulleys and idlers. Modify of printed parts might required to use other type of pulleys and idlers</code>
+<code>The printer was designed based on dimension of Gates pulleys and idlers. Modification of printed parts may require different types of pulleys and idlers.</code>
 
 | Item                                          | Quantity | Description/link                                                                                                                                                                                                      |
 | --------------------------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| MGN12H 250mm 250mm                            | 6        | 6x [MGN12H](https://www.aliexpress.com/item/1005003075216025.html) 300mm (for 250mm machine, replace one of the six 300mm rails with a 320mm rail).                                                                   |
+| MGN12H 250mm 250mm                            | 6        | 5x 300mm MGN12H and 1x 320mm MGN12H [Aliexpress](https://www.aliexpress.com/item/1005003075216025.html)                                                                                                               |
 | 20T 6mm Pulley (5mm bore)                     | 2        | [Aliexpress](https://www.Aliexpress.com/item/33023279793.html) (Add 3 if you are using the printed 80T pulleys)                                                                                                       |
 | 16T 6mm Pulley (5mm bore)                     | 3        | [Aliexpress](https://www.Aliexpress.com/item/33002989677.html)                                                                                                                                                        |
 | 80T 6mm Pulley (5mm bore)                     | 3        | [Aliexpress](https://www.Aliexpress.com/item/1005001700640216.html) (Option available to print them)                                                                                                                  |
