@@ -1,110 +1,124 @@
 """
-Run with FreeCAD's bundled interpreter.
-
-Example:
-    "C:/Program Files/FreeCAD 0.19/bin/python.exe" generate-bom.py
+Run with FreeCAD's bundled interpreter, or as a FreeCAD macro
 """
-
 from pathlib import Path
 import re
 import FreeCAD
 import json
+import os
 import FreeCADGui as Gui
+from dataclasses import dataclass, field
+from enum import Enum
 
-# Gui.setupWithoutGUI()
+# Open GUI if running from console, otherwise we know we are running from a macro
+if hasattr(Gui, 'showMainWindow'):
+    Gui.showMainWindow()
+else:
+    print("Running as macro")
 
-# This is cross-platform now as long as the script is in the project directory
-# target_file = Path(__file__).parent.joinpath('CAD/v1-180-assembly.FCStd')
-# for appImage
-target_file = '/home/chip/Data/Code/SnakeOil-XY/CAD/v1-180-assembly.FCStd'
+# Use SNAKEOIL_PROJECT_PATH environment variable if exists, else default to @Chip's directory
+SNAKEOIL_PROJECT_PATH = os.getenv('SNAKEOIL_PROJECT_PATH', '/home/chip/Data/Code/SnakeOil-XY/')
+target_file = Path(SNAKEOIL_PROJECT_PATH).joinpath('CAD/v1-180-assembly.FCStd')
+bom_out_dir = Path(SNAKEOIL_PROJECT_PATH).joinpath('Doc/BOM/tmp')
 # Regex pattern to match all fasteners
 fastener_pattern = re.compile('.*-(Screw|Washer|HeatSet|Nut)')
-bom = {'fasteners': {}, 'other': {}, 'detail': {}}
-fasteners_bom = bom['fasteners']
-other_bom = bom['other']
-detail_bom = bom['detail']
-type_dictionary = {}  # for debugging purposes
+# If a shape color in this list, the object will be treated as a printed part
+printed_parts_colors = [
+    (0.3333333432674408, 1.0, 1.0, 0.0),  # Teal
+    (0.6666666865348816, 0.6666666865348816, 1.0, 0.0),  # Blue
+]
+
+# Quick references to BOM part types.  Also provides type hinting in the BomPart dataclass
+PRINTED = "printed"
+FASTENER = "fastener"
+OTHER = "other"
+BomItemType = Enum('BomItemType', [PRINTED, FASTENER, OTHER])
 
 
-def add_detailBom(fastenerName, otherName, parentPartName):
+def get_new_bom():
+    """Use this factory to get a new empty BOM dict"""
+    _bom = {}
+    for partType in BomItemType:
+        _bom[partType.name] = {}
+    return _bom
+
+
+# Create new BOM dictionaries
+bom = get_new_bom()
+detail_bom = get_new_bom()
+# Quick references
+fasteners_bom = bom[FASTENER]
+printed_bom = bom[PRINTED]
+other_bom = bom[OTHER]
+
+
+@dataclass
+class BomItem:
+    part: FreeCAD.Part  # Reference to FreeCAD part object
+    type: BomItemType  # What type of BOM entry (printed, fastener, other)
+    name: str = field(init=False)  # We'll get the name from the part.label in the __post_init__ function
+
+    def __post_init__(self):
+        self.name = self.part.Label
+        # Remove numbers at end if they exist (e.g. 'M3-Washer004' becomes 'M3-Washer')
+        while self.name[-1].isnumeric():
+            self.name = self.name[:-1]
+        # Add descriptive fastener names
+        if self.type == FASTENER:
+            if hasattr(self.part, 'type'):
+                if self.part.type == "ISO4762":
+                    self.name = f"Socket head {self.name}"
+                if self.part.type == "ISO7380-1":
+                    self.name = f"Button head {self.name}"
+                if self.part.type == "ISO4026":
+                    self.name = f"Grub {self.name}"
+                if self.part.type == "ISO4032":
+                    self.name = f"Hex {self.name}"
+                if self.part.type == "ISO7092":
+                    self.name = f"Small size {self.name}"
+                if self.part.type == "ISO7093-1":
+                    self.name = f"Big size {self.name}"
+                if self.part.type == "ISO7089":
+                    self.name = f"Standard size {self.name}"
+                if self.part.type == "ISO7090":
+                    self.name = f"Standard size {self.name}"
+
+
+def _add_to_main_bom(bomItem: BomItem):
+    targetBom = bom[bomItem.type]
+    if bomItem.name in targetBom.keys():
+        targetBom[bomItem.name] += 1
+    else:
+        targetBom[bomItem.name] = 1
+
+
+def _add_to_detailed_bom(bomItem: BomItem):
+    parentPartName = bomItem.part.Document.Label
     if parentPartName not in detail_bom.keys():
-        detail_bom[parentPartName] = {'fasteners': {}, 'other': {}}
-    targetDetailBom = detail_bom[parentPartName]
-
-    if fastenerName != None:
-        if fastenerName in targetDetailBom['fasteners'].keys():
-            targetDetailBom['fasteners'][fastenerName] += 1
-        else:
-            targetDetailBom['fasteners'][fastenerName] = 1
-    if otherName != None:
-        if otherName in targetDetailBom['other'].keys():
-            targetDetailBom['other'][otherName] += 1
-        else:
-            targetDetailBom['other'][otherName] = 1
-
-
-def add_fastener_to_bom(part, parentPartName):
-
-    fastener = part.Label
-    # Prepare fastener string to be added to BOM
-    # ISO type with descriptive name
-    if hasattr(part, 'type'):
-        if part.type == "ISO4762":
-            fastener = f"Socket head {fastener}"
-        if part.type == "ISO7380-1":
-            fastener = f"Button head {fastener}"
-        if part.type == "ISO4026":
-            fastener = f"Grub {fastener}"
-        if part.type == "ISO4032":
-            fastener = f"Hex {fastener}"
-        if part.type == "ISO7092":
-            fastener = f"Small size {fastener}"
-        if part.type == "ISO7093-1":
-            fastener = f"Big size {fastener}"
-        if part.type == "ISO7089":
-            fastener = f"Standard size {fastener}"
-        if part.type == "ISO7090":
-            fastener = f"Standard size {fastener}"
-    # Remove numbers at end if they exist (e.g. 'M3-Washer004' becomes 'M3-Washer')
-    while fastener[-1].isnumeric():
-        fastener = fastener[:-1]
-
-    if fastener in fasteners_bom.keys():
-        fasteners_bom[fastener] += 1
+        detail_bom[parentPartName] = get_new_bom()
+    targetDetailBom = detail_bom[parentPartName][bomItem.type]
+    if bomItem.name in targetDetailBom.keys():
+        targetDetailBom[bomItem.name] += 1
     else:
-        fasteners_bom[fastener] = 1
-
-    # add fastener to detail bom
-    add_detailBom(fastener, None, parentPartName)
+        targetDetailBom[bomItem.name] = 1
 
 
-def add_other_part_to_bom(part, parentPartName):
-    part_name = part.Label
-
-    while part_name[-1].isnumeric() or part_name[-1] == '-':
-        part_name = part_name[:-1]
-    if part_name in other_bom.keys():
-        other_bom[part_name] += 1
+def add_to_bom(part: FreeCAD.Part):
+    # Sort parts by type
+    if fastener_pattern.match(part.Label):
+        bomItem = BomItem(part, FASTENER)
+    elif part.ViewObject.ShapeColor in printed_parts_colors:
+        bomItem = BomItem(part, PRINTED)
     else:
-        other_bom[part_name] = 1
-    # add fastener to detail bom
-    add_detailBom(None, part_name, parentPartName)
+        bomItem = BomItem(part, OTHER)
+    _add_to_main_bom(bomItem)
+    _add_to_detailed_bom(bomItem)
 
 
 def get_bom_from_freecad_document(assembly: FreeCAD.Document):
     print("# Getting parts of", assembly.Label)
-    parts = []
-    # Get parts from this document
-    parts += [x for x in assembly.Objects if x.TypeId.startswith('Part::')]
-    for part in parts:
-        # print("\tFound part", part.Label)
-        # [debugging] Add type to dictionary so we can see which parts we want to add or filter out
-        type_dictionary[part.Label] = part.TypeId
-        # If fastener matches, add it to BOM
-        if fastener_pattern.match(part.Label):
-            add_fastener_to_bom(part, assembly.Label)
-        else:
-            add_other_part_to_bom(part, assembly.Label)
+    for part in [x for x in assembly.Objects if x.TypeId.startswith('Part::')]:
+        add_to_bom(part)
     # Recurse through each linked file
     for linked_file in assembly.findObjects("App::Link"):
         print("# Getting fasteners from", linked_file.Name)
@@ -118,7 +132,27 @@ def addCustomfFastener(fastenerName, count):
         fasteners_bom[fastenerName] = count
 
 
-print(f"# Getting fasteners from {target_file}")
+def sort_dictionary_recursive(dictionary):
+    sortedDict = {}
+    for i in sorted(dictionary):
+        val = dictionary[i]
+        if type(val) is dict:
+            val = sort_dictionary_recursive(val)
+        sortedDict[i] = val
+    return sortedDict
+
+
+def write_bom_to_file(target_file_name, bomContent):
+    # sort dict
+    sortedDict = sort_dictionary_recursive(bomContent)
+    filePath = bom_out_dir.joinpath(target_file_name)
+    print(f"# Writing to {target_file_name}")
+    # Sort dictionary alphabetically by key
+    with open(filePath, 'w') as bom_file:
+        bom_file.write(json.dumps(sortedDict, indent=2))
+
+
+print(f"# Getting BOM from {target_file}")
 # Get assembly object from filepath
 cad_assembly = FreeCAD.open(str(target_file))
 get_bom_from_freecad_document(cad_assembly)
@@ -138,25 +172,16 @@ for fastenersName in fasteners_bom.keys():
     if "Screw" in fastenersName and "M6" in fastenersName:
         m6NutCount += fasteners_bom[fastenersName]
 addCustomfFastener("3030 M6-T-nut", m6NutCount)
-# 3030 M3 t-nut (50 for rails, 10 for other add-onds)
+# 3030 M3 t-nut (50 for rails, 10 for other add-ons)
 addCustomfFastener("3030 M3-T-nut", 60)
 # 3030 M5 t-nut for z motor mount and others
 addCustomfFastener("3030 M5-T-nut", 10)
 
-
-# Pretty print BOM dictionary
-# print(json.dumps(bom, indent=4))
-
-# sort fasteners_bom
-sortedFastenersDict = {}
-for i in sorted(fasteners_bom):
-    sortedFastenersDict[i] = fasteners_bom[i]
-fasteners_bom = sortedFastenersDict
-
-with open('bom-fasteners.json', 'w') as file:
-    file.write(json.dumps(fasteners_bom, indent=4))
-
-with open('bom-detail.json', 'w') as file:
-    file.write(json.dumps(detail_bom, indent=4))
+# Write to files
+write_bom_to_file('bom-all.json', bom)
+write_bom_to_file('bom-fasteners.json', fasteners_bom)
+write_bom_to_file('bom-printed-parts.json', printed_bom)
+write_bom_to_file('bom-detail.json', detail_bom)
+write_bom_to_file('bom-other.json', other_bom)
 
 print("# completed!")
