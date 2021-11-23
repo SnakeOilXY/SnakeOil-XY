@@ -115,7 +115,7 @@
 | Item                      | Quantity | Description                                                                                                                             |
 | ------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | Big size M3-Washer        | 16       | [aliexpress](https://www.aliexpress.com/item/1005001481545326.html) or [aliexpress](https://www.aliexpress.com/item/4001069620504.html) |
-| Button head M10x25-Screw  | 4        |                                                                                                                                         |
+| Button head M8x25-Screw   | 4        |                                                                                                                                         |
 | Button head M3x10-Screw   | 17       |                                                                                                                                         |
 | Button head M3x12-Screw   | 8        |                                                                                                                                         |
 | Button head M3x16-Screw   | 5        |                                                                                                                                         |
@@ -139,7 +139,7 @@
 | Button head M6x25-Screw   | 1        |                                                                                                                                         |
 | Button head M6x35-Screw   | 6        |                                                                                                                                         |
 | Button head M8x12-Screw   | 4        |                                                                                                                                         |
-| Button head M8x20-Screw   | 26       | Only nedded 4 if you buy HCJ_Joint. The rest of 22 M8x20 bolts will be included in HCJ joint set                                        |
+| Button head M8x20-Screw   | 30       | Only nedded 8 if you buy HCJ_Joint. The rest of 22 M8x20 bolts will be included in HCJ joint set                                        |
 | Grub M3x8-Screw           | 5        |                                                                                                                                         |
 | Grub M4x12-Screw          | 3        |                                                                                                                                         |
 | Hex M3-Nut                | 8        |                                                                                                                                         |
