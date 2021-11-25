@@ -112,74 +112,64 @@
 | 3030 M5 T-nut                                                    | 10       | [Aliexpress](https://www.aliexpress.com/item/4000293743251.html) |
 | 3030 M6 T-nut                                                    | 159      | [Aliexpress](https://www.aliexpress.com/item/4000293743251.html) |
 
-| Item                      | Quantity | Description                                                                                                                             |
-| ------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Big size M3-Washer        | 16       | [aliexpress](https://www.aliexpress.com/item/1005001481545326.html) or [aliexpress](https://www.aliexpress.com/item/4001069620504.html) |
-| Button head M8x25-Screw   | 4        |                                                                                                                                         |
-| Button head M3x10-Screw   | 17       |                                                                                                                                         |
-| Button head M3x12-Screw   | 8        |                                                                                                                                         |
-| Button head M3x16-Screw   | 5        |                                                                                                                                         |
-| Button head M3x20-Screw   | 1        |                                                                                                                                         |
-| Button head M3x30-Screw   | 4        |                                                                                                                                         |
-| Button head M3x35-Screw   | 2        |                                                                                                                                         |
-| Button head M3x6-Screw    | 52       |                                                                                                                                         |
-| Button head M3x8-Screw    | 3        |                                                                                                                                         |
-| Button head M4x25-Screw   | 2        |                                                                                                                                         |
-| Button head M4x6-Screw    | 4        |                                                                                                                                         |
-| Button head M5x10-Screw   | 6        |                                                                                                                                         |
-| Button head M5x25-Screw   | 3        |                                                                                                                                         |
-| Button head M5x40-Screw   | 5        |                                                                                                                                         |
-| Button head M5x45-Screw   | 1        |                                                                                                                                         |
-| Button head M5x50-Screw   | 8        |                                                                                                                                         |
-| Button head M6x10-Screw   | 17       |                                                                                                                                         |
-| Button head M6x12-Screw   | 10       |                                                                                                                                         |
-| Button head M6x14-Screw   | 17       |                                                                                                                                         |
-| Button head M6x16-Screw   | 48       |                                                                                                                                         |
-| Button head M6x20-Screw   | 4        |                                                                                                                                         |
-| Button head M6x25-Screw   | 1        |                                                                                                                                         |
-| Button head M6x35-Screw   | 6        |                                                                                                                                         |
-| Button head M8x12-Screw   | 4        |                                                                                                                                         |
-| Button head M8x20-Screw   | 30       | Only nedded 8 if you buy HCJ_Joint. The rest of 22 M8x20 bolts will be included in HCJ joint set                                        |
-| Grub M3x8-Screw           | 5        |                                                                                                                                         |
-| Grub M4x12-Screw          | 3        |                                                                                                                                         |
-| Hex M3-Nut                | 8        |                                                                                                                                         |
-| Hex M4-Nut                | 2        |                                                                                                                                         |
-| Hex M5-Nut                | 4        |                                                                                                                                         |
-| M3x10-Screw               | 2        |                                                                                                                                         |
-| M3x3-HeatSet              | 23       |                                                                                                                                         |
-| M3x4-HeatSet              | 124      |                                                                                                                                         |
-| M3x5x4-HeatSet            | 5        |                                                                                                                                         |
-| M4-HeatSet                | 3        |                                                                                                                                         |
-| M5-HeatSet                | 8        |                                                                                                                                         |
-| Small size M3-Washer      | 71       | ISO 7092                                                                                                                                |
-| Small size M5-Washer      | 2        | ISO 7092                                                                                                                                |
-| Socket head M2.5x12-Screw | 2        |                                                                                                                                         |
-| Socket head M3x10-Screw   | 105      |                                                                                                                                         |
-| Socket head M3x12-Screw   | 15       |                                                                                                                                         |
-| Socket head M3x14-Screw   | 18       |                                                                                                                                         |
-| Socket head M3x16-Screw   | 25       |                                                                                                                                         |
-| Socket head M3x20-Screw   | 2        |                                                                                                                                         |
-| Socket head M3x25-Screw   | 9        |                                                                                                                                         |
-| Socket head M3x35-Screw   | 9        |                                                                                                                                         |
-| Socket head M3x40-Screw   | 15       |                                                                                                                                         |
-| Socket head M3x45-Screw   | 3        |                                                                                                                                         |
-| Socket head M3x6-Screw    | 6        |                                                                                                                                         |
-| Socket head M3x70-Screw   | 6        |                                                                                                                                         |
-| Socket head M3x8-Screw    | 57       |                                                                                                                                         |
-| Socket head M4x12-Screw   | 3        |                                                                                                                                         |
-| Socket head M6x14-Screw   | 56       |                                                                                                                                         |
-| Spring washer M3          | 60       |                                                                                                                                         |
-| Standard size M5-Washer   | 4        |                                                                                                                                         |
-| Standard size M6-Washer   | 91       |                                                                                                                                         |
-
-### 2.2 Heat set thread insert
-
-| Item                                             | Quantity | Description/link(not affiliated)                                                                                                                                                                            |
-| ------------------------------------------------ | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| M5 X D7.0 X L7.0                                 | 10       | [Aliexpress](https://www.aliexpress.com/item/4000232990523.html) or [Aliexpress](https://www.Aliexpress.com/item/4000232990523.html?spm=a2g0s.9042311.0.0.27424c4dWNZpM9)                                   |
-| M3 X D4.2 X L3.0                                 | 50       | [Aliexpress](https://www.aliexpress.com/item/4000761483243.html) or [Aliexpress](https://www.Aliexpress.com/item/4000955759713.html) or [Aliexpress](https://www.Aliexpress.com/item/1005002526998853.html) |
-| M3 X D4.2 X L4.0                                 | 150      | [Aliexpress](https://www.aliexpress.com/item/4000761483243.html) or [Aliexpress](https://www.Aliexpress.com/item/4000955759713.html) or [Aliexpress](https://www.Aliexpress.com/item/1005002526998853.html) |
-| M4 X D6.0 X L4.0 (for threaded ball bed coupler) | 3        | [Aliexpress](https://www.aliexpress.com/item/4000232925592.html) or [Aliexpress](https://www.Aliexpress.com/item/4000232925592.html)                                                                        |
+| Item                      | Quantity | Description                                                                                                                                                                                                                  |
+| ------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Big size M3-Washer        | 16       | [aliexpress](https://www.aliexpress.com/item/1005001481545326.html) or [aliexpress](https://www.aliexpress.com/item/4001069620504.html)                                                                                      |
+| Button head M8x25-Screw   | 4        |                                                                                                                                                                                                                              |
+| Button head M3x10-Screw   | 17       |                                                                                                                                                                                                                              |
+| Button head M3x12-Screw   | 8        |                                                                                                                                                                                                                              |
+| Button head M3x16-Screw   | 5        |                                                                                                                                                                                                                              |
+| Button head M3x20-Screw   | 1        |                                                                                                                                                                                                                              |
+| Button head M3x30-Screw   | 4        |                                                                                                                                                                                                                              |
+| Button head M3x35-Screw   | 2        |                                                                                                                                                                                                                              |
+| Button head M3x6-Screw    | 52       |                                                                                                                                                                                                                              |
+| Button head M3x8-Screw    | 3        |                                                                                                                                                                                                                              |
+| Button head M4x25-Screw   | 2        |                                                                                                                                                                                                                              |
+| Button head M4x6-Screw    | 4        |                                                                                                                                                                                                                              |
+| Button head M5x10-Screw   | 6        |                                                                                                                                                                                                                              |
+| Button head M5x25-Screw   | 3        |                                                                                                                                                                                                                              |
+| Button head M5x40-Screw   | 5        |                                                                                                                                                                                                                              |
+| Button head M5x45-Screw   | 1        |                                                                                                                                                                                                                              |
+| Button head M5x50-Screw   | 8        |                                                                                                                                                                                                                              |
+| Button head M6x10-Screw   | 17       |                                                                                                                                                                                                                              |
+| Button head M6x12-Screw   | 10       |                                                                                                                                                                                                                              |
+| Button head M6x14-Screw   | 17       |                                                                                                                                                                                                                              |
+| Button head M6x16-Screw   | 48       |                                                                                                                                                                                                                              |
+| Button head M6x20-Screw   | 4        |                                                                                                                                                                                                                              |
+| Button head M6x25-Screw   | 1        |                                                                                                                                                                                                                              |
+| Button head M6x35-Screw   | 6        |                                                                                                                                                                                                                              |
+| Button head M8x12-Screw   | 4        |                                                                                                                                                                                                                              |
+| Button head M8x20-Screw   | 30       | Only nedded 8 if you buy HCJ_Joint. The rest of 22 M8x20 bolts will be included in HCJ joint set                                                                                                                             |
+| Grub M3x8-Screw           | 5        |                                                                                                                                                                                                                              |
+| Grub M4x12-Screw          | 3        | (for threaded ball bed coupler)                                                                                                                                                                                              |
+| Hex M3-Nut                | 8        |                                                                                                                                                                                                                              |
+| Hex M4-Nut                | 2        |                                                                                                                                                                                                                              |
+| Hex M5-Nut                | 4        |                                                                                                                                                                                                                              |
+| M3x3-HeatSet              | 50       | M3 X D4.2 X L3.0 [Aliexpress](https://www.aliexpress.com/item/4000761483243.html) or [Aliexpress](https://www.Aliexpress.com/item/4000955759713.html) or [Aliexpress](https://www.Aliexpress.com/item/1005002526998853.html) |
+| M3x4-HeatSet              | 150      | M3 X D4.2 X L4.0 [Aliexpress](https://www.aliexpress.com/item/4000761483243.html) or [Aliexpress](https://www.Aliexpress.com/item/4000955759713.html) or [Aliexpress](https://www.Aliexpress.com/item/1005002526998853.html) |
+| M3x5x4-HeatSet            | 5        | M3 X D5.0 X L4.0 (for sherpa mini)[Aliexpress](https://www.aliexpress.com/item/4000232858343.html)                                                                                                                           |
+| M4-HeatSet                | 3        | M4 X D6.0 X L4.0 (for threaded ball bed coupler)[Aliexpress](https://www.aliexpress.com/item/4000232925592.html) or [Aliexpress](https://www.Aliexpress.com/item/4000232925592.html)                                         |
+| M5-HeatSet                | 10       | M5 X D7.0 X L7.0 [Aliexpress](https://www.aliexpress.com/item/4000232990523.html) or [Aliexpress](https://www.Aliexpress.com/item/4000232990523.html?spm=a2g0s.9042311.0.0.27424c4dWNZpM9)                                   |
+| Small size M3-Washer      | 71       | ISO 7092                                                                                                                                                                                                                     |
+| Small size M5-Washer      | 2        | ISO 7092                                                                                                                                                                                                                     |
+| Socket head M2.5x12-Screw | 2        |                                                                                                                                                                                                                              |
+| Socket head M3x10-Screw   | 107      |                                                                                                                                                                                                                              |
+| Socket head M3x12-Screw   | 15       |                                                                                                                                                                                                                              |
+| Socket head M3x14-Screw   | 18       |                                                                                                                                                                                                                              |
+| Socket head M3x16-Screw   | 25       |                                                                                                                                                                                                                              |
+| Socket head M3x20-Screw   | 2        |                                                                                                                                                                                                                              |
+| Socket head M3x25-Screw   | 9        |                                                                                                                                                                                                                              |
+| Socket head M3x35-Screw   | 9        |                                                                                                                                                                                                                              |
+| Socket head M3x40-Screw   | 15       |                                                                                                                                                                                                                              |
+| Socket head M3x45-Screw   | 3        |                                                                                                                                                                                                                              |
+| Socket head M3x6-Screw    | 6        |                                                                                                                                                                                                                              |
+| Socket head M3x70-Screw   | 6        |                                                                                                                                                                                                                              |
+| Socket head M3x8-Screw    | 57       |                                                                                                                                                                                                                              |
+| Socket head M4x12-Screw   | 3        |                                                                                                                                                                                                                              |
+| Socket head M6x14-Screw   | 56       |                                                                                                                                                                                                                              |
+| Spring washer M3          | 60       |                                                                                                                                                                                                                              |
+| Standard size M5-Washer   | 4        |                                                                                                                                                                                                                              |
+| Standard size M6-Washer   | 91       |                                                                                                                                                                                                                              |
 
 # 3.Motion
 
@@ -209,11 +199,11 @@ There are many options for bed coupling. Some of them are from old beta design, 
 
 #### **3.1.1 Threaded ball coupling** : (default) Improved version of the bellow magnet and ballbearing. Compatible with both 2020 and 1515 bed frame.
 
-| Item                  | Quantity | Description/link                                                    |
-| --------------------- | -------- | ------------------------------------------------------------------- |
-| 10mm M4 threaded ball | 3        | [Aliexpress](https://www.Aliexpress.com/item/4001141631405.html)    |
-| M4x6x4 Thread insert  | 3        | [Aliexpress](https://www.Aliexpress.com/item/4000232925592.html)    |
-| 12mm M4 grub screw    | 3        | [Aliexpress](https://www.Aliexpress.com/item/1005003126018205.html) |
+| Item                  | Quantity                              | Description/link                                                 |
+| --------------------- | ------------------------------------- | ---------------------------------------------------------------- |
+| 10mm M4 threaded ball | 3                                     | [Aliexpress](https://www.Aliexpress.com/item/4001141631405.html) |
+| M4x6x4 Thread insert  | Already included in the fasteners BOM | -                                                                |
+| 12mm M4 grub screw    | Already included in the fasteners BOM | -                                                                |
 
 #### **3.1.2 Magnet and balbearing coupling** : Bed coupling method used on beta1 release. Compatible with both 2020 and 1515 bed frame, but might not suitable for heavy bed.
 
