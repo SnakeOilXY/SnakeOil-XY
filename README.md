@@ -17,7 +17,7 @@ Stable hi-speed, small size fully-featured affordable CoreXY 3D printer. Inspire
 | Belted Z                                          | Voron                             |
 | Cross belt corexy belt path                       | HevORT                            |
 | Eva compatible toolhead                           | EVA                               |
-| Filament spoll in side chamber                    | Annex Engineering                 |
+| Filament spoll in side chamber                    | -                                 |
 | Quick release panels                              | Added on beta2 release            |
 | Built-in chamber air filter                       | Added on beta1 release            |
 | Auto build sheet detect and profile loader        | Work in progress                  |
