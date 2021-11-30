@@ -1,22 +1,20 @@
 {
   "LCD-assembly": {
     "fastener": {
-      "M3x10-Screw": 2,
       "M3x4-HeatSet": 6,
       "Small size M3-Washer": 2,
-      "Socket head M3x10-Screw": 2,
+      "Socket head M3x10-Screw": 4,
       "Socket head M3x8-Screw": 4
     },
     "other": {
-      "Kill Button": 1,
-      "Mini12864 Screen v": 4,
-      "led-cover-r": 1
+      "Mini12864 Screen v": 4
     },
     "printed": {
-      "Chamfer": 1,
-      "Chamfer004001001 (Mirror #1)": 1,
       "knob": 1,
       "lcd-base": 1,
+      "lcd-mounter-left": 1,
+      "lcd-mounter-right": 1,
+      "led-cover_use_dark_color_filament": 1,
       "mount-arm-left": 1,
       "mount-arm-right": 1,
       "reset-button": 1
@@ -144,20 +142,17 @@
   },
   "bottom-panel-assembly": {
     "fastener": {
-      "Button head M3x10-Screw": 13,
-      "Button head M3x6-Screw": 14,
+      "Button head M3x6-Screw": 31,
       "Button head M4x25-Screw": 2,
       "Button head M4x6-Screw": 4,
       "Button head M6x12-Screw": 2,
       "Button head M6x14-Screw": 1,
       "Button head M6x25-Screw": 1,
       "Hex M4-Nut": 2,
-      "M3x3-HeatSet": 8,
-      "M3x4-HeatSet": 32,
+      "M3x3-HeatSet": 6,
+      "M3x4-HeatSet": 33,
       "Small size M3-Washer": 2,
-      "Socket head M3x10-Screw": 2,
-      "Socket head M3x12-Screw": 1,
-      "Socket head M3x16-Screw": 14
+      "Socket head M3x10-Screw": 2
     },
     "other": {
       "IEC Screw Mount Plug Socket Male": 1,
@@ -172,22 +167,16 @@
       "panel-FR": 1
     },
     "printed": {
-      "1x_bottom-frame-SRB": 1,
-      "24v-200w-psu-mounter": 1,
-      "24v-200w-psu-mounter-mirror": 1,
       "ac-socket-mounter": 1,
       "back-din-cap": 1,
       "bottom-din-holder": 2,
-      "bottom-frame-BL": 1,
-      "bottom-frame-BR": 1,
-      "bottom-frame-FL": 1,
-      "bottom-frame-FR": 1,
-      "bottom-frame-SL": 1,
-      "bottom-frame-SRF": 1,
       "center-panel-connector": 1,
       "din-wire-mounter": 2,
       "front-din-cap": 1,
-      "side-panel-connector": 1,
+      "lrs-xx-200-psu-mounter": 1,
+      "lrs-xx-200-psu-mounter-mirror": 1,
+      "panel-mounter_U": 17,
+      "panel-side-connector": 1,
       "sonoff-mount": 1,
       "wago-mount": 1
     }
@@ -204,7 +193,7 @@
   "fastener": {},
   "foot-assembly": {
     "fastener": {
-      "Button head M10x25-Screw": 4
+      "Button head M8x20-Screw": 4
     },
     "other": {
       "rubber24x24x": 4
@@ -334,6 +323,17 @@
       "MGN!12H-block": 18
     },
     "printed": {}
+  },
+  "neo-pixel-assembly": {
+    "fastener": {
+      "Button head M3x10-Screw": 4,
+      "Small size M3-Washer": 4
+    },
+    "other": {},
+    "printed": {
+      "neo-pixel-arm": 2,
+      "neopixel-arm-rev": 2
+    }
   },
   "other": {},
   "printed": {},
