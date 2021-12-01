@@ -18,6 +18,6 @@ Infill line width : 0.5mm
 - In theory, PETG and higher temp-resistant filaments will work.
 - Motor mount and tool head parts might require higher themp-resistant filament.
 - If possible use strong filament for Z axis parts.
-- Gillter or CF filled filaments might make the parts more brite.
+- Gillter or CF filled filaments might make the parts more brittle.
 
 ## Parts orientation
