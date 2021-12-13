@@ -1,11 +1,11 @@
 # BOM
 
 <code>Status : work in progress</code>  
-<code>Last updated : 2021-11-11T22:42:43+09:00 </code>
-
-## Read this first
+<code>Last updated : 2021-12-13</code>
 
 <code> Fell free to [contact me](https://discord.gg/WZVP2HuAag) if you spot mistake or have question.</code>
+
+## Read this first
 
 ## Table of contents
 
@@ -20,6 +20,13 @@
 [Panels](#5panels)
 
 [Other](#6other)
+
+# 0.Kit
+
+Parts listed on the BOM can be purchased in kit format from above vendors
+
+- [kb-3d.com store](https://kb-3d.com/store/81-snakeoilxy)
+- [Mellow motion kit](https://www.aliexpress.com/item/1005003678647655.html)
 
 # 1.Frame
 
