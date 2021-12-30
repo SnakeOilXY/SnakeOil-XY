@@ -60,7 +60,7 @@ END_PRINT</pre>
 
 ### 6.2 Prusa slicer setting
 
-- Parsing filament type vis gcode is not supported in cura slicer yet, you will have to set it manually in filament config of prusa slicer and disable <code>SET_FILAMENT_PROFILE</code> in start macro config
+- Parsing filament type via gcode is not supported in prusa slicer yet, you will have to set it manually in filament config of prusa slicer and disable <code>SET_FILAMENT_PROFILE</code> in start macro config
 
 <pre>#start gcode
 START_PRINT EXTRUDER_TEMP=[first_layer_temperature] BED_TEMP=[first_layer_bed_temperature] AREA_START={first_layer_print_min[0]},{first_layer_print_min[1]} AREA_END={first_layer_print_max[0]},{first_layer_print_max[1]}
