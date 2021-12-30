@@ -25,13 +25,13 @@
 - Move the toolhead to the center position, the bed to the middle position.
 - Execute <code>G28 X</code>, the toolhead should move to the right, if not edit the <code>dir_pin</code> config and try again.
 - Execute <code>G28 Y</code>, the toolhead should move to the back, if not edit the <code>dir_pin</code> config and try again.
-- After homing X and Y worked, execute <code>G28</code> to home all axis. The homing order should be: Bed move down 10mm, home X, home X, home Z
+- After homing X and Y worked, execute <code>G28</code> to home all axis. The homing order should be: Bed move down 10mm, home X, home Y, home Z
 
 ## 4. Bed position
 
 - To make sure the bed leveling accuracy and does not take too much tries to level, the center of the bed should be well configurated.
-- Use some king of marker or tape to make the center position of the bed. The bed center point is 85mm from the left edge of the bed and 85 mm from the front.
-- Home all axis and execute <code>G1 X85 Y85</code>, if the nozzle is not directly above the center poiint of the bed, you will need to adjust the <code>position_endstop</code> of stepper_x and stepper_y section.
+- Use some kind of marker or tape to make the center position of the bed. The bed center point is 85mm from the left edge of the bed and 85 mm from the front.
+- Home all axis and execute <code>G1 X85 Y85</code>, if the nozzle is not directly above the center point of the bed, you will need to adjust the <code>position_endstop</code> of stepper_x and stepper_y section.
 
 ### 5. Bed mesh and leveling
 
@@ -56,6 +56,7 @@ START_PRINT EXTRUDER_TEMP={material_print_temperature_layer_0} BED_TEMP={materia
 END_PRINT</pre>
 
 - Cura slicer will also need custom post processing script. The script is available in Slicer/Cura/scripts/ directory. You will need to copy this file to scripts folder of cura (Cura "help" menu -> "Show configuration folder") and enable it in post-processing setting.
+- Sample profiles also availabe at Slicer/Cura/profile/ directory
 
 ### 6.2 Prusa slicer setting
 
