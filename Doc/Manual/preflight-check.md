@@ -10,7 +10,7 @@
 - Move the toolhead to center position and execute <code>QUERY_ENDSTOPS</code> command. Both X and Y endstop status should be OPEN.
 - Move the toolhead to touch X limit switch and execute <code>QUERY_ENDSTOPS</code> command. X endstop status should be TRIGGERED.
 - Move the toolhead to touch Y limit switch and execute <code>QUERY_ENDSTOPS</code> command. Y endstop status should be TRIGGERED.
-- Fllow klipper guide to check bltouch. [Bltouch guide](https://www.klipper3d.org/BLTouch.html)
+- Follow klipper guide to check bltouch. [Bltouch guide](https://www.klipper3d.org/BLTouch.html)
 
 ## 2. Motors
 
@@ -29,7 +29,7 @@
 
 ## 4. Bed position
 
-- To make sure the bed leveling accuracy and does not take too much tries to level, the center of the bed should be well configurated.
+- To make sure the bed leveling accuracy and does not take too much tries to level, the center of the bed should be well configured.
 - Use some kind of marker or tape to make the center position of the bed. The bed center point is 85mm from the left edge of the bed and 85 mm from the front.
 - Home all axis and execute <code>G1 X85 Y85</code>, if the nozzle is not directly above the center point of the bed, you will need to adjust the <code>position_endstop</code> of stepper_x and stepper_y section.
 
@@ -45,7 +45,7 @@
 
 ## 6. Slicer config
 
-- My config using custom start gcode that parse the print area and filament type variable for "bed-mesh on print a rea only" and filament specificed setting. Check <code>SET_FILAMENT_PROFILE</code> macro for more info.
+- My config using custom start gcode that parse the print area and filament type variable for "bed-mesh on print a rea only" and filament specified setting. Check <code>SET_FILAMENT_PROFILE</code> macro for more info.
 
 ### 6.1 Cura slicer gcode setting
 
