@@ -23,9 +23,8 @@
 ### 2.2 Motor direction and homing
 
 - Move the toolhead to the center position, the bed to the middle position.
-- Execute <code>G28 X</code>, the toolheal should move to the right, if not edit the <code>dir_pin</code> config and try again.
-- Execute <code>G28 Y</code>, the toolheal should move to the back, if not edit the
-- Execute <code>G28 X</code>, the toolheal should move to the right, if not edit the <code>dir_pin</code> config and try again.
+- Execute <code>G28 X</code>, the toolhead should move to the right, if not edit the <code>dir_pin</code> config and try again.
+- Execute <code>G28 Y</code>, the toolhead should move to the back, if not edit the <code>dir_pin</code> config and try again.
 - After homing X and Y worked, execute <code>G28</code> to home all axis. The homing order should be: Bed move down 10mm, home X, home X, home Z
 
 ## 4. Bed position
