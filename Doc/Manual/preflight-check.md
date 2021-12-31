@@ -5,6 +5,23 @@
 - This config check is based on config of my machine(180mm). You will need to edit the config based on how you do the wiring and your hardwares. If not sure, please ask in #build-help or #firmware discord channel.
 - sample config available at [sample config directory](https://github.com/ChipCE/SnakeOil-XY/tree/master/Firmware/sample-configs/Klipper/BTT_octopus_pro_Chip)
 
+### 0.1. SONOFF config
+
+If you are using sonoff wifi to control the power of the machine, there will be some extra step needed.
+
+- Flash custom tasmota firmware following [tasmota firmware document](https://tasmota.github.io/docs/Getting-Started/)
+- After installed custom fw, connect the sonoff module to wifi and remember it's IP address(Some other configs lie password, device name can also editable via SONOFF web interface).
+- Enable firmware option26 by visit the following address using web browser <code>http://YOUR_SON_OFF_IP_HERE/cm?cmnd=SetOption26 ON</code>
+- Add the follong config into moonraker.conf
+<pre>[power PSU]
+type: tasmota
+locked_while_printing: True
+restart_klipper_when_powered: True
+restart_delay: 5
+address:YOUR_SONOF_IP_HERE
+password:YOUR_SONOFF_PASSWORD</pre>
+- After adding the config and restart moonraker/refresh webUI, you will have new section to turn the printer ON/OFF from fluidd/mainsail interface.
+
 ## 1. Endstop
 
 - Move the toolhead to center position and execute <code>QUERY_ENDSTOPS</code> command. Both X and Y endstop status should be OPEN.
@@ -47,7 +64,7 @@
 
 - My config using custom start gcode that parse the print area and filament type variable for "bed-mesh on print a rea only" and filament specified setting. Check <code>SET_FILAMENT_PROFILE</code> macro for more info.
 
-### 6.1 Cura slicer gcode setting
+### 6.1. Cura slicer gcode setting
 
 <pre>#start gcode
 START_PRINT EXTRUDER_TEMP={material_print_temperature_layer_0} BED_TEMP={material_bed_temperature_layer_0} AREA_START=%MINX%,%MINY% AREA_END=%MAXX%,%MAXY% FILAMENT_TYPE={material_type}
@@ -58,7 +75,7 @@ END_PRINT</pre>
 - Cura slicer will also need custom post processing script. The script is available in Slicer/Cura/scripts/ directory. You will need to copy this file to scripts folder of cura (Cura "help" menu -> "Show configuration folder") and enable it in post-processing setting.
 - Sample profiles also availabe at Slicer/Cura/profile/ directory
 
-### 6.2 Prusa slicer setting
+### 6.2. Prusa slicer setting
 
 - Parsing filament type via gcode is not supported in prusa slicer yet, you will have to set it manually in filament config of prusa slicer and disable <code>SET_FILAMENT_PROFILE</code> in start macro config
 
