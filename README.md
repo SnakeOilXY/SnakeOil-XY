@@ -25,6 +25,8 @@ Stable hi-speed, small size fully-featured affordable CoreXY 3D printer. Inspire
 | AIO filament runout + jam detector + width sensor | Work in progress                   |
 | Modular sensor add-on system                      | Work in progress                   |
 | Probe(bed mesh) on print area only                | Added on beta2 using klipper macro |
+| Screwless belt mounter                            | VzBot                              |
+| Bed fan                                           | Qholia                             |
 
 ## Input shaper test result (beta2 1515 gantry with Sherpa mini extruder)
 
@@ -51,6 +53,6 @@ Stable hi-speed, small size fully-featured affordable CoreXY 3D printer. Inspire
 
 ## Copyright Notice
 
-- [Serpa mini extruder](https://github.com/Annex-Engineering/Sherpa_Mini-Extruder) is an original work of [Annex Engineering](https://github.com/Annex-Engineering), modified parts using their source code/design files are re-released under [ANNEX Engineering License](https://github.com/Annex-Engineering/ANNEX-Engineering-License-Agreement/blob/main/LICENSE.md).
+- [Sherpa mini extruder](https://github.com/Annex-Engineering/Sherpa_Mini-Extruder) is an original work of [Annex Engineering](https://github.com/Annex-Engineering), modified parts using their source code/design files are re-released under [ANNEX Engineering License](https://github.com/Annex-Engineering/ANNEX-Engineering-License-Agreement/blob/main/LICENSE.md).
 - [EVA2](https://github.com/EVA-3D/eva-main) is an original work of [EVA-3D](https://github.com/EVA-3D), modified parts using their source code/design files are re-released under [GNU General Public License v3.0](https://github.com/EVA-3D/eva-main/blob/main/LICENSE)
 - This printer design(SnakeOil XY), it's document and software are released under [GNU General Public License v3.0](https://github.com/ChipCE/SnakeOil-XY/blob/master/LICENSE)

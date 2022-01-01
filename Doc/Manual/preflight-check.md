@@ -12,7 +12,7 @@ If you are using sonoff wifi to control the power of the machine, there will be 
 - Flash custom tasmota firmware following [tasmota firmware document](https://tasmota.github.io/docs/Getting-Started/)
 - After installed custom fw, connect the sonoff module to wifi and remember it's IP address(Some other configs lie password, device name can also editable via SONOFF web interface).
 - Enable firmware option26 by visit the following address using web browser <code>http://YOUR_SON_OFF_IP_HERE/cm?cmnd=SetOption26 ON</code>
-- Add the follong config into moonraker.conf
+- Add the following config into moonraker.conf
 <pre>[power PSU]
 type: tasmota
 locked_while_printing: True
@@ -73,7 +73,7 @@ START_PRINT EXTRUDER_TEMP={material_print_temperature_layer_0} BED_TEMP={materia
 END_PRINT</pre>
 
 - Cura slicer will also need custom post processing script. The script is available in Slicer/Cura/scripts/ directory. You will need to copy this file to scripts folder of cura (Cura "help" menu -> "Show configuration folder") and enable it in post-processing setting.
-- Sample profiles also availabe at Slicer/Cura/profile/ directory
+- Sample profiles also available at Slicer/Cura/profile/ directory
 
 ### 6.2. Prusa slicer setting
 
