@@ -179,24 +179,24 @@ Parts listed on the BOM can be purchased in kit format from bellow vendors
 
 <code>The printer was designed based on dimension of Gates pulleys and idlers. Modification of printed parts may required to use different types of pulleys and idlers.</code>
 
-| Item                                          | Quantity | Description                                                                             | default link/affiliate link                            | non-affiliate link                                                  |
-| --------------------------------------------- | -------- | --------------------------------------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------------------- |
-| MGN12H 250mm 250mm                            | 6        | 5x 300mm MGN12H and 1x 320mm MGN12H for 250mm^3 build                                   | [Aliexpress](https://s.click.aliexpress.com/e/_AA52Ba) | [Aliexpress](https://www.aliexpress.com/item/1005003075216025.html) |
-| 20T 6mm Pulley (5mm bore)                     | 2        | Add 3 if you are using the printed 80T pulleys                                          |                                                        | [Aliexpress](https://www.Aliexpress.com/item/33023279793.html)      |
-| 16T 6mm Pulley (5mm bore)                     | 3        |                                                                                         |                                                        | [Aliexpress](https://www.Aliexpress.com/item/33002989677.html)      |
-| 80T 6mm Pulley (5mm bore)                     | 3        | Option available to print them                                                          |                                                        | [Aliexpress](https://www.Aliexpress.com/item/1005001700640216.html) |
-| 20T 9mm Pulley (5mm bore)                     | 3        |                                                                                         |                                                        | [Aliexpress](https://www.Aliexpress.com/item/33023279793.html)      |
-| 20T 6mm Smooth Idler (5mm bore)               | 10       |                                                                                         |                                                        | [Aliexpress](https://www.Aliexpress.com/item/33023133633.html)      |
-| 20T 6mm Tooth Idler (5mm bore)                | 2        |                                                                                         |                                                        | [Aliexpress](https://www.Aliexpress.com/item/33023133633.html)      |
-| 20T 9mm Tooth idler (5mm bore)                | 3        |                                                                                         |                                                        | [Aliexpress](https://www.Aliexpress.com/item/33023133633.html)      |
-| Close loop 188-2GT-6 RF belt                  | 3        |                                                                                         |                                                        | [Aliexpress](https://www.Aliexpress.com/item/4000397043382.html)    |
-| 2GT 6mm belt                                  | ~3m      | 4m for 250mm^3 build                                                                    |                                                        | [Aliexpress](https://www.Aliexpress.com/item/32952396111.html)      |
-| 2GT 9mm belt                                  | ~2m      | 3m for 250mm^3 build                                                                    |                                                        | [Aliexpress](https://www.Aliexpress.com/item/32952396111.html)      |
-| MR115ZZ                                       | 14       |                                                                                         |                                                        | [Aliexpress](https://www.Aliexpress.com/item/32499551293.html)      |
-| 6mm x 16mm length shaft/dowel pin             | 6        | Cutted linear shafts, dowel pins or some good m3 spacers(outer dia 6mm) will also work. | [Aliexpress](https://s.click.aliexpress.com/e/_99m43S) | [Aliexpress](https://www.aliexpress.com/item/1005003326358562.html) |
-| Hook spring 0.5x4x20mm                        | 6        |                                                                                         |                                                        | [Aliexpress](https://www.Aliexpress.com/item/1005001491389608.html) |
-| Diameter 5mm x 65mm length shaft or dowel pin | 3        |                                                                                         |                                                        | [Aliexpress](https://www.Aliexpress.com/item/1005003150582428.html) |
-| 10mm M4 threaded ball                         | 3        | -                                                                                       |                                                        | [Aliexpress](https://www.Aliexpress.com/item/4001141631405.html)    |
+| Item                                          | Quantity | Description                                                                          | default link/affiliate link                            | non-affiliate link                                                  |
+| --------------------------------------------- | -------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------------------- |
+| MGN12H 250mm 250mm                            | 6        | 5x 300mm MGN12H and 1x 320mm MGN12H for 250mm^3 build                                |                                                        | [Aliexpress](https://www.aliexpress.com/item/32829826159.html)      |
+| 20T 6mm Pulley (5mm bore)                     | 2        | Add 3 if you are using the printed 80T pulleys                                       |                                                        | [Aliexpress](https://www.Aliexpress.com/item/33023279793.html)      |
+| 16T 6mm Pulley (5mm bore)                     | 3        |                                                                                      |                                                        | [Aliexpress](https://www.Aliexpress.com/item/33002989677.html)      |
+| 80T 6mm Pulley (5mm bore)                     | 3        | Option available to print them                                                       |                                                        | [Aliexpress](https://www.Aliexpress.com/item/1005001700640216.html) |
+| 20T 9mm Pulley (5mm bore)                     | 3        |                                                                                      |                                                        | [Aliexpress](https://www.Aliexpress.com/item/33023279793.html)      |
+| 20T 6mm Smooth Idler (5mm bore)               | 10       |                                                                                      |                                                        | [Aliexpress](https://www.Aliexpress.com/item/33023133633.html)      |
+| 20T 6mm Tooth Idler (5mm bore)                | 2        |                                                                                      |                                                        | [Aliexpress](https://www.Aliexpress.com/item/33023133633.html)      |
+| 20T 9mm Tooth idler (5mm bore)                | 3        |                                                                                      |                                                        | [Aliexpress](https://www.Aliexpress.com/item/33023133633.html)      |
+| Close loop 188-2GT-6 RF belt                  | 3        |                                                                                      |                                                        | [Aliexpress](https://www.Aliexpress.com/item/4000397043382.html)    |
+| 2GT 6mm belt                                  | ~3m      | 4m for 250mm^3 build                                                                 |                                                        | [Aliexpress](https://www.Aliexpress.com/item/32952396111.html)      |
+| 2GT 9mm belt                                  | ~2m      | 3m for 250mm^3 build                                                                 |                                                        | [Aliexpress](https://www.Aliexpress.com/item/32952396111.html)      |
+| MR115ZZ                                       | 14       |                                                                                      |                                                        | [Aliexpress](https://www.Aliexpress.com/item/32499551293.html)      |
+| 6mm x 16mm length shaft/dowel pin             | 6        | Cut linear shafts, dowel pins or some good m3 spacers(outer dia 6mm) will also work. | [Aliexpress](https://s.click.aliexpress.com/e/_99m43S) | [Aliexpress](https://www.aliexpress.com/item/1005003326358562.html) |
+| Hook spring 0.5x4x20mm                        | 6        |                                                                                      |                                                        | [Aliexpress](https://www.Aliexpress.com/item/1005001491389608.html) |
+| Diameter 5mm x 65mm length shaft or dowel pin | 3        |                                                                                      |                                                        | [Aliexpress](https://www.Aliexpress.com/item/1005003150582428.html) |
+| 10mm M4 threaded ball                         | 3        | -                                                                                    |                                                        | [Aliexpress](https://www.Aliexpress.com/item/4001141631405.html)    |
 
 # 4. Electronics
 
@@ -231,13 +231,23 @@ Parts listed on the BOM can be purchased in kit format from bellow vendors
 
 ### 5.1 For 180 machine
 
-| Item                          | Quantity | Description                 | default link/affiliate link | non-affiliate link(not affiliated) |
-| ----------------------------- | -------- | --------------------------- | --------------------------- | ---------------------------------- |
-| Front-panel 360x454x3mm       | 1        | 430x504x3mm for 250 machine |                             |                                    |
-| Side-panel 324x454x3mm        | 2        | 374x504x3mm for 250 machine |                             |                                    |
-| Rear-top-panel 324x179x3mm    | 1        | 394x179x3mm for 250 machine |                             |                                    |
-| Rear-bottom-panel 309x244x3mm | 1        | 379x294x3mm for 250 machine |                             |                                    |
-| Top-panel 324x324x3mm         | 1        | 394x374x3mm for 250 machine |                             |                                    |
+| Item                          | Quantity | Description | default link/affiliate link | non-affiliate link(not affiliated) |
+| ----------------------------- | -------- | ----------- | --------------------------- | ---------------------------------- |
+| Front-panel 360x454x3mm       | 1        |             |                             |                                    |
+| Side-panel 324x454x3mm        | 2        |             |                             |                                    |
+| Rear-top-panel 324x179x3mm    | 1        |             |                             |                                    |
+| Rear-bottom-panel 309x244x3mm | 1        |             |                             |                                    |
+| Top-panel 324x324x3mm         | 1        |             |                             |                                    |
+
+### 5.2 For 250 machine
+
+| Item                          | Quantity | Description | default link/affiliate link | non-affiliate link(not affiliated) |
+| ----------------------------- | -------- | ----------- | --------------------------- | ---------------------------------- |
+| Front-panel 430x504x3mm       | 1        |             |                             |                                    |
+| Side-panel 374x504x3mm        | 2        |             |                             |                                    |
+| Rear-top-panel 394x179x3mm    | 1        |             |                             |                                    |
+| Rear-bottom-panel 379x294x3mm | 1        |             |                             |                                    |
+| Top-panel 394x374x3mm         | 1        |             |                             |                                    |
 
 # 6.Other
 
