@@ -1,8 +1,8 @@
-# EVA2 toolhead system "compatible"
+# EVA2.4 toolhead system "compatible"
 
 - The printer designed to able to use most of extruders and hotends in EVA 2 eco system. Titan aero and Hemera are not supported due the head heavy and wide design will reduce the useable area of the bed.
 
-## Common parts for extruder availabe at [E-axis stl](https://github.com/ChipCE/SnakeOil-XY/tree/master/BETA2_Release/STLs/E-axis/carrier-common)
+## Common parts for extruder available at [E-axis stl](https://github.com/ChipCE/SnakeOil-XY/tree/master/BETA2_Release/STLs/E-axis/carrier-common)
 
 - 1x_extruder-back-plate.stl
 - 1x_extruder-front-plate.stl
@@ -22,4 +22,4 @@
 
 ## Other hotends, extruders, fan ducts support
 
-- Other extruders, hotend specificed mounters and fan ducts can be found at [EVA 2 page](https://main.eva-3d.page/)
+- Other extruders, hotend specified mounters and fan ducts can be found at [EVA 2 page](https://main.eva-3d.page/)
