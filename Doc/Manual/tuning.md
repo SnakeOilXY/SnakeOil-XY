@@ -1,3 +1,3 @@
 # tuning
 
-Comming soon
+Coming soon
