@@ -14,7 +14,7 @@
 - 3 Thermistor Inputs (Hotend, Heated Bed, Enclosure)
 - min 3 fan outputs
 
-## Some Boards to choose from (not complete list)
+## Some Boards to choose from (incomplete list)
 
 - Fysetc Spider
 - BTT Octopus
