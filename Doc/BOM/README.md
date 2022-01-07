@@ -109,15 +109,15 @@ Parts listed on the BOM can be purchased in kit format from bellow vendors
 
 <code>The below quantity are approx values. The real number will be update later.</code>
 
-| Item                                                             | Quantity | Description | default link/affiliate link                            | non-affiliate link                                               |
-| ---------------------------------------------------------------- | -------- | ----------- | ------------------------------------------------------ | ---------------------------------------------------------------- |
-| 2020 M3 T-nut for 2020 bed frame and gantry                      | 20       |             | [Aliexpress](https://s.click.aliexpress.com/e/_ASabWc) | [Aliexpress](https://www.aliexpress.com/item/4000293743251.html) |
-| 2020 M5 T-nut for 2020 bed frame and gantry                      | 15       |             | [Aliexpress](https://s.click.aliexpress.com/e/_ASabWc) | [Aliexpress](https://www.aliexpress.com/item/4000293743251.html) |
-| Square nut M3 for 1515 bed frame and gantry (hex nut also works) | 30       |             |                                                        |                                                                  |
-| 3030 M3 T-nut                                                    | 60       |             | [Aliexpress](https://s.click.aliexpress.com/e/_ASabWc) | [Aliexpress](https://www.aliexpress.com/item/4000293743251.html) |
-| 3030 M5 T-nut                                                    | 10       |             | [Aliexpress](https://s.click.aliexpress.com/e/_ASabWc) | [Aliexpress](https://www.aliexpress.com/item/4000293743251.html) |
-| 3030 M6 rotate T-nut                                             | 101      |             | [Aliexpress](https://s.click.aliexpress.com/e/_ASabWc) | [Aliexpress](https://www.aliexpress.com/item/4000293743251.html) |
-| 3030 M6 T-nut for frame bracket                                  | 58       |             | [Aliexpress](https://s.click.aliexpress.com/e/_AVpX9C) | [Aliexpress](https://www.aliexpress.com/item/32891138317.html)   |
+| Item                                                             | Quantity | Description | default link/affiliate link                             | non-affiliate link                                               |
+| ---------------------------------------------------------------- | -------- | ----------- | ------------------------------------------------------- | ---------------------------------------------------------------- |
+| 2020 M3 T-nut for 2020 bed frame and gantry                      | 20       |             | [Aliexpress](https://s.click.aliexpress.com/e/_ASabWc)  | [Aliexpress](https://www.aliexpress.com/item/4000293743251.html) |
+| 2020 M5 T-nut for 2020 bed frame and gantry                      | 15       |             | [Aliexpress](https://s.click.aliexpress.com/e/_ASabWc)  | [Aliexpress](https://www.aliexpress.com/item/4000293743251.html) |
+| Square nut M3 for 1515 bed frame and gantry (hex nut also works) | 30       |             |                                                         |                                                                  |
+| 3030 M3 T-nut                                                    | 60       |             | [Aliexpress](https://s.click.aliexpress.com/e/_ASabWc)  | [Aliexpress](https://www.aliexpress.com/item/4000293743251.html) |
+| 3030 M5 T-nut                                                    | 10       |             | [Aliexpress](https://s.click.aliexpress.com/e/_ASabWc)  | [Aliexpress](https://www.aliexpress.com/item/4000293743251.html) |
+| 3030 M6 rotate T-nut                                             | 101      |             | [Aliexpress](https://s.click.aliexpress.com/e/_ASabWc)  | [Aliexpress](https://www.aliexpress.com/item/4000293743251.html) |
+| 3030 M6 T-nut for frame bracket                                  | 58       |             | [Aliexpress](https://s.click.aliexpress.com/e/_9vYq7gC) | [Aliexpress](https://www.aliexpress.com/item/33023772052.html)   |
 
 | Item                      | Quantity | Description                                                                                      | default link/affiliate link                            | non-affiliate link                                                                                                                                                                                          |
 | ------------------------- | -------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
