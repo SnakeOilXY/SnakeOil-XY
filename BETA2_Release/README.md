@@ -3,7 +3,7 @@
 ## What changed from Beta1
 
 - Better 2020 gantry.
-- New option for 1515 gantry with huge performance boost(see shaper test result bellow).
+- New option for 1515 gantry with huge performance boost(see shaper test result below).
 - New option for 1515 bed frame.
 - New Z rail block mounting with limiter by default. This will keep the bed from tilting too much that cause the z probe cannot reach the bed.
 - Better sherpa mini extruder mounter with 16mm shorter filament path.
@@ -60,4 +60,4 @@
 ## Assembly, build help and bug report
 
 - I don't have enough time to make the document atm. I will try to add document and build manual after finished design all the incomplete machine parts.
-- For build log, help, and bug report please using [Our discord sever](https://discord.gg/WZVP2HuAag)
+- For build log, help, and bug report please using [Our discord server](https://discord.gg/WZVP2HuAag)
