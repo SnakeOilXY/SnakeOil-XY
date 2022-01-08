@@ -13,8 +13,8 @@
 | Magnet sheet                     | 1        | -                                                                                      |
 | 254x242 aluminum plate           | 1        | 6mm thick                                                                              |
 | 3030 Corner bracket              | 14       | Misumi part number : CHBLFSN6(sliver) or HBLFSNB6(black) or HBLFSN6(no surface finish) |
-| \*Extra corner bracket           | 15       | \*Check note bellow                                                                    |
-| \*Blind joint nut                | 22       | misumi part number SHCJ6 or HCJ6. \*Check note bellow                                  |
+| \*Extra corner bracket           | 15       | \*Check note below                                                                    |
+| \*Blind joint nut                | 22       | misumi part number SHCJ6 or HCJ6. \*Check note below                                  |
 | DIN rail 332mm                   | 1        |                                                                                        |
 | DIN rail 379mm                   | 2        |                                                                                        |
 

@@ -3,7 +3,7 @@
 
 
 
-BOM (diferent from the mainline repo)
+BOM (different from the mainline repo)
 
 * 9x M3x6 DIN 7380 Screw
 * 6x M5x16 DIN 7380 Screw

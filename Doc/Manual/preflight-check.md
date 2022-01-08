@@ -58,7 +58,7 @@ password:YOUR_SONOFF_PASSWORD</pre>
 
 ## 5. Pid
 
-- Do pid tuning for hotend and the bed. If you have fan under the bed, make sure to turn it on before do the bed pid tunning. If the fan is too strong, you will have to lower the fan max speed.
+- Do pid tuning for hotend and the bed. If you have fan under the bed, make sure to turn it on before do the bed pid tuning. If the fan is too strong, you will have to lower the fan max speed.
 
 ## 6. Slicer config
 
