@@ -103,3 +103,7 @@ G0 X90 Y90
 \*after layer change gcode
 
 <pre>DISPLAY_GCODE_PROGRESS TOTAL_LAYER=[total_layer_count] CURRENT_LAYER={layer_num+1} PROGRESS=0 REMAIN=00:00</pre>
+
+### 6.3 SET_FILAMENT_PROFILE macro
+
+- I use SET_FILAMENT_PROFILE macro to set flow rate and pressure advance for each type of filament. You will need to edit the macro to set your tuned flow rate and pressure advance parameter for each filament type. Or disable the macro and use filament setting from slicer config.
