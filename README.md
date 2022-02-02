@@ -11,22 +11,72 @@ Stable hi-speed, small size fully-featured affordable CoreXY 3D printer. Inspire
 
 ## Features
 
-| Feature                                           | Credit/Inspiration by/Description  |
-| ------------------------------------------------- | ---------------------------------- |
-| 3 Point bed leveling                              | HevORT, Wobble ring                |
-| Belted Z                                          | Lulz bot, Voron                    |
-| Din mounter                                       | Voron                              |
-| Cross belt corexy belt path                       | HevORT                             |
-| Eva compatible toolhead                           | EVA                                |
-| Filament spoll in side chamber                    | -                                  |
-| Quick release panels                              | Added on beta2 release             |
-| Built-in chamber air filter                       | Added on beta1 release             |
-| Auto build sheet detect and profile loader        | Work in progress                   |
-| AIO filament runout + jam detector + width sensor | Work in progress                   |
-| Modular sensor add-on system                      | Work in progress                   |
-| Probe(bed mesh) on print area only                | Added on beta2 using klipper macro |
-| Screwless belt mounter                            | VzBot                              |
-| Bed fan                                           | Qholia                             |
+<table>
+    <thead>
+        <tr>
+<th>Feature</th>
+<th>Credit/Inspiration by/Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>3 Point bed leveling</td>
+            <td>HevORT, Wobble ring</td>
+        </tr>
+        <tr>
+            <td>Belted Z</td>
+            <td>Lulz bot, Voron</td>
+        </tr>
+        <tr>
+            <td>Din mounter</td>
+            <td>Voron</td>
+        </tr>
+        <tr>
+            <td>Cross belt corexy belt path</td>
+            <td>HevORT</td>
+        </tr>
+        <tr>
+            <td>Eva compatible toolhead</td>
+            <td>EVA</td>
+        </tr>
+        <tr>
+            <td>Filament spoll in side chamber</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>Quick release panels</td>
+            <td>Added on beta2 release</td>
+        </tr>
+        <tr>
+            <td>Built-in chamber air filter</td>
+            <td>Added on beta1 release</td>
+        </tr>
+        <tr>
+            <td>Auto build sheet detect and profile loader</td>
+            <td>Work in progress</td>
+        </tr>
+        <tr>
+            <td>AIO filament runout + jam detector + width sensor</td>
+            <td>Work in progress</td>
+        </tr>
+        <tr>
+            <td>Modular sensor add-on system</td>
+            <td>Work in progress</td>
+        </tr>
+        <tr>
+            <td>Probe(bed mesh) on print area only</td>
+            <td>Added on beta2 using klipper macro</td>
+        </tr>
+        <tr>
+            <td>Screwless belt mounter</td>
+            <td>VzBot</td>
+        </tr>
+        <tr>
+            <td>Bed fan</td>
+            <td>Qholia</td>
+        </tr>
+    </tbody>
+</table>
 
 ## Input shaper test result (beta2 1515 gantry with Sherpa mini extruder)
 
@@ -34,14 +84,44 @@ Stable hi-speed, small size fully-featured affordable CoreXY 3D printer. Inspire
 
 ## Demo videos
 
-|                  |                                                 Bed coupling                                                 |                                                SpeedBoatRace                                                 |                                                 Slow benchy                                                 |
-| ---------------- | :----------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: |
-| Video            | [![Bed coupling](https://img.youtube.com/vi/pQPhEykthEg/0.jpg)](https://www.youtube.com/watch?v=pQPhEykthEg) | [![Speed benchy](https://img.youtube.com/vi/tPoP6zmxsCY/0.jpg)](https://www.youtube.com/watch?v=tPoP6zmxsCY) | [![Slow benchy](https://img.youtube.com/vi/kLawpgAUUPE/0.jpg)](https://www.youtube.com/watch?v=kLawpgAUUPE) |
-| Hardware version |                                                    beta1                                                     |                                                    beta2                                                     |                                                    beta2                                                    |
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th align="center">Bed coupling</th>
+            <th align="center">SpeedBoatRace</th>
+            <th align="center">Slow benchy</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Video</td>
+            <td align="center"><a href="https://youtu.be/pQPhEykthEg" rel="nofollow">
+            <img src="https://img.youtube.com/vi/pQPhEykthEg/0.jpg" alt="Bed coupling"/></a></td>
+            <td align="center"><a href="https://youtu.be/tPoP6zmxsCY" rel="nofollow">
+            <img src="https://img.youtube.com/vi/tPoP6zmxsCY/0.jpg" alt="Speed benchy"/></a></td>
+            <td align="center"><a href="https://youtu.be/kLawpgAUUPE" rel="nofollow">
+            <img src="https://img.youtube.com/vi/kLawpgAUUPE/0.jpg" alt="Speed benchy"/></a></td>
+        </tr>
+        <tr>
+            <td>Hardware version</td>
+            <td align="center">beta1</td>
+            <td align="center">beta2</td>
+            <td align="center">beta2</td>
+        </tr>
+    </tbody>
+</table>
 
 ## BOM
 
-[>>> Click here <<<](./Doc/BOM/README.md)
+## **_SnakeOil-XY currently has 2 versions_**
+
+<code>Both machines are practicaly identical, only difference is the build volume. </code>
+
+### 180x180x180mm build volume (Standard)
+- [180<sup>3</sup>mm BOM](./Doc/BOM/bom-180.md)
+### 250x240x230mm build volume (Large)
+- [250<sup>3</sup>mm BOM](./Doc/BOM/bom-250.md)
 
 ## Manual
 
