@@ -14,8 +14,8 @@ Stable hi-speed, small size fully-featured affordable CoreXY 3D printer. Inspire
 <table>
     <thead>
         <tr>
-<th>Feature</th>
-<th>Credit/Inspiration by/Description</th>
+            <th>Feature</th>
+            <th>Credit/Inspiration by/Description</th>
         </tr>
     </thead>
     <tbody>
@@ -119,8 +119,11 @@ Stable hi-speed, small size fully-featured affordable CoreXY 3D printer. Inspire
 <code>Both machines are practicaly identical, only difference is the build volume. </code>
 
 ### 180x180x180mm build volume (Standard)
+
 - [180<sup>3</sup>mm BOM](./Doc/BOM/bom-180.md)
+
 ### 250x240x230mm build volume (Large)
+
 - [250<sup>3</sup>mm BOM](./Doc/BOM/bom-250.md)
 
 ## Manual
