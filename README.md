@@ -82,6 +82,13 @@ Stable hi-speed, small size fully-featured affordable CoreXY 3D printer. Inspire
 
 ![Shaper](./Doc/img/beta2-accel-test.png)
 
+## Layer pitch measure (beta2 1515 gantry with Sherpa mini extruder)
+
+- Measure result provided by [株式会社グーテンベルク](https://gutenberg.co.jp/)
+- PLA, 0.4mm nozzle, sliced with Cura 4.12.1 using "CoreXY FAST" profile.
+
+![Shaper](./Doc/img/layer-measure.png)
+
 ## Demo videos
 
 <table>

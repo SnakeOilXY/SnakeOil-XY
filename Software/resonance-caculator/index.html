@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<style>
+    table,
+    th,
+    td {
+        border: 1px solid black;
+    }
+    input {
+        width: 97%;
+        min-width: 97%;
+    }
+</style>
+
+<body>
+
+    <h2>Combined shaper Frequency Calculator</h2>
+
+    <table style="width:100%">
+        <tr>
+            <th>Measure target</th>
+            <th>ZV</th>
+            <th>MZV</th>
+            <th>EI</th>
+            <th>2HUM_EI</th>
+            <th>3HUM_EI</th>
+        </tr>
+        <tr>
+            <td>Toolhead</td>
+            <td>not supported</td>
+            <td>not supported</td>
+            <td><input type="number" id="toolhead_1ei" oninput="calc();" autocomplete="off"></td>
+            <td><input type="number" id="toolhead_2ei" oninput="calc();" autocomplete="off"></td>
+            <td><input type="number" id="toolhead_3ei" oninput="calc();" autocomplete="off"></td>
+        </tr>
+        <tr>
+            <td>Bed</td>
+            <td>not supported</td>
+            <td>not supported</td>
+            <td><input type="number" id="bed_1ei" oninput="calc();" autocomplete="off"></td>
+            <td><input type="number" id="bed_2ei" oninput="calc();" autocomplete="off"></td>
+            <td><input type="number" id="bed_3ei" oninput="calc();" autocomplete="off"></td>
+        </tr>
+        <tr>
+            <td>Combined</td>
+            <td>not supported</td>
+            <td>not supported</td>
+            <td><input type="number" id="combined_1ei" disabled autocomplete="off"></td>
+            <td><input type="number" id="combined_2ei" disabled autocomplete="off"></td>
+            <td><input type="number" id="combined_3ei" disabled autocomplete="off"></td>
+        </tr>
+        <tr>
+            <td>Rating</td>
+            <td>not supported</td>
+            <td>not supported</td>
+            <td><input type="text" id="rating_1ei" disabled autocomplete="off"></td>
+            <td><input type="text" id="rating_2ei" disabled autocomplete="off"></td>
+            <td><input type="text" id="rating_3ei" disabled autocomplete="off"></td>
+        </tr>
+
+    </table>
+
+    <p>Enter the recommended shaper frequency when the acceleration sensor mount on toolhead and when mount on the bed.</p>
+    <p>Combined frequency will be calculated reduce both the vibration of the toolhead and the bed. Set this value in your [input_shaper] config section. </p>
+    <p>If both EI, 2HUM_EI, 3HUM_EI have "OK" rating, do some test print with EI first. If it not work, try again with 2HUM_EI, then 3HUM_EI</p>
+
+    <script>
+        function calc() {
+            let shaper_1ei_lower_range = 1 - 0.20;
+            let shaper_2ei_lower_range = 1 - 0.35;
+            let shaper_3ei_lower_range = 1 - 0.45;
+
+            let shaper_1ei_upper_range = 1 + 0.20;
+            let shaper_2ei_upper_range = 1 + 0.35;
+            let shaper_3ei_upper_range = 1 + 0.50;
+
+
+            let toolhead_1ei = document.getElementById("toolhead_1ei").value;
+            let toolhead_2ei = document.getElementById("toolhead_2ei").value;
+            let toolhead_3ei = document.getElementById("toolhead_3ei").value;
+
+            let bed_1ei = document.getElementById("bed_1ei").value;
+            let bed_2ei = document.getElementById("bed_2ei").value;
+            let bed_3ei = document.getElementById("bed_3ei").value;
+
+            if(!isNaN(toolhead_1ei) && !isNaN(bed_1ei)) {
+                let combined_1ei = (parseFloat(toolhead_1ei) + parseFloat(bed_1ei)) / 2
+                document.getElementById("combined_1ei").value = combined_1ei;
+                if ( (combined_1ei * shaper_1ei_lower_range < ((toolhead_1ei < bed_1ei) ? toolhead_1ei : bed_1ei)) && (combined_1ei * shaper_1ei_upper_range > ((toolhead_1ei > bed_1ei) ? toolhead_1ei : bed_1ei)) ){
+                    document.getElementById("rating_1ei").value = "OK";
+                } else {
+                    document.getElementById("rating_1ei").value = "Ineffective or invalid input";
+                }
+            }
+
+            if (!isNaN(toolhead_2ei) && !isNaN(bed_2ei)) {
+                let combined_2ei = (parseFloat(toolhead_2ei) + parseFloat(bed_2ei)) / 2
+                document.getElementById("combined_2ei").value = combined_2ei;
+                if ((combined_2ei * shaper_2ei_lower_range < ((toolhead_2ei < bed_2ei) ? toolhead_2ei : bed_2ei)) && (combined_2ei * shaper_2ei_upper_range > ((toolhead_2ei > bed_2ei) ? toolhead_2ei : bed_2ei))) {
+                    document.getElementById("rating_2ei").value = "OK";
+                } else {
+                    document.getElementById("rating_2ei").value = "Ineffective or invalid input";
+                }
+            }
+
+            if (!isNaN(toolhead_3ei) && !isNaN(bed_3ei)) {
+                let combined_3ei = (parseFloat(toolhead_3ei) + parseFloat(bed_3ei)) / 2
+                document.getElementById("combined_3ei").value = combined_3ei;
+                if ((combined_3ei * shaper_3ei_lower_range < ((toolhead_3ei < bed_3ei) ? toolhead_3ei : bed_3ei)) && (combined_3ei * shaper_3ei_upper_range > ((toolhead_3ei > bed_3ei) ? toolhead_3ei : bed_3ei))) {
+                    document.getElementById("rating_3ei").value = "OK";
+                } else {
+                    document.getElementById("rating_3ei").value = "Ineffective or invalid input";
+                }
+            }
+        }
+    </script>
+
+</body>
+
+</html>
