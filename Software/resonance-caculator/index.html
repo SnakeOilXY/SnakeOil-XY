@@ -107,8 +107,8 @@
             if (!isNaN(toolhead_zv) && !isNaN(bed_zv)) {
                 let combined_zv = (parseFloat(toolhead_zv) + parseFloat(bed_zv)) / 2
                 document.getElementById("combined_zv").value = combined_zv;
-                if ((combined_zv * shaper_zv_lower_range < ((toolhead_zv < bed_zv) ? toolhead_zv : bed_zv)) && (combined_zv *
-                    shaper_zv_upper_range > ((toolhead_zv > bed_zv) ? toolhead_zv : bed_zv))) {
+                if ((combined_zv * shaper_zv_lower_range <= ((toolhead_zv <= bed_zv) ? toolhead_zv : bed_zv)) && (combined_zv *
+                    shaper_zv_upper_range >= ((toolhead_zv >= bed_zv) ? toolhead_zv : bed_zv))) {
                     document.getElementById("rating_zv").value = "OK";
                 } else {
                     document.getElementById("rating_zv").value = "Ineffective or invalid input";
@@ -118,8 +118,8 @@
             if (!isNaN(toolhead_mzv) && !isNaN(bed_mzv)) {
                 let combined_mzv = (parseFloat(toolhead_mzv) + parseFloat(bed_mzv)) / 2
                 document.getElementById("combined_mzv").value = combined_mzv;
-                if ((combined_mzv * shaper_mzv_lower_range < ((toolhead_mzv < bed_mzv) ? toolhead_mzv : bed_mzv)) && (combined_mzv *
-                    shaper_mzv_upper_range > ((toolhead_mzv > bed_mzv) ? toolhead_mzv : bed_mzv))) {
+                if ((combined_mzv * shaper_mzv_lower_range <= ((toolhead_mzv <= bed_mzv) ? toolhead_mzv : bed_mzv)) && (combined_mzv *
+                    shaper_mzv_upper_range >= ((toolhead_mzv >= bed_mzv) ? toolhead_mzv : bed_mzv))) {
                     document.getElementById("rating_mzv").value = "OK";
                 } else {
                     document.getElementById("rating_mzv").value = "Ineffective or invalid input";
@@ -129,18 +129,19 @@
             if (!isNaN(toolhead_zvd) && !isNaN(bed_zvd)) {
                 let combined_zvd = (parseFloat(toolhead_zvd) + parseFloat(bed_zvd)) / 2
                 document.getElementById("combined_zvd").value = combined_zvd;
-                if ((combined_zvd * shaper_zvd_lower_range < ((toolhead_zvd < bed_zvd) ? toolhead_zvd : bed_zvd)) && (combined_zvd *
-                    shaper_zvd_upper_range > ((toolhead_zvd > bed_zvd) ? toolhead_zvd : bed_zvd))) {
+                if ((combined_zvd * shaper_zvd_lower_range <= ((toolhead_zvd <= bed_zvd) ? toolhead_zvd : bed_zvd)) &&
+                    (combined_zvd * shaper_zvd_upper_range >= ((toolhead_zvd >= bed_zvd) ? toolhead_zvd : bed_zvd))) {
                     document.getElementById("rating_zvd").value = "OK";
                 } else {
                     document.getElementById("rating_zvd").value = "Ineffective or invalid input";
                 }
             }
 
-            if(!isNaN(toolhead_1ei) && !isNaN(bed_1ei)) {
+            if (!isNaN(toolhead_1ei) && !isNaN(bed_1ei)) {
                 let combined_1ei = (parseFloat(toolhead_1ei) + parseFloat(bed_1ei)) / 2
                 document.getElementById("combined_1ei").value = combined_1ei;
-                if ( (combined_1ei * shaper_1ei_lower_range < ((toolhead_1ei < bed_1ei) ? toolhead_1ei : bed_1ei)) && (combined_1ei * shaper_1ei_upper_range > ((toolhead_1ei > bed_1ei) ? toolhead_1ei : bed_1ei)) ){
+                if ((combined_1ei * shaper_1ei_lower_range <= ((toolhead_1ei <= bed_1ei) ? toolhead_1ei : bed_1ei)) &&
+                    (combined_1ei * shaper_1ei_upper_range >= ((toolhead_1ei >= bed_1ei) ? toolhead_1ei : bed_1ei))) {
                     document.getElementById("rating_1ei").value = "OK";
                 } else {
                     document.getElementById("rating_1ei").value = "Ineffective or invalid input";
@@ -150,7 +151,8 @@
             if (!isNaN(toolhead_2ei) && !isNaN(bed_2ei)) {
                 let combined_2ei = (parseFloat(toolhead_2ei) + parseFloat(bed_2ei)) / 2
                 document.getElementById("combined_2ei").value = combined_2ei;
-                if ((combined_2ei * shaper_2ei_lower_range < ((toolhead_2ei < bed_2ei) ? toolhead_2ei : bed_2ei)) && (combined_2ei * shaper_2ei_upper_range > ((toolhead_2ei > bed_2ei) ? toolhead_2ei : bed_2ei))) {
+                if ((combined_2ei * shaper_2ei_lower_range <= ((toolhead_2ei <= bed_2ei) ? toolhead_2ei : bed_2ei)) &&
+                    (combined_2ei * shaper_2ei_upper_range >= ((toolhead_2ei >= bed_2ei) ? toolhead_2ei : bed_2ei))) {
                     document.getElementById("rating_2ei").value = "OK";
                 } else {
                     document.getElementById("rating_2ei").value = "Ineffective or invalid input";
@@ -160,7 +162,8 @@
             if (!isNaN(toolhead_3ei) && !isNaN(bed_3ei)) {
                 let combined_3ei = (parseFloat(toolhead_3ei) + parseFloat(bed_3ei)) / 2
                 document.getElementById("combined_3ei").value = combined_3ei;
-                if ((combined_3ei * shaper_3ei_lower_range < ((toolhead_3ei < bed_3ei) ? toolhead_3ei : bed_3ei)) && (combined_3ei * shaper_3ei_upper_range > ((toolhead_3ei > bed_3ei) ? toolhead_3ei : bed_3ei))) {
+                if ((combined_3ei * shaper_3ei_lower_range <= ((toolhead_3ei <= bed_3ei) ? toolhead_3ei : bed_3ei)) &&
+                    (combined_3ei * shaper_3ei_upper_range >= ((toolhead_3ei >= bed_3ei) ? toolhead_3ei : bed_3ei))) {
                     document.getElementById("rating_3ei").value = "OK";
                 } else {
                     document.getElementById("rating_3ei").value = "Ineffective or invalid input";
