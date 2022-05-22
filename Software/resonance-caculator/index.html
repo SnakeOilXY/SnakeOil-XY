@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<style>
+    table,
+    th,
+    td {
+        border: 1px solid black;
+    }
+    input {
+        width: 97%;
+        min-width: 97%;
+    }
+</style>
+<head>
+    <title>Combined shaper frequency calculator</title>
+</head>
+
+<body>
+
+    <h2>Combined shaper frequency calculator</h2>
+
+    <table style="width:100%">
+        <tr>
+            <th>Measure target</th>
+            <th>ZV</th>
+            <th>MZV</th>
+            <th>ZVD</th>
+            <th>EI</th>
+            <th>2HUM_EI</th>
+            <th>3HUM_EI</th>
+        </tr>
+        <tr>
+            <td>Toolhead</td>
+            <td><input type="number" id="toolhead_zv" oninput="calc();" autocomplete="off"></td>
+            <td><input type="number" id="toolhead_mzv" oninput="calc();" autocomplete="off"></td>
+            <td><input type="number" id="toolhead_zvd" oninput="calc();" autocomplete="off"></td>
+            <td><input type="number" id="toolhead_1ei" oninput="calc();" autocomplete="off"></td>
+            <td><input type="number" id="toolhead_2ei" oninput="calc();" autocomplete="off"></td>
+            <td><input type="number" id="toolhead_3ei" oninput="calc();" autocomplete="off"></td>
+        </tr>
+        <tr>
+            <td>Bed</td>
+            <td><input type="number" id="bed_zv" oninput="calc();" autocomplete="off"></td>
+            <td><input type="number" id="bed_mzv" oninput="calc();" autocomplete="off"></td>
+            <td><input type="number" id="bed_zvd" oninput="calc();" autocomplete="off"></td>
+            <td><input type="number" id="bed_1ei" oninput="calc();" autocomplete="off"></td>
+            <td><input type="number" id="bed_2ei" oninput="calc();" autocomplete="off"></td>
+            <td><input type="number" id="bed_3ei" oninput="calc();" autocomplete="off"></td>
+        </tr>
+        <tr>
+            <td>Combined</td>
+            <td><input type="number" id="combined_zv" disabled autocomplete="off"></td>
+            <td><input type="number" id="combined_mzv" disabled autocomplete="off"></td>
+            <td><input type="number" id="combined_zvd" disabled autocomplete="off"></td>
+            <td><input type="number" id="combined_1ei" disabled autocomplete="off"></td>
+            <td><input type="number" id="combined_2ei" disabled autocomplete="off"></td>
+            <td><input type="number" id="combined_3ei" disabled autocomplete="off"></td>
+        </tr>
+        <tr>
+            <td>Rating</td>
+            <td><input type="text" id="rating_zv" disabled autocomplete="off"></td>
+            <td><input type="text" id="rating_mzv" disabled autocomplete="off"></td>
+            <td><input type="text" id="rating_zvd" disabled autocomplete="off"></td>
+            <td><input type="text" id="rating_1ei" disabled autocomplete="off"></td>
+            <td><input type="text" id="rating_2ei" disabled autocomplete="off"></td>
+            <td><input type="text" id="rating_3ei" disabled autocomplete="off"></td>
+        </tr>
+
+    </table>
+
+    <p>Enter the recommended shaper frequency when the acceleration sensor mount on toolhead and when mount on the bed.</p>
+    <p>Combined frequency will be calculated reduce both the vibration of the toolhead and the bed. Set this value in your [input_shaper] config section. </p>
+    <p>Shaper duration affects the smoothing in parts - the larger it is, the more smooth the parts are. This dependency is not
+    linear, but can give a sense of which shapers 'smooth' more for the same frequency. The ordering by smoothing is like
+    this: ZV < MZV < ZVD ≈ EI < 2HUMP_EI < 3HUMP_EI. Use the shaper with less smoothing if possible.</p>
+
+    <script>
+        function calc() {
+            let shaper_zv_lower_range  = 1 - 0.00;
+            let shaper_mzv_lower_range = 1 - 0.04;
+            let shaper_zvd_lower_range = 1 - 0.15;
+            let shaper_1ei_lower_range = 1 - 0.20;
+            let shaper_2ei_lower_range = 1 - 0.35;
+            let shaper_3ei_lower_range = 1 - 0.45;
+
+            let shaper_zv_upper_range  = 1 + 0.00;
+            let shaper_mzv_upper_range = 1 + 0.04;
+            let shaper_zvd_upper_range = 1 + 0.15;
+            let shaper_1ei_upper_range = 1 + 0.20;
+            let shaper_2ei_upper_range = 1 + 0.35;
+            let shaper_3ei_upper_range = 1 + 0.50;
+
+            let toolhead_zv = document.getElementById("toolhead_zv").value;
+            let toolhead_mzv = document.getElementById("toolhead_mzv").value;
+            let toolhead_zvd = document.getElementById("toolhead_zvd").value;
+            let toolhead_1ei = document.getElementById("toolhead_1ei").value;
+            let toolhead_2ei = document.getElementById("toolhead_2ei").value;
+            let toolhead_3ei = document.getElementById("toolhead_3ei").value;
+
+            let bed_zv = document.getElementById("bed_zv").value;
+            let bed_mzv = document.getElementById("bed_mzv").value;
+            let bed_zvd = document.getElementById("bed_zvd").value;
+            let bed_1ei = document.getElementById("bed_1ei").value;
+            let bed_2ei = document.getElementById("bed_2ei").value;
+            let bed_3ei = document.getElementById("bed_3ei").value;
+
+            if (!isNaN(toolhead_zv) && !isNaN(bed_zv)) {
+                let combined_zv = (parseFloat(toolhead_zv) + parseFloat(bed_zv)) / 2
+                document.getElementById("combined_zv").value = combined_zv;
+                if ((combined_zv * shaper_zv_lower_range <= ((toolhead_zv <= bed_zv) ? toolhead_zv : bed_zv)) && (combined_zv *
+                    shaper_zv_upper_range >= ((toolhead_zv >= bed_zv) ? toolhead_zv : bed_zv))) {
+                    document.getElementById("rating_zv").value = "OK";
+                } else {
+                    document.getElementById("rating_zv").value = "Ineffective or invalid input";
+                }
+            }
+
+            if (!isNaN(toolhead_mzv) && !isNaN(bed_mzv)) {
+                let combined_mzv = (parseFloat(toolhead_mzv) + parseFloat(bed_mzv)) / 2
+                document.getElementById("combined_mzv").value = combined_mzv;
+                if ((combined_mzv * shaper_mzv_lower_range <= ((toolhead_mzv <= bed_mzv) ? toolhead_mzv : bed_mzv)) && (combined_mzv *
+                    shaper_mzv_upper_range >= ((toolhead_mzv >= bed_mzv) ? toolhead_mzv : bed_mzv))) {
+                    document.getElementById("rating_mzv").value = "OK";
+                } else {
+                    document.getElementById("rating_mzv").value = "Ineffective or invalid input";
+                }
+            }
+
+            if (!isNaN(toolhead_zvd) && !isNaN(bed_zvd)) {
+                let combined_zvd = (parseFloat(toolhead_zvd) + parseFloat(bed_zvd)) / 2
+                document.getElementById("combined_zvd").value = combined_zvd;
+                if ((combined_zvd * shaper_zvd_lower_range <= ((toolhead_zvd <= bed_zvd) ? toolhead_zvd : bed_zvd)) &&
+                    (combined_zvd * shaper_zvd_upper_range >= ((toolhead_zvd >= bed_zvd) ? toolhead_zvd : bed_zvd))) {
+                    document.getElementById("rating_zvd").value = "OK";
+                } else {
+                    document.getElementById("rating_zvd").value = "Ineffective or invalid input";
+                }
+            }
+
+            if (!isNaN(toolhead_1ei) && !isNaN(bed_1ei)) {
+                let combined_1ei = (parseFloat(toolhead_1ei) + parseFloat(bed_1ei)) / 2
+                document.getElementById("combined_1ei").value = combined_1ei;
+                if ((combined_1ei * shaper_1ei_lower_range <= ((toolhead_1ei <= bed_1ei) ? toolhead_1ei : bed_1ei)) &&
+                    (combined_1ei * shaper_1ei_upper_range >= ((toolhead_1ei >= bed_1ei) ? toolhead_1ei : bed_1ei))) {
+                    document.getElementById("rating_1ei").value = "OK";
+                } else {
+                    document.getElementById("rating_1ei").value = "Ineffective or invalid input";
+                }
+            }
+
+            if (!isNaN(toolhead_2ei) && !isNaN(bed_2ei)) {
+                let combined_2ei = (parseFloat(toolhead_2ei) + parseFloat(bed_2ei)) / 2
+                document.getElementById("combined_2ei").value = combined_2ei;
+                if ((combined_2ei * shaper_2ei_lower_range <= ((toolhead_2ei <= bed_2ei) ? toolhead_2ei : bed_2ei)) &&
+                    (combined_2ei * shaper_2ei_upper_range >= ((toolhead_2ei >= bed_2ei) ? toolhead_2ei : bed_2ei))) {
+                    document.getElementById("rating_2ei").value = "OK";
+                } else {
+                    document.getElementById("rating_2ei").value = "Ineffective or invalid input";
+                }
+            }
+
+            if (!isNaN(toolhead_3ei) && !isNaN(bed_3ei)) {
+                let combined_3ei = (parseFloat(toolhead_3ei) + parseFloat(bed_3ei)) / 2
+                document.getElementById("combined_3ei").value = combined_3ei;
+                if ((combined_3ei * shaper_3ei_lower_range <= ((toolhead_3ei <= bed_3ei) ? toolhead_3ei : bed_3ei)) &&
+                    (combined_3ei * shaper_3ei_upper_range >= ((toolhead_3ei >= bed_3ei) ? toolhead_3ei : bed_3ei))) {
+                    document.getElementById("rating_3ei").value = "OK";
+                } else {
+                    document.getElementById("rating_3ei").value = "Ineffective or invalid input";
+                }
+            }
+
+            
+        }
+    </script>
+
+</body>
+
+</html>
