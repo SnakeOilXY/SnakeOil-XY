@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-As report of some of our member, even with shaper enabled, the ringing pattern still show on printed part(check images bellow). I did some research and with the help of our member I found the solution for the ringing problem.
+As report of some of our member, even with shaper enabled, the ringing pattern still show on printed part(check images bellow). I did some research and with the help of our members, I found the solution for the ringing problem.
 
 ![](./img/pr1.jpg)
 ![](./img/pr2.jpg)
