@@ -31,7 +31,7 @@ To eliminate the ringing, we need to measure vibrations of both the toolhead and
 - Now you will have 4 csv files in <code>/tmp</code> directory,run the following commands, klipper will calculate the shaper frequency based on all 4 csv files we generated in the previous steps.
 
 <pre>~/klipper/scripts/calibrate_shaper.py /tmp/resonances_x_*.csv -o /tmp/shaper_calibrate_x.png
-  ~/klipper/scripts/calibrate_shaper.py /tmp/resonances_y_*.csv -o /tmp/shaper_calibrate_y.png
+~/klipper/scripts/calibrate_shaper.py /tmp/resonances_y_*.csv -o /tmp/shaper_calibrate_y.png
   </pre>
 
 - Set the shaper frequency and shaper type as the above commands result.
@@ -46,14 +46,14 @@ Each shaper has an effective range, all vibrations in that range will be reduced
 - Measure vibrations with the ADXL345 sensor mount on the toolhead. This step will generate 2 csv files (/tmp/resonances_x_yyyymmdd.csv and /tmp/resonances_y_yyyymmdd.csv)
 - Run the following commands to generate the graph of the toolhead vibration
 <pre>~/klipper/scripts/calibrate_shaper.py /tmp/resonances_x_*.csv -o /tmp/shaper_calibrate_toolhead_x.png
-  ~/klipper/scripts/calibrate_shaper.py /tmp/resonances_y_*.csv -o /tmp/shaper_calibrate_toolhead_y.png
+~/klipper/scripts/calibrate_shaper.py /tmp/resonances_y_*.csv -o /tmp/shaper_calibrate_toolhead_y.png
   </pre>
 - Remove the previous step data with the command bellow
-<pre>rm /tmp/\*.csv</pre>
+<pre>rm /tmp/*.csv</pre>
 - Measure the vibrations but with the ADXL345 sensor mount on the bed. This step will generate 2 csv files (/tmp/resonances_x_yyyymmdd.csv and /tmp/resonances_y_yyyymmdd.csv)
 - Run the following commands to generate the graph of the bed vibration
 <pre>~/klipper/scripts/calibrate_shaper.py /tmp/resonances_x_*.csv -o /tmp/shaper_calibrate_bed_x.png
-  ~/klipper/scripts/calibrate_shaper.py /tmp/resonances_y_*.csv -o /tmp/shaper_calibrate_bed_y.png
+~/klipper/scripts/calibrate_shaper.py /tmp/resonances_y_*.csv -o /tmp/shaper_calibrate_bed_y.png
   </pre>
 
 - Download the [calc tool html file here](https://raw.githubusercontent.com/SnakeOilXY/SnakeOil-XY/master/Software/resonance-caculator/index.html) and open it with your web browser by double clicking the htlm file.
