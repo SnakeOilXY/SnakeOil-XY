@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name toolhead-board-rescue)(type Legacy)(uri ${KIPRJMOD}/toolhead-board-rescue.lib)(options "")(descr ""))
 )
