@@ -5,7 +5,7 @@
 
 # SnakeOil XY
 
-Stable hi-speed, small size fully-featured affordable CoreXY 3D printer. Inspired by [HevORT](https://miragec79.github.io/HevORT/), [Voron](https://vorondesign.com/), [Annex Engineering](https://github.com/Annex-Engineering) and [EVA2](https://main.eva-3d.page/) design.
+Fully open source configurable high speed CoreXY 3D printer. Inspired by [HevORT](https://miragec79.github.io/HevORT/), [Voron](https://vorondesign.com/), [Annex Engineering](https://github.com/Annex-Engineering) and [EVA2](https://main.eva-3d.page/) design.
 
 ![Render-angle](./Doc/img/angle-render.png)
 
@@ -20,7 +20,15 @@ Stable hi-speed, small size fully-featured affordable CoreXY 3D printer. Inspire
     </thead>
     <tbody>
         <tr>
-            <td>3 Point bed leveling</td>
+            <td>Selectable kinematic : CoreXY, Hibryd-CoreXY </td>
+            <td>(coming soon)</td>
+        </tr>
+        <tr>
+            <td>Selectable single or dual toolhead </td>
+            <td>(coming soon)</td>
+        </tr>
+        <tr>
+            <td>3 Point auto bed tramming</td>
             <td>HevORT, Wobble ring</td>
         </tr>
         <tr>
