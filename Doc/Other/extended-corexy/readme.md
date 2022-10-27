@@ -7,7 +7,7 @@ Before explained what is extended coreXY and it's benefit, let's check the tradi
 
 ![coreXY](./corexy.png)
 - With stationary motors, we have less moving mass compared to bed-slinger machine and result in have faster max speed and higher max acceleration without losing print quality.
-- It's hard to keep the same performance when scale up the machine because increase of the gantry mass and longer belt length.
+- It's hard to keep the same performance when scale up the machine because increase of the gantry mass and longer belt path.
 
 ### 4 motors coreXY
 ![awd-coreXY](./awd-corexy.png)
