@@ -19,6 +19,7 @@ Before explained what is extended coreXY and it's benefit, let's check the tradi
 ![extended-coreXY](./extended_corexy.png)
 - The ideal of extended coreXY is instead of add power to both X and Y axis, we add 2 motors to support the heavy Y axis only. And with less load on AB motors, hopefully we also will have some boost on X axis too.  
 - Compare to 4 motors coreXY, extended coreXY will require more parts and modify to the current system to add 2 extra motors. Tuning belt tension for Y axis also need more effort than tuning for other coreXY setup.
+- With independent endstop of left and right of Y axis, we can square the gantry with homing.
 - An other benefit of extended coreXY is the system can be easily switched to IDEX  hybrid coreXY by just adding 1 more toolhead as the image bellow.
 
 ![idex-coreXY](./idex-corexy.png)
