@@ -9,6 +9,8 @@ Fully open source configurable high speed CoreXY 3D printer. Inspired by [HevORT
 
 ![Render-angle](./Doc/img/angle-render.png)
 
+ ## Notice : Upcoming [beta3 release](https://github.com/SnakeOilXY/SnakeOil-XY/tree/beta3) with new machine variants and new kinematic is scheduled in December 2022
+
 ## Features
 
 <table>
