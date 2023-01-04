@@ -23,11 +23,11 @@
             <td><a href="https://www.Aliexpress.com/item/1005002526998853.html" rel="nofollow">Aliexpress</a></td>
         </tr>
         <tr>
-            <td>M4x4-HeatSet or M4 nut</td>
+            <td>M4 hex nut</td>
             <td>2</td>
-            <td>M4 X D6.0 X L5.0 insert or standard M4 hex nut</td>
-            <td><a href="https://s.click.aliexpress.com/e/_DeKBc0T" rel="nofollow">Aliexpress</a></td>
-            <td><a href="https://www.aliexpress.com/item/4000232925592.html" rel="nofollow">Aliexpress</a></td>
+            <td></td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
             <td>Socket head M3x10</td>
