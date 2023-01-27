@@ -17,6 +17,9 @@ Fully open source configurable high speed CoreXY 3D printer. Inspired by [HevORT
 - Add klicky probe support(by Charles)
 - New bed coupling kinematic using silicon spacers
 - Add side-blower aux fan module
+- Add EBB can toolhead board support
+- Remove outdated components
+- Merge toolhead design(1515 and 2020 gantry now use the same toolhead) and some small improvement on geometry
 
 
 ## Features
