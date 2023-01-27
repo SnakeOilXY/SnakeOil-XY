@@ -1,4 +1,4 @@
-# BETA2 Release
+# BETA2 Release(outdated document)
 
 ## What changed from Beta1
 

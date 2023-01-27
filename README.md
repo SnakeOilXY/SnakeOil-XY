@@ -9,6 +9,16 @@ Fully open source configurable high speed CoreXY 3D printer. Inspired by [HevORT
 
 ![Render-angle](./Doc/img/angle-render.png)
 
+## Beta 3 release (2023-01-28)
+
+
+- Add [IDEX variant](./BETA3_IDEX_Release)(by Charles)
+- Add [4PR variant](./BETA3_4PR_Release) with new [Extended CoreXY kinematic](https://github.com/SnakeOilXY/klipper-extended-corexy-kinematic)
+- Add klicky probe support(by Charles)
+- New bed coupling kinematic using silicon spacers
+- Add side-blower aux fan module
+
+
 ## Features
 
 <table>
