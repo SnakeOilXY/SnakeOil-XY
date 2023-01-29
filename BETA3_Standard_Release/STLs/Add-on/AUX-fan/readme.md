@@ -50,7 +50,7 @@
             <td><a href="abc" rel="nofollow">Aliexpress</a></td>
         </tr>
         <tr>
-            <td>M2.5 socket head bolt</td>
+            <td>M2.5x30 socket head bolt</td>
             <td>4</td>
             <td></td>
             <td><a href="abc" rel="nofollow">Aliexpress</a></td>
