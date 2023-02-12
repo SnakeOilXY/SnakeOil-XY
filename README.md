@@ -12,14 +12,14 @@ Fully open source configurable high speed CoreXY 3D printer. Inspired by [HevORT
 ## Beta 3 release (2023-01-28)
 
 
-- Add [IDEX variant](./BETA3_IDEX_Release)(by Charles)
-- Add [4PR variant](./BETA3_4PR_Release) with new [Extended CoreXY kinematic](https://github.com/SnakeOilXY/klipper-extended-corexy-kinematic)
+- Add [IDEX variant](./BETA3_IDEX_Release_STL)(by Charles)
+- Add [4PR variant](./BETA3_4PR_Release_STL) with new [Extended CoreXY kinematic](https://github.com/SnakeOilXY/klipper-extended-corexy-kinematic)
 - Add klicky probe support(by Charles)
 - New bed coupling kinematic using silicon spacers
 - Add side-blower aux fan module
 - Add EBB can toolhead board support
 - Remove outdated components
-- Merge toolhead design(1515 and 2020 gantry now use the same toolhead) and some small improvement on geometry
+- Merge toolhead design(1515 and 2020 gantry now use the same toolhead front/back/bottom design) and some small improvements on geometry
 
 
 ## Features
