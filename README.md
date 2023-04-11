@@ -2,6 +2,7 @@
 
 <a href="https://discord.gg/WZVP2HuAag" style="height: 40px !important;"><img src="https://discordapp.com/api/guilds/851371040566673428/widget.png?style=banner2" alt="Join us on Discord" style="height: 40px !important;width: 180px !important;border-radius: 19px !important;" ></a>
 <a href='https://ko-fi.com/F1F06RMBO' target='_blank'><img height='36' style='border:0px;height:40px;' src='https://cdn.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+<a href='https://www.amazon.jp/hz/wishlist/ls/2AHXTCG01RYAZ?ref_=wl_share' target='_blank'><img height='36' style='border:0px;height:40px; !important;border-radius: 19px' src='./Doc/logo/buy-me-a-spool.png' border='0' alt='Buy Me a spool at amazon Japan' /></a>
 
 # SnakeOil XY
 
