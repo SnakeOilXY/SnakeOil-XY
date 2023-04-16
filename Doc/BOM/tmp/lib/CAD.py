@@ -270,7 +270,7 @@ def _get_color_category_from_cad_list(file_name, matching_cad_parts: List[BomIte
             msg = f"{PRINTED_UNKNOWN_COLOR} colors found: "
             msg += str(unknown_results)
             if not suppress_logs:
-                LOGGER.error(f"{file_name} {msg}")
+                LOGGER.warning(f"{file_name} {msg}")
             result = PRINTED_UNKNOWN_COLOR
         else:
             result = PRINTED_MISSING
@@ -328,12 +328,12 @@ def get_part_color_from_stl_file(file_path: Path, cad_parts: List[BomItem]) -> s
                 if not matching_cad_parts:
                     target_ratio -= ratio_step
             if matching_cad_parts:
-                LOGGER.warning(f"Using less reliable 'fuzzy' search method for {file_name} -> {matching_cad_parts}")
+                LOGGER.info(f"Using less reliable 'fuzzy' search method for {file_name} -> {matching_cad_parts}")
             # Get top fuzzy result. Use with caution
             else:
                 fuzzy_results = search_cad_objects__fuzzy_top_result(file_name, cad_parts)
                 if fuzzy_results:
-                    LOGGER.warning(f"{file_name} top fuzzy matches {fuzzy_results}")
+                    LOGGER.error(f"Could not find a reliable match for {file_name} top fuzzy matches {fuzzy_results}")
     result = _get_color_category_from_cad_list(file_name, matching_cad_parts)
     write_md5_result(md5_sum, result)
     return result
