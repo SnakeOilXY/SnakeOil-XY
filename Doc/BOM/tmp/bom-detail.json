@@ -1,26 +1,32 @@
 {
   "LCD-assembly": {
+    "accent": {
+      "lcd-mounter-left": 1,
+      "lcd-mounter-right": 1,
+      "led-cover_use_dark_color_filament": 1,
+      "mount-arm-left": 1,
+      "mount-arm-right": 1
+    },
     "fastener": {
       "M3x4-HeatSet": 6,
       "Small size M3-Washer": 2,
       "Socket head M3x10-Screw": 4,
       "Socket head M3x8-Screw": 4
     },
-    "other": {
-      "Mini12864 Screen v": 4
-    },
-    "printed": {
+    "main": {
       "knob": 1,
       "lcd-base": 1,
-      "lcd-mounter-left": 1,
-      "lcd-mounter-right": 1,
-      "led-cover_use_dark_color_filament": 1,
-      "mount-arm-left": 1,
-      "mount-arm-right": 1,
       "reset-button": 1
+    },
+    "other": {
+      "Mini12864 Screen v": 4
     }
   },
   "ab-x-motor-assembly": {
+    "accent": {
+      "ab-motor-idler-spacer": 1,
+      "motor-mount-stack-idler-spacer": 1
+    },
     "fastener": {
       "Button head M5x40-Screw": 2,
       "Button head M6x14-Screw": 4,
@@ -31,20 +37,23 @@
       "Standard size M5-Washer": 2,
       "Standard size M6-Washer": 5
     },
+    "main": {
+      "ab-motor-bottom-left": 1,
+      "ab-motor-top-left": 1
+    },
     "other": {
       "20t-pulley": 1,
       "MR115ZZ": 1,
       "motor-40mm": 1,
       "smooth-idler-6mm": 3
-    },
-    "printed": {
-      "ab-motor-bottom-left": 1,
-      "ab-motor-idler-spacer": 1,
-      "ab-motor-top-left": 1,
-      "motor-mount-stack-idler-spacer": 1
     }
   },
   "ab-y-motor-assembly": {
+    "accent": {
+      "ab-motor-idler-spacer": 1,
+      "ab-motor-right-pulley-spacer": 1,
+      "motor-mount-stack-idler-spacer": 1
+    },
     "fastener": {
       "Button head M5x40-Screw": 2,
       "Button head M6x14-Screw": 4,
@@ -55,92 +64,132 @@
       "Standard size M5-Washer": 2,
       "Standard size M6-Washer": 5
     },
+    "main": {
+      "ab-motor-bottom-right": 1,
+      "ab-motor-top-right": 1
+    },
     "other": {
       "20t-pulley": 1,
       "MR115ZZ": 1,
       "motor-40mm": 1,
       "smooth-idler-6mm": 3
-    },
-    "printed": {
-      "ab-motor-bottom-right": 1,
-      "ab-motor-idler-spacer": 1,
-      "ab-motor-right-pulley-spacer": 1,
-      "ab-motor-top-right": 1,
-      "motor-mount-stack-idler-spacer": 1
     }
   },
+  "accent": {},
+  "add-on-ptfe-tube-guide-assembly": {
+    "accent": {
+      "ptfe-guide-base": 1
+    },
+    "fastener": {
+      "Button head M3x6-Screw": 2,
+      "Button head M3x8-Screw": 2,
+      "M3-HeatSet": 1,
+      "M3x4-HeatSet": 1,
+      "Small size M3-Washer": 2
+    },
+    "main": {
+      "ptfe-guide-arm-angle": 1
+    },
+    "other": {}
+  },
   "addon-camera-assembly": {
+    "accent": {
+      "camera-arm": 1,
+      "camera-axis": 1,
+      "camera-back-plate": 1
+    },
     "fastener": {
       "Button head M3x6-Screw": 5,
       "M3x3-HeatSet": 3
     },
-    "other": {},
-    "printed": {
-      "camera-arm": 1,
-      "camera-axis": 1,
-      "camera-back-plate": 1
-    }
-  },
-  "addon-chamber-temp-sensor-assembly": {
-    "fastener": {
-      "Button head M3x6-Screw": 4,
-      "M3x3-HeatSet": 2
-    },
-    "other": {},
-    "printed": {
-      "HTU21D-mounter": 1
-    }
+    "main": {},
+    "other": {}
   },
   "addon-filament-guide-arm-assembly": {
+    "accent": {},
     "fastener": {
       "Button head M6x12-Screw": 1,
       "Standard size M6-Washer": 1
     },
-    "other": {},
-    "printed": {
+    "main": {
       "filament-guide-e3d-collet": 1
+    },
+    "other": {
+      "E3D-bowden-collet": 1
+    }
+  },
+  "air-filter-assembly": {
+    "accent": {
+      "air-filter-eject-level": 1
+    },
+    "fastener": {
+      "Button head M3x6-Screw": 4,
+      "Button head M6x12-Screw": 2,
+      "M3x3-HeatSet": 4,
+      "Socket head M2x6-self-tapping-Screw": 8
+    },
+    "main": {
+      "air-filter-front-cover": 1,
+      "air-filter-mounter-left": 1,
+      "air-filter-mounter-right": 1
+    },
+    "other": {
+      "4010-fan": 2,
+      "active-carbon-foam": 1,
+      "air-filter-body": 1,
+      "hepa-filter": 1
     }
   },
   "bed-assembly": {
+    "accent": {
+      "1515-92mm-fan-mount": 2,
+      "1515-92mm-fan-mount001 (Mirror #1)": 2,
+      "bed-cable-mounter": 1,
+      "bed-cable-supporter": 1,
+      "wago-mounter": 1
+    },
     "fastener": {
-      "Big size M3-Washer": 16,
+      "Big size M3-Washer": 10,
       "Button head M3x16-Screw": 3,
-      "Button head M3x6-Screw": 13,
+      "Button head M3x20-Screw": 6,
+      "Button head M3x6-Screw": 9,
+      "Button head M3x8-Screw": 4,
+      "Button head M4x40-Screw": 3,
       "Grub M3x8-Screw": 2,
-      "Grub M4x12-Screw": 3,
-      "M3x4-HeatSet": 10,
-      "M4-HeatSet": 3,
-      "Small size M3-Washer": 15,
-      "Socket head M3x10-Screw": 19,
-      "Socket head M3x14-Screw": 12,
-      "Socket head M3x8-Screw": 2
+      "M3x10-Screw": 2,
+      "M3x4-HeatSet": 4,
+      "Small size M3-Washer": 9,
+      "Socket head M3x10-Screw": 16,
+      "Socket head M3x8-Screw": 2,
+      "Standard size M3-Washer": 15,
+      "Standard size M4-OD10-Washer": 2,
+      "Standard size M4-OD10-Washer-": 1
+    },
+    "main": {
+      "back-left-arm": 1,
+      "extrusion-connector": 2,
+      "frame-end-cap": 2,
+      "front-left-arm": 1,
+      "middle-right-arm": 1
     },
     "other": {
-      "10mm-thread-ball": 3,
       "1515-185mm": 2,
       "1515-190mm": 2,
       "92mm-slim-fan": 1,
       "HBLTBS": 4,
+      "O-ring-10ODx4IDx2H": 3,
       "aluminum-plate-190x193x": 1,
       "silicon-spacer": 3,
+      "silicon-spacer-16ODx4UDx9H": 3,
       "thermal-fuse-": 1
-    },
-    "printed": {
-      "1515-92mm-fan-mount": 2,
-      "1515-92mm-fan-mount001 (Mirror #1)": 2,
-      "back-left-arm": 1,
-      "bed-cable-mounter": 1,
-      "bed-cable-supporter": 1,
-      "bed-spring-top-spacer": 6,
-      "extrusion-connector": 2,
-      "frame-end-cap": 2,
-      "front-left-arm": 1,
-      "middle-right-arm": 1,
-      "threaded-ball-spacer": 3,
-      "wago-mounter": 1
     }
   },
   "bottom-panel-assembly": {
+    "accent": {
+      "ac-socket-mounter": 1,
+      "panel-mounter_U": 17,
+      "panel-side-connector": 1
+    },
     "fastener": {
       "Button head M3x6-Screw": 31,
       "Button head M4x25-Screw": 2,
@@ -154,6 +203,17 @@
       "Small size M3-Washer": 2,
       "Socket head M3x10-Screw": 2
     },
+    "main": {
+      "back-din-cap": 1,
+      "bottom-din-holder": 2,
+      "center-panel-connector": 1,
+      "din-wire-mounter": 2,
+      "front-din-cap": 1,
+      "lrs-xx-200-psu-mounter": 1,
+      "lrs-xx-200-psu-mounter-mirror": 1,
+      "sonoff-mount": 1,
+      "wago-mount": 1
+    },
     "other": {
       "IEC Screw Mount Plug Socket Male": 1,
       "SSR0omron": 1,
@@ -165,50 +225,87 @@
       "panel-BR": 1,
       "panel-FL": 1,
       "panel-FR": 1
+    }
+  },
+  "cherrymz-button-assembly": {
+    "accent": {
+      "button-cap": 4
     },
-    "printed": {
-      "ac-socket-mounter": 1,
-      "back-din-cap": 1,
-      "bottom-din-holder": 2,
-      "center-panel-connector": 1,
-      "din-wire-mounter": 2,
-      "front-din-cap": 1,
-      "lrs-xx-200-psu-mounter": 1,
-      "lrs-xx-200-psu-mounter-mirror": 1,
-      "panel-mounter_U": 17,
-      "panel-side-connector": 1,
-      "sonoff-mount": 1,
-      "wago-mount": 1
+    "fastener": {
+      "Small size M3-Washer": 2,
+      "Socket head M3x14-Screw": 2
+    },
+    "main": {
+      "cherrymx_mounter": 1
+    },
+    "other": {
+      "cherrymx": 4
+    }
+  },
+  "counter-weight-spring-box-assembly": {
+    "accent": {
+      "cw-axis": 2,
+      "cw-back-mounter": 2,
+      "cw-mid-plate": 2,
+      "cw-pulley-r": 2,
+      "cw-spacer": 2
+    },
+    "fastener": {
+      "Button head M4x40-Screw": 2,
+      "Button head M6x14-Screw": 8,
+      "Button head M6x16-Screw": 2,
+      "M3x4-HeatSet": 16,
+      "M4-HeatSet": 2,
+      "Socket head M3x20-Screw": 6,
+      "Socket head M3x30-Screw": 6,
+      "Socket head M3x45-Screw": 4,
+      "Standard size M6-Washer": 6
+    },
+    "main": {
+      "counter-weight-top-arm": 2,
+      "cw-back-plate": 2,
+      "cw-front-mounter": 2,
+      "cw-front-plate": 2
+    },
+    "other": {
+      "U624ZZ-bearing": 2,
+      "bearing-6701ZZ": 6,
+      "spacer-0p5mm": 2,
+      "spacer-1mm": 2
     }
   },
   "extruder-cable-end-assembly": {
+    "accent": {},
     "fastener": {
       "Button head M6x10-Screw": 1
     },
-    "other": {},
-    "printed": {
+    "main": {
       "extruder-cable-end-mounter": 1
-    }
+    },
+    "other": {}
   },
   "fastener": {},
   "foot-assembly": {
+    "accent": {},
     "fastener": {
       "Button head M8x20-Screw": 4
     },
+    "main": {
+      "foot-corner": 4
+    },
     "other": {
       "rubber24x24x": 4
-    },
-    "printed": {
-      "foot-corner": 4
     }
   },
   "frame-assembly": {
+    "accent": {},
     "fastener": {
       "Button head M6x12-Screw": 3,
       "Button head M8x20-Screw": 26,
       "Socket head M6x14-Screw": 56,
       "Standard size M6-Washer": 56
     },
+    "main": {},
     "other": {
       "3030-280mm001-tap": 1,
       "3030-280mm002-tap": 1,
@@ -231,10 +328,13 @@
       "Block-corner-bracket": 4,
       "HCJ_Joint": 22,
       "L-corner-bracket": 24
-    },
-    "printed": {}
+    }
   },
   "front-left-idler-assembly": {
+    "accent": {
+      "front-idler-spacer": 2,
+      "left-idler-top": 1
+    },
     "fastener": {
       "Button head M5x45-Screw": 1,
       "Button head M6x14-Screw": 1,
@@ -244,17 +344,19 @@
       "Socket head M3x35-Screw": 1,
       "Standard size M6-Washer": 3
     },
+    "main": {
+      "left-idler-bottom": 1,
+      "left-idler-mid": 1
+    },
     "other": {
       "smooth-idler-6mm": 1
-    },
-    "printed": {
-      "front-idler-spacer": 2,
-      "left-idler-bottom": 1,
-      "left-idler-mid": 1,
-      "left-idler-top": 1
     }
   },
   "front-panel-assembly": {
+    "accent": {
+      "knob": 2,
+      "nut": 2
+    },
     "fastener": {
       "Button head M3x6-Screw": 12,
       "Button head M6x12-Screw": 2,
@@ -265,23 +367,25 @@
       "Socket head M3x16-Screw": 2,
       "Socket head M3x40-Screw": 2
     },
+    "main": {
+      "door-magnet-mount-large": 1,
+      "door-magnet-mount-small": 2,
+      "front-hinge": 2,
+      "hinge-support": 2,
+      "side-hinge": 2
+    },
     "other": {
       "19x5x1p5m-magnet": 3,
       "6x3-magnet": 6,
       "frame-magnet-mount": 3,
       "panel-360x454x3mm": 1
-    },
-    "printed": {
-      "door-magnet-mount-large": 1,
-      "door-magnet-mount-small": 2,
-      "front-hinge": 2,
-      "hinge-support": 2,
-      "knob": 2,
-      "nut": 2,
-      "side-hinge": 2
     }
   },
   "front-right-idler-assembly": {
+    "accent": {
+      "front-idler-spacer": 2,
+      "right-idler-top": 1
+    },
     "fastener": {
       "Button head M5x40-Screw": 1,
       "Button head M6x14-Screw": 1,
@@ -291,53 +395,61 @@
       "Socket head M3x25-Screw": 1,
       "Standard size M6-Washer": 3
     },
+    "main": {
+      "right-idler-bottom": 1,
+      "right-idler-mid": 1
+    },
     "other": {
       "smooth-idler-6mm": 1
-    },
-    "printed": {
-      "front-idler-spacer": 2,
-      "right-idler-bottom": 1,
-      "right-idler-mid": 1,
-      "right-idler-top": 1
     }
   },
   "left-panel-assembly": {
+    "accent": {
+      "Chamfer": 1,
+      "mounter-inner": 9
+    },
     "fastener": {
       "Button head M6x16-Screw": 10
     },
-    "other": {
+    "main": {
       "Chamfer": 1,
-      "mounter-outer": 9,
-      "panel-324x454x3mm": 1
+      "mounter-outer": 9
     },
-    "printed": {
-      "Chamfer": 1,
-      "mounter-inner": 9
+    "other": {
+      "panel-324x454x3mm": 1
     }
   },
   "linear-rail-assembly": {
+    "accent": {},
     "fastener": {},
+    "main": {},
     "other": {
       "1515-290mm": 3,
       "250mm-rail": 18,
       "MGN!12H-block": 18
-    },
-    "printed": {}
+    }
   },
+  "main": {},
   "neo-pixel-assembly": {
+    "accent": {},
     "fastener": {
       "Button head M3x10-Screw": 4,
       "Small size M3-Washer": 4
     },
-    "other": {},
-    "printed": {
+    "main": {
       "neo-pixel-arm": 2,
-      "neopixel-arm-rev": 2
-    }
+      "neo-pixel-arm-rev": 2
+    },
+    "other": {}
   },
   "other": {},
-  "printed": {},
   "rear-bottom-panel-assembly": {
+    "accent": {
+      "gasket-bottom": 2,
+      "gasket-side-long": 2,
+      "gasket-side-short": 2,
+      "gasket-top": 2
+    },
     "fastener": {
       "Button head M6x10-Screw": 6,
       "Button head M6x12-Screw": 2,
@@ -345,53 +457,54 @@
       "Socket head M3x6-Screw": 4,
       "Socket head M3x8-Screw": 32
     },
+    "main": {
+      "5v-psu-mounter": 1,
+      "Cut": 1,
+      "bottom-cable-mounter": 1,
+      "cable-hole-cover": 2,
+      "din-holder": 4,
+      "panel-support": 6,
+      "panel-support-bottom": 1
+    },
     "other": {
       "RS-25-5-PSU": 1,
       "din-309mm": 2,
       "panel-309x244mm": 1
-    },
-    "printed": {
-      "5v-psu-mounter": 1,
-      "bottom-cable-mounter": 2,
-      "cable-hole-cover": 2,
-      "din-holder": 4,
-      "gasket-bottom": 2,
-      "gasket-side-long": 2,
-      "gasket-side-short": 2,
-      "gasket-to": 2,
-      "panel-support": 6,
-      "panel-support-bottom": 1
     }
   },
   "rear-top-panel-assembly": {
+    "accent": {},
     "fastener": {
       "Button head M6x10-Screw": 10
+    },
+    "main": {
+      "bottom-left-corner-mount": 1,
+      "bottom-right-corner-mount": 1,
+      "side-mount": 2,
+      "top-corner-mount": 2
     },
     "other": {
       "cable-grommet-big": 1,
       "cable-grommet-small": 2,
       "panel-324x179x3mm": 1
-    },
-    "printed": {
-      "bottom-left-corner-mount": 1,
-      "bottom-right-corner-mount": 1,
-      "side-mount": 2,
-      "top-corner-mount": 2
     }
   },
   "right-panel-assembly": {
+    "accent": {
+      "mounter-inner": 12
+    },
     "fastener": {
       "Button head M6x16-Screw": 12
     },
-    "other": {
-      "mounter-outer": 12,
-      "panel-324x454x3mm": 1
+    "main": {
+      "mounter-outer": 12
     },
-    "printed": {
-      "mounter-inner": 12
+    "other": {
+      "panel-324x454x3mm": 1
     }
   },
   "sherpa-mini-assembly": {
+    "accent": {},
     "fastener": {
       "Button head M3x12-Screw": 2,
       "Button head M3x16-Screw": 2,
@@ -399,6 +512,7 @@
       "Button head M3x8-Screw": 2,
       "M3x5x4-HeatSet": 5
     },
+    "main": {},
     "other": {
       "0.5mm_shim^drive_core_sherpa_mini_a3_r9c": 1,
       "E3D-bowden-collet": 1,
@@ -416,105 +530,134 @@
       "sherpa-body-main-modded": 1,
       "sherpa-knob": 1,
       "sherpa_mini_gear_50t_sl_7mm^drive_core_sherpa_mini_a3_r9c": 1
+    }
+  },
+  "side-blower-4028-assembly": {
+    "accent": {
+      "180-duct-angled": 1,
+      "mounter-arm": 2
     },
-    "printed": {}
+    "fastener": {
+      "Button head M3x20-Screw": 2,
+      "Button head M6x16-Screw": 1,
+      "Button head M6x20-Screw": 2,
+      "M2.5-HeatSet": 4,
+      "M3-HeatSet": 2,
+      "Socket head M2.5x30-Screw": 4,
+      "Standard size M6-Washer": 3
+    },
+    "main": {
+      "fan-mounter": 1
+    },
+    "other": {
+      "4028-fan": 1
+    }
   },
   "spool-holder-assembly": {
+    "accent": {
+      "spool-holder-base": 1,
+      "spool-holder-spacer": 4
+    },
     "fastener": {
       "Button head M3x10-Screw": 4,
       "Button head M3x30-Screw": 4,
       "Button head M3x6-Screw": 4,
       "M3x4-HeatSet": 8
     },
+    "main": {
+      "spool-holder-face": 2
+    },
     "other": {
       "F623-bearing": 4,
       "filament-spoll": 1,
       "spool-holder-roller": 2
-    },
-    "printed": {
-      "spool-holder-base": 1,
-      "spool-holder-face": 2,
-      "spool-holder-spacer": 4
     }
   },
-  "toolhead-carrier-sherpa-1515-assembly": {
+  "toolhead-sherpa-pcb-1515-assembly": {
+    "accent": {
+      "bltouch-mount": 1,
+      "dragon-mount-mod": 1,
+      "duct-tri-horn": 1,
+      "extruder-belt-clamp-r": 2,
+      "extruder-belt-tesioner": 2,
+      "extruderbottom-plate": 1,
+      "mosquito-mount-mod": 1,
+      "pcb-mounter-cable-guide": 1,
+      "pcb_spacer": 1,
+      "top-plate-with-endstop": 1
+    },
     "fastener": {
+      "Button head M3x10-Screw": 4,
       "Button head M3x35-Screw": 2,
-      "Button head M3x8-Screw": 1,
-      "Hex M3-Nut": 8,
-      "M3x4-HeatSet": 20,
+      "Hex M3-Nut": 6,
+      "M3-HeatSet": 1,
+      "M3x4-HeatSet": 12,
       "Small size M3-Washer": 4,
       "Socket head M2.5x12-Screw": 2,
-      "Socket head M3x10-Screw": 6,
-      "Socket head M3x12-Screw": 4,
-      "Socket head M3x20-Screw": 2,
-      "Socket head M3x25-Screw": 5,
+      "Socket head M2x10-Screw": 2,
+      "Socket head M3x10-Screw": 7,
+      "Socket head M3x12-Screw": 5,
+      "Socket head M3x20-Screw": 4,
+      "Socket head M3x25-Screw": 4,
       "Socket head M3x35-Screw": 2,
       "Socket head M3x40-Screw": 2,
-      "Socket head M3x6-Screw": 2,
-      "Socket head M3x8-Screw": 5,
-      "Socket head M4x12-Screw": 3
+      "Socket head M3x6-Screw": 2
+    },
+    "main": {
+      "endstop-cap": 1,
+      "extruder-back-plate": 1,
+      "extruder-front-plate": 1,
+      "face-plate": 1
     },
     "other": {
       "4010-fan": 1,
       "5015 fan": 1,
       "BL-touch v3.x": 1,
-      "M2x10-self-tapping": 2,
-      "adxl345 v": 32,
-      "bl_touch_mount": 1,
+      "COMPOUND": 2,
+      "SOLID": 7,
       "dragon_support": 1,
       "endstop-switch": 1,
       "mosquito-hotend": 1,
       "mosquito_support": 1
-    },
-    "printed": {
-      "adxl-mount": 1,
-      "bottom-plate": 1,
-      "dragon-mount-mod": 1,
-      "duct-straight": 1,
-      "endstop-cap": 1,
-      "extruder-back-plate": 1,
-      "extruder-belt-clamp": 2,
-      "extruder-belt-tesioner": 2,
-      "extruder-cable-support": 1,
-      "extruder-front-plate": 1,
-      "face-plate": 1,
-      "mosquito-mount-mod": 1,
-      "top-plate-with-endstop": 1
     }
   },
   "top-panel-assembly": {
+    "accent": {
+      "mounter-inner": 8
+    },
     "fastener": {
       "Button head M6x16-Screw": 8,
       "Button head M8x12-Screw": 4
     },
-    "other": {
-      "mounter-outer": 8,
-      "panel-324x234x3mm": 1
-    },
-    "printed": {
+    "main": {
       "corner-endcap": 4,
-      "mounter-inner": 8
+      "mounter-outer": 8
+    },
+    "other": {
+      "panel-324x234x3mm": 1
     }
   },
   "x-endstop-flag-assembly": {
-    "fastener": {
-      "Socket head M3x16-Screw": 1
-    },
-    "other": {},
-    "printed": {
+    "accent": {
       "1x_x-endstop-flag-": 1
-    }
+    },
+    "fastener": {
+      "Socket head M3x20-Screw": 1
+    },
+    "main": {},
+    "other": {}
   },
   "xy-belt-assembly": {
+    "accent": {},
     "fastener": {},
+    "main": {},
     "other": {
       "x-belt": 1,
       "y-belt": 1
-    },
-    "printed": {}
+    }
   },
   "y-carrier-left-1515-assembly": {
+    "accent": {},
     "fastener": {
       "Button head M5x50-Screw": 4,
       "M5-HeatSet": 4,
@@ -522,16 +665,17 @@
       "Socket head M3x10-Screw": 7,
       "Socket head M3x12-Screw": 2
     },
+    "main": {
+      "y-carrier-bottom-left": 1,
+      "y-carrier-top-left": 1
+    },
     "other": {
       "20t-idler": 1,
       "smooth-idler-6mm": 1
-    },
-    "printed": {
-      "y-carrier-bottom-left": 1,
-      "y-carrier-top-left": 1
     }
   },
   "y-carrier-right-1515-assembly": {
+    "accent": {},
     "fastener": {
       "Button head M5x50-Screw": 4,
       "M5-HeatSet": 4,
@@ -539,82 +683,86 @@
       "Socket head M3x10-Screw": 7,
       "Socket head M3x12-Screw": 2
     },
+    "main": {
+      "y-carrier-bottom-right": 1,
+      "y-carrier-top-right": 1
+    },
     "other": {
       "20t-idler": 1,
       "smooth-idler-6mm": 1
-    },
-    "printed": {
-      "y-carrier-bottom-right": 1,
-      "y-carrier-top-right": 1
     }
   },
   "y-endstop-assembly": {
+    "accent": {
+      "y-endstop-housing": 1,
+      "y-endstop-wire-clamp": 1
+    },
     "fastener": {
       "M3x3-HeatSet": 1,
       "Socket head M3x16-Screw": 2,
       "Socket head M3x8-Screw": 1
     },
+    "main": {},
     "other": {
       "M2x10-self-tapping": 2,
       "endstop-switch": 1
-    },
-    "printed": {
-      "y-endstop-housing": 1,
-      "y-endstop-wire-clamp": 1
     }
   },
   "z-belt-assembly": {
+    "accent": {},
     "fastener": {},
+    "main": {},
     "other": {
       "z-belt-": 3
-    },
-    "printed": {}
+    }
   },
   "z-block-mount-left-assembly": {
+    "accent": {
+      "z-belt-block-mount": 2,
+      "z-belt-mounter-clamp-nut": 2
+    },
     "fastener": {
       "Button head M3x12-Screw": 2,
-      "M3x4-HeatSet": 10,
+      "Hex M4-Nut": 2,
+      "M3x4-HeatSet": 6,
       "Small size M3-Washer": 12,
       "Socket head M3x10-Screw": 8,
       "Socket head M3x14-Screw": 4,
-      "Socket head M3x16-Screw": 4,
-      "Socket head M3x25-Screw": 2
+      "Socket head M3x25-Screw": 4
     },
-    "other": {
-      "6x16-dowel-pin": 4,
-      "hook-spring-": 4
-    },
-    "printed": {
-      "bed-spring-bottom-spacer": 4,
-      "z-belt-block-mount": 2,
-      "z-belt-mounter-clamp-nut": 2,
+    "main": {
       "z-belt-mounter-middle": 2,
-      "z-rail-block-mount-left-with-limiter": 2
-    }
+      "z-rail-block-mount-left": 2
+    },
+    "other": {}
   },
-  "z-block-mount-right-assembly": {
+  "z-block-mount-right-counter-weight-assembly": {
+    "accent": {
+      "wire-mounter": 1,
+      "z-belt-block-mount": 1,
+      "z-belt-mounter-clamp-nut": 1
+    },
     "fastener": {
       "Button head M3x12-Screw": 1,
-      "M3x4-HeatSet": 6,
-      "Small size M3-Washer": 6,
+      "Hex M4-Nut": 1,
+      "M3-HeatSet": 1,
+      "M3x4-HeatSet": 5,
+      "Small size M3-Washer": 8,
       "Socket head M3x10-Screw": 4,
-      "Socket head M3x14-Screw": 2,
-      "Socket head M3x16-Screw": 2,
-      "Socket head M3x25-Screw": 1
+      "Socket head M3x14-Screw": 4,
+      "Socket head M3x25-Screw": 2,
+      "Socket head M3x8-Screw": 1
     },
-    "other": {
-      "6x16-dowel-pin": 2,
-      "hook-spring-": 2
-    },
-    "printed": {
-      "bed-spring-bottom-spacer": 2,
-      "z-belt-block-mount": 1,
-      "z-belt-mounter-clamp-nut": 1,
+    "main": {
       "z-belt-mounter-middle": 1,
-      "z-rail-block-mount-right-with-limiter": 1
-    }
+      "z-rail-block-mount-right-counter-weight": 1
+    },
+    "other": {}
   },
   "z-idler-left-assembly": {
+    "accent": {
+      "z-idler-housing-left": 2
+    },
     "fastener": {
       "Button head M5x25-Screw": 2,
       "Button head M6x35-Screw": 4,
@@ -623,15 +771,17 @@
       "Socket head M3x12-Screw": 4,
       "Socket head M3x45-Screw": 2
     },
+    "main": {
+      "z-idler-mounter-left": 2
+    },
     "other": {
       "20t-9mm-idker": 2
-    },
-    "printed": {
-      "z-idler-housing-left": 2,
-      "z-idler-mounter-left": 2
     }
   },
   "z-idler-right-assembly": {
+    "accent": {
+      "z-idler-housing-right": 1
+    },
     "fastener": {
       "Button head M5x25-Screw": 1,
       "Button head M6x35-Screw": 2,
@@ -640,26 +790,36 @@
       "Socket head M3x12-Screw": 2,
       "Socket head M3x45-Screw": 1
     },
+    "main": {
+      "z-idler-mounter-right": 1
+    },
     "other": {
       "20t-9mm-idler": 1
-    },
-    "printed": {
-      "z-idler-housing-right": 1,
-      "z-idler-mounter-right": 1
     }
   },
   "z-motor-left-assembly": {
+    "accent": {
+      "bottom-left-cover": 2,
+      "z-motor-back-plate-left": 2,
+      "z-motor-front-plate-left": 2
+    },
     "fastener": {
       "Button head M3x12-Screw": 2,
+      "Button head M3x6-Screw": 4,
       "Button head M5x10-Screw": 4,
       "Button head M6x14-Screw": 4,
       "Button head M6x16-Screw": 8,
+      "M3x3-HeatSet": 4,
       "M3x4-HeatSet": 6,
       "Socket head M3x35-Screw": 4,
       "Socket head M3x40-Screw": 2,
       "Socket head M3x70-Screw": 4,
       "Socket head M3x8-Screw": 2,
       "Standard size M6-Washer": 12
+    },
+    "main": {
+      "z-motor-body-left": 2,
+      "z-motor-top-plate-left": 2
     },
     "other": {
       "16t-pulley": 2,
@@ -668,27 +828,31 @@
       "80t-idler": 2,
       "MR115ZZ": 8,
       "motor-40mm": 2,
-      "motor-spacer": 8,
-      "z-motor-front-plate-left": 2
-    },
-    "printed": {
-      "z-motor-back-plate-left": 2,
-      "z-motor-body-left": 2,
-      "z-motor-top-plate-left": 2
+      "motor-spacer": 8
     }
   },
   "z-motor-right-assembly": {
+    "accent": {
+      "bottom-right-cover": 1,
+      "z-motor-back-plate-right": 1,
+      "z-motor-front-plate-right": 1
+    },
     "fastener": {
       "Button head M3x12-Screw": 1,
+      "Button head M3x6-Screw": 2,
       "Button head M5x10-Screw": 2,
       "Button head M6x14-Screw": 2,
       "Button head M6x16-Screw": 4,
+      "M3x3-HeatSet": 2,
       "M3x4-HeatSet": 3,
       "Socket head M3x35-Screw": 2,
-      "Socket head M3x40-Screw": 1,
       "Socket head M3x70-Screw": 2,
       "Socket head M3x8-Screw": 1,
       "Standard size M6-Washer": 6
+    },
+    "main": {
+      "z-motor-body-right": 1,
+      "z-motor-top-plate-right": 1
     },
     "other": {
       "16t-pulley": 1,
@@ -697,13 +861,7 @@
       "80t-pulley": 1,
       "MR115ZZ": 4,
       "motor-40mm": 1,
-      "motor-spacer": 4,
-      "z-motor-front-plate-right": 1
-    },
-    "printed": {
-      "z-motor-back-plate-right": 1,
-      "z-motor-body-right": 1,
-      "z-motor-top-plate-right": 1
+      "motor-spacer": 4
     }
   }
 }
