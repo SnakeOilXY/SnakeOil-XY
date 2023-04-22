@@ -8,6 +8,11 @@
 
 Fully open source configurable high speed CoreXY 3D printer. Inspired by [HevORT](https://miragec79.github.io/HevORT/), [Voron](https://vorondesign.com/), [Annex Engineering](https://github.com/Annex-Engineering) and [EVA2](https://main.eva-3d.page/) design.
 
+- Does not require any custom-machined parts or custom-cut panels.
+- CoreXY, IDEX, and Extended-CoreXY kinematics.
+- Designed to last, parts under stress are embedded with long bolts to handle the load.
+- And our industry-leading SnakeOil technology :3 
+
 ![Render-angle](./Doc/img/angle-render.png)
 
 ## Beta 3 release (2023-01-28)
