@@ -40,11 +40,11 @@ Fully open source configurable high speed CoreXY 3D printer. Inspired by [HevORT
     <tbody>
         <tr>
             <td>Selectable kinematic : CoreXY, Hibryd-CoreXY </td>
-            <td>(coming soon)</td>
+            <td>Added on beta3 release</td>
         </tr>
         <tr>
             <td>Selectable single or dual toolhead </td>
-            <td>(coming soon)</td>
+            <td>Added on beta3 release</td>
         </tr>
         <tr>
             <td>3 Point auto bed tramming</td>
