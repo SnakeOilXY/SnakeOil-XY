@@ -9,6 +9,10 @@
 Fully open source configurable high speed CoreXY 3D printer. Inspired by [HevORT](https://miragec79.github.io/HevORT/), [Voron](https://vorondesign.com/), [Annex Engineering](https://github.com/Annex-Engineering) and [EVA2](https://main.eva-3d.page/) design.
 
 - Does not require any custom-machined parts or custom-cut panels.
+- Can be selected one of the follwing kinematics.
+    - Standard : Traditional corexy kinematic.
+    - 4PR : High-performance machine with automatic squaring gantry capacity. This configuration uses custom [Extended CoreXY kinematic](https://github.com/SnakeOilXY/klipper-extended-corexy-kinematic) (Mixed cartesian and corexy).
+    - IDEX : Hybrid corexy IDEX.
 - CoreXY, IDEX, and Extended-CoreXY kinematics.
 - Designed to last, parts under stress are embedded with long bolts to handle the load.
 - And our industry-leading SnakeOil technology :3 
