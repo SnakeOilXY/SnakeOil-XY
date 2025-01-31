@@ -742,14 +742,14 @@ Instead of 1515 profile you can use [MakerBeamXL](https://www.makerbeam.com/make
         </tr>
         <tr>
             <td>20T 6mm Smooth Idler (5mm bore)</td>
-            <td>10</td>
+            <td>12</td>
             <td></td>
             <td></td>
             <td><a href="https://www.Aliexpress.com/item/33023133633.html" rel="nofollow">Aliexpress</a></td>
         </tr>
         <tr>
             <td>20T 6mm Tooth Idler (5mm bore)</td>
-            <td>2</td>
+            <td>6</td>
             <td></td>
             <td></td>
             <td><a href="https://www.Aliexpress.com/item/33023133633.html" rel="nofollow">Aliexpress</a></td>
