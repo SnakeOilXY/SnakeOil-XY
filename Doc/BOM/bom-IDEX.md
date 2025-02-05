@@ -32,7 +32,6 @@
 Some parts listed on the BOM can be purchased in kit format from below vendors
 
 - [kb-3d.com store](https://kb-3d.com/store/81-snakeoilxy)
-- [Mellow motion kit](https://s.click.aliexpress.com/e/_DDaa32j)
 
 # 1.Frame
 
